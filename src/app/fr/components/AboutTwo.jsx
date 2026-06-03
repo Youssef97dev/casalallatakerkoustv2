@@ -1,0 +1,34 @@
+import React from "react";
+import Link from "next/link";
+
+const AboutTwo = () => {
+  return (
+    <section
+      id="about_two"
+      className="w-full flex flex-col justify-center items-center gap-5 text-center px-3 lg:px-40 text-casa-black py-20"
+    >
+      <h1 className="text-[27px] leading-10.5 font-lora italic">
+        {
+          "Casa Lalla Takerkoust Entre charme du lac et atmosphère du désert d’Agafay"
+        }
+      </h1>
+      <h2 className="italic text-[19px] leading-[32.5px] font-lora">
+        {"Être au bon endroit au bon moment"}
+      </h2>
+      <p className="text-[15px] leading-[25.5px] font-light italic pt-5 px-0 lg:px-52">
+        {
+          "Laissez-vous porter par l’énergie magnétique des esprits libres, des rires, des conversations, des amitiés et des ondes revitalisantes de CASA LALLA TAKERKOUST, un lieu inspiré par la culture méditerranéenne et le minimalisme moderne."
+        }
+      </p>
+      <div className="h-0.5 w-14 bg-casa-scarlet mx-auto my-4"></div>
+      <Link
+        href="/fr/reservation"
+        className={`tracking-[0.2em] mt-2 uppercase text-[11px] font-medium  py-3 px-5 transition-all duration-300 ease-in-out border-2 border-casa-scarlet text-casa-scarlet rounded-full hover:bg-casa-scarlet hover:text-casa-background`}
+      >
+        Réservation
+      </Link>
+    </section>
+  );
+};
+
+export default AboutTwo;
