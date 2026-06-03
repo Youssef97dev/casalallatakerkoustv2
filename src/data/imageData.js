@@ -588,8 +588,10 @@ export const BookingGallery = [
     altEn:
       "Authentic Moroccan fine dining in an elegant Mykonos-style indoor setting at Casa Lalla Takerkoust near the Agafay Desert",
     titleEn: "Authentic Moroccan Fine Dining in a Chic Mykonos-Style Setting",
-    altFr: "",
-    titleFr: "",
+    altFr:
+      "Gastronomie marocaine authentique dans un cadre intérieur élégant de style Mykonos à Casa Lalla Takerkoust près du désert d'Agafay",
+    titleFr:
+      "Gastronomie Marocaine Authentique dans un Cadre Chic Façon Mykonos",
     class: "object-center",
   },
   {
@@ -597,8 +599,9 @@ export const BookingGallery = [
     altEn:
       "Luxury lakeside dining terrace with exclusive Ibiza vibes and stunning views of Lake Takerkoust, the perfect Marrakech day club destination",
     titleEn: "Luxury Lakeside Dining Terrace with Exclusive Ibiza Vibes",
-    altFr: "",
-    titleFr: "",
+    altFr:
+      "Terrasse de restauration de luxe au bord du lac avec une ambiance exclusive d'Ibiza et des vues imprenables sur le lac Takerkoust",
+    titleFr: "Terrasse de Luxe au Bord du Lac avec Ambiance Exclusive d'Ibiza",
     class: "object-center",
   },
   {
@@ -606,8 +609,9 @@ export const BookingGallery = [
     altEn:
       "Gourmet Mediterranean food and Spanish tapas served in the luxury garden oasis of our Ibiza-style restaurant near the Agafay Desert",
     titleEn: "Premium Mediterranean Food & Tapas in a Luxury Garden Oasis",
-    altFr: "",
-    titleFr: "",
+    altFr:
+      "Cuisine méditerranéenne gastronomique et tapas espagnoles servies dans l'oasis de luxe de notre restaurant de style Ibiza près d'Agafay",
+    titleFr: "Cuisine Méditerranéenne et Tapas Premium dans une Oasis de Luxe",
     class: "object-center",
   },
   {
@@ -615,8 +619,9 @@ export const BookingGallery = [
     altEn:
       "Action-packed Agafay Desert quad tour adventure paired with a luxury VIP day club experience near the Atlas Mountains",
     titleEn: "Thrilling Agafay Desert Quad Tour & VIP Luxury Experience",
-    altFr: "",
-    titleFr: "",
+    altFr:
+      "Excursion riche en adrénaline en quad dans le désert d'Agafay suivie d'une expérience VIP en day club de luxe près de l'Atlas",
+    titleFr: "Excursion Palpitante en Quad à Agafay et Expérience VIP de Luxe",
     class: "object-center",
   },
 ];
