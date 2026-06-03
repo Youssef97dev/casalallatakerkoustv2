@@ -580,3 +580,43 @@ export const HomeSpaces = [
     linkFr: "/fr/private-events",
   },
 ];
+
+export const BookingGallery = [
+  {
+    image:
+      "/agafay-takerkoust/authentic-moroccan-cuisine-casa-lalla-takerkoust.webp",
+    altEn:
+      "Authentic Moroccan fine dining in an elegant Mykonos-style indoor setting at Casa Lalla Takerkoust near the Agafay Desert",
+    titleEn: "Authentic Moroccan Fine Dining in a Chic Mykonos-Style Setting",
+    altFr: "",
+    titleFr: "",
+    class: "object-center",
+  },
+  {
+    image: "/agafay-takerkoust/restaurant-lake-view-casa-lalla-takerkoust.webp",
+    altEn:
+      "Luxury lakeside dining terrace with exclusive Ibiza vibes and stunning views of Lake Takerkoust, the perfect Marrakech day club destination",
+    titleEn: "Luxury Lakeside Dining Terrace with Exclusive Ibiza Vibes",
+    altFr: "",
+    titleFr: "",
+    class: "object-center",
+  },
+  {
+    image: "/agafay-takerkoust/spanish-tapas-mediterranean-food-marrakech.webp",
+    altEn:
+      "Gourmet Mediterranean food and Spanish tapas served in the luxury garden oasis of our Ibiza-style restaurant near the Agafay Desert",
+    titleEn: "Premium Mediterranean Food & Tapas in a Luxury Garden Oasis",
+    altFr: "",
+    titleFr: "",
+    class: "object-center",
+  },
+  {
+    image: "/agafay-takerkoust/quad-tour-agafay-desert-marrakech.webp",
+    altEn:
+      "Action-packed Agafay Desert quad tour adventure paired with a luxury VIP day club experience near the Atlas Mountains",
+    titleEn: "Thrilling Agafay Desert Quad Tour & VIP Luxury Experience",
+    altFr: "",
+    titleFr: "",
+    class: "object-center",
+  },
+];
