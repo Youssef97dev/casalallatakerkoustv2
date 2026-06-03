@@ -130,12 +130,12 @@ const Navbar = ({ path, change = false }) => {
                 {isDropdownOpen && (
                   <ul className="absolute rounded top-8 -left-2 bg-casa-background mt-0 py-2 w-20 2xl:w-36 shadow-lg flex justify-center items-center gap-1">
                     <li className="px-2 py-0 rounded-lg cursor-pointer hover:bg-casa-scarlet hover:text-casa-background transition-all duration-200 ease-in-out font-light text-casa-scarlet">
-                      <Link rel="alternate" hreflang="en" href={`${path}`}>
+                      <Link rel="alternate" hrefLang="en" href={`${path}`}>
                         {"EN"}
                       </Link>
                     </li>
                     <li className="px-2 py-0 rounded-lg cursor-pointer hover:bg-casa-scarlet hover:text-casa-background transition-all duration-200 ease-in-out font-light text-casa-scarlet">
-                      <Link rel="alternate" hreflang="fr" href="#">
+                      <Link rel="alternate" hrefLang="fr" href="#">
                         {"FR"}
                       </Link>
                     </li>
@@ -197,7 +197,7 @@ const Navbar = ({ path, change = false }) => {
             </li>
             <ul className="py-2 w-full flex justify-center items-start gap-3">
               <li className="px-2 rounded-lg cursor-pointer">
-                <Link rel="alternate" hreflang="en" href={`${path}`}>
+                <Link rel="alternate" hrefLang="en" href={`${path}`}>
                   <Image
                     src="/english.png"
                     width={100}
@@ -208,7 +208,7 @@ const Navbar = ({ path, change = false }) => {
                 </Link>
               </li>
               <li className="px-2 rounded-lg cursor-pointer">
-                <Link rel="alternate" hreflang="fr" href="#">
+                <Link rel="alternate" hrefLang="fr" href="#">
                   <Image
                     src="/france.png"
                     width={100}
