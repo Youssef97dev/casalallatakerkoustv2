@@ -6,11 +6,6 @@ import { HeroSlides } from "@/data/imageData";
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [scrolled, setScrolled] = useState(false);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   // Slideshow Interval
   useEffect(() => {
@@ -34,12 +29,12 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative w-full h-screen overflow-hidden bg-black"
+      className="relative w-full h-screen overflow-hidden bg-casa-black"
     >
       {/* Background Slideshow */}
       {HeroSlides.map((slide, index) => {
         const isActive = index === currentIndex;
-        const isZooming = isActive && mounted;
+        const isZooming = isActive;
 
         return (
           <div

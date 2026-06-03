@@ -51,12 +51,12 @@ const BookingStep = ({
 
   return (
     <div className="space-y-6">
-      <h2 className="text-center text-[20px] text-casa_scarlet uppercase">
+      <h2 className="text-center text-[20px] text-casa-scarlet uppercase">
         Booking Request
       </h2>
 
       {/* Calendar placeholder */}
-      <div className="h-fit border border-casa_scarlet rounded-md flex items-center justify-center text-gray-400">
+      <div className="h-fit border border-casa-scarlet rounded-md flex items-center justify-center text-gray-400">
         <DayPicker
           animate
           mode="single"
@@ -111,7 +111,7 @@ const BookingStep = ({
       <div className="flex gap-3 pt-4">
         <button
           onClick={onAddCustomer}
-          className="flex-1 border border-casa_scarlet hover:bg-casa_scarlet hover:text-white text-[#2d2a1e] py-3 rounded-md"
+          className="flex-1 border border-casa-scarlet hover:bg-casa-scarlet hover:text-white text-[#2d2a1e] py-3 rounded-md"
         >
           Next
         </button>

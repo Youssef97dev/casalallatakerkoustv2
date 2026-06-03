@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full flex flex-col justify-center items-center gap-5 text-center px-3 lg:px-40 text-casa_black py-20"
+      className="w-full flex flex-col justify-center items-center gap-5 text-center px-3 lg:px-40 text-casa-black py-20"
     >
       <h1 className="text-[32px] leading-10.5 2xl:text-[52px] 2xl:leading-15.5 font-canela">
         {
@@ -34,7 +34,7 @@ const About = () => {
       </p>
       <Link
         href="/reservation"
-        className={`tracking-[0.2em] mt-2 uppercase text-[11px] 2xl:text-[21px] font-medium  py-3 px-5 transition-all duration-300 ease-in-out border-2 border-casa_scarlet text-casa_scarlet rounded-full hover:bg-casa_scarlet hover:text-casa_background`}
+        className={`tracking-[0.2em] mt-2 uppercase text-[11px] 2xl:text-[21px] font-medium  py-3 px-5 transition-all duration-300 ease-in-out border-2 border-casa-scarlet text-casa-scarlet rounded-full hover:bg-casa-scarlet hover:text-casa-background`}
       >
         Reservations
       </Link>

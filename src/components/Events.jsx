@@ -10,12 +10,12 @@ const Events = () => {
       {/* 2. Unified layout: Flexbox for mobile, Absolute positioning for desktop */}
       <div className="z-20 w-[90%] lg:w-[43%] h-fit flex flex-col justify-center items-center lg:items-start gap-4 lg:gap-5 p-5 lg:p-10 relative lg:absolute lg:left-40 lg:top-1/2 lg:-translate-y-1/2 bg-transparent lg:bg-[#EDE5D9]">
         {/* 3. Ensure only ONE <h1> exists per page. (Note: If this is not the very top of your page, change this to an <h2> for strict SEO compliance) */}
-        <h2 className="font-canela text-[27px] leading-[32.4px] text-casa_black text-center lg:text-left">
+        <h2 className="font-canela text-[27px] leading-[32.4px] text-casa-black text-center lg:text-left">
           Private Events and Weddings at Casa Lalla Takerkoust Restaurant
         </h2>
 
         {/* 4. Removed messy string concatenations and unified the text content using the richest SEO keywords. */}
-        <p className="font-light text-[15px] leading-[25.5px] text-casa_black text-justify lg:text-left">
+        <p className="font-light text-[15px] leading-[25.5px] text-casa-black text-justify lg:text-left">
           The unmatched beauty of our natural landscape provides the
           quintessential <strong>Agafay vibes</strong> for your next milestone.
           Frequently cited among the{" "}
@@ -32,7 +32,7 @@ const Events = () => {
           spirit of the Moroccan wilderness.
         </p>
 
-        <p className="font-light text-[15px] leading-[25.5px] text-casa_black text-justify lg:text-left">
+        <p className="font-light text-[15px] leading-[25.5px] text-casa-black text-justify lg:text-left">
           Host your unforgettable moments at{" "}
           <strong>Casa Lalla Takerkoust</strong>, where refined elegance meets
           the tranquility of the <strong>lake</strong>. As a destination that
@@ -53,12 +53,12 @@ const Events = () => {
         {/* 5. Added an aria-label for accessibility/SEO benefits */}
         <Link
           href="/private-events"
-          className="font-canela italic text-[18px] leading-[25.5px] text-casa_scarlet hover:text-casa_scarlet_opacity group relative inline-block no-underline mt-2 lg:mt-0"
+          className="font-canela italic text-[18px] leading-[25.5px] text-casa-scarlet hover:text-casa-scarlet-opacity group relative inline-block no-underline mt-2 lg:mt-0"
           aria-label="Discover more about private events and weddings at Casa Lalla Takerkoust"
         >
           <span className="relative z-10">Discover More</span>
           <span
-            className="absolute left-0 -bottom-1 h-0.5 w-[90%] origin-left scale-x-0 bg-casa_scarlet transition-transform duration-500 ease-out group-hover:scale-x-100 group-focus:scale-x-100"
+            className="absolute left-0 -bottom-1 h-0.5 w-[90%] origin-left scale-x-0 bg-casa-scarlet transition-transform duration-500 ease-out group-hover:scale-x-100 group-focus:scale-x-100"
             aria-hidden="true"
           ></span>
         </Link>

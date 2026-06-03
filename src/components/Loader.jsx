@@ -1,4 +1,3 @@
-import dynamic from "next/dynamic";
 import About from "./About";
 import AboutTwo from "./AboutTwo";
 import Activities from "./Activities";
@@ -20,7 +19,7 @@ const Loader = () => {
       <Navbar path={"/fr"} />
       <Hero />
       <Intro />
-      <div className="h-0.5 w-14 bg-casa_scarlet mx-auto"></div>
+      <div className="h-0.5 w-14 bg-casa-scarlet mx-auto"></div>
       <About />
       <OurSpaces />
       <AboutTwo />
@@ -31,7 +30,7 @@ const Loader = () => {
         <Activities />
       </div>
       <InstagramSection />
-      <div className="h-px w-[70%] bg-casa_scarlet mx-auto mt-20"></div>
+      <div className="h-px w-[70%] bg-casa-scarlet mx-auto mt-20"></div>
       <SpotifySection />
       <Footer />
       <div className="fixed bottom-7 right-6 text-riad_primary z-50">

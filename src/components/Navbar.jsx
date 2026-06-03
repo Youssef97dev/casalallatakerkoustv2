@@ -27,8 +27,10 @@ const Navbar = ({ path, change = false }) => {
 
   return (
     <nav
-      className={`fixed z-50 w-full transition-colors duration-300 py-0 flex flex-col justify-center items-center ${
-        scrolled || change ? "bg-casa_background" : "bg-transparent text-white"
+      className={`fixed z-50 w-full transition-all duration-300 py-0 flex flex-col justify-center items-center ${
+        scrolled || change
+          ? "bg-casa-background"
+          : "bg-transparent text-casa-white"
       }`}
     >
       <div className="w-full flex justify-center items-center mx-auto px-5 lg:px-10 ">
@@ -51,13 +53,13 @@ const Navbar = ({ path, change = false }) => {
           </Link>
         </div>
         <div className="flex lg:justify-start justify-end items-center gap-5 w-[26%] z-20">
-          <div className="w-full lg:flex hidden justify-end items-center  text-white cursor-pointer">
+          <div className="w-full lg:flex hidden justify-end items-center  text-casa-white cursor-pointer">
             <Link
               href="/reservation"
               className={`w-full rounded-full text-center uppercase lg:w-[60%] tracking-widest lg:tracking-[0.2em]  text-[12px] 2xl:text-[24px] leading-3 py-3 px-2 2xl:py-5 transition-all duration-300 ease-in-out ${
                 scrolled || change
-                  ? "text-casa_scarlet bg-casa_background hover:bg-casa_scarlet hover:text-casa_background border-2 border-casa_scarlet"
-                  : "text-casa_background bg-transparent hover:bg-casa_background hover:text-casa_scarlet border-2 border-casa_background"
+                  ? "text-casa-scarlet bg-casa-background hover:bg-casa-scarlet hover:text-casa-background border-2 border-casa-scarlet"
+                  : "text-casa-background bg-transparent hover:bg-casa-background hover:text-casa-scarlet border-2 border-casa-background"
               }`}
             >
               Reservation
@@ -65,7 +67,7 @@ const Navbar = ({ path, change = false }) => {
           </div>
           <div
             className={`cursor-pointer  text-[35px] 2xl:text-[50px] ${
-              scrolled || change ? "text-casa_scarlet" : "text-casa_background"
+              scrolled || change ? "text-casa-scarlet" : "text-casa-background"
             }`}
             onClick={() => setIsOpen((prev) => !prev)}
           >
@@ -86,8 +88,8 @@ const Navbar = ({ path, change = false }) => {
         <div
           className={`z-10 w-full h-fit lg:flex items-center justify-center gap-4 px-5 mx-auto lg:px-10 py-1 hidden ${
             scrolled || change
-              ? "bg-casa_background text-casa_scarlet"
-              : "bg-transparent text-white"
+              ? "bg-casa-background text-casa-scarlet"
+              : "bg-transparent text-casa-white"
           }`}
         >
           <ul className="flex justify-center items-center gap-3 uppercase text-[12px] 2xl:text-[24px] leading-9 2xl:leading-11.5 font-light">
@@ -119,7 +121,7 @@ const Navbar = ({ path, change = false }) => {
               >
                 <button
                   className={`font-light tracking-widest flex justify-center items-center text-[12px] 2xl:text-[24px] gap-2 pb-1 ${
-                    scrolled || change ? "text-riad_primary" : "text-white"
+                    scrolled || change ? "text-casa-scarlet" : "text-white"
                   }`}
                 >
                   <MdLanguage />
@@ -128,14 +130,14 @@ const Navbar = ({ path, change = false }) => {
                   </div>
                 </button>
                 {isDropdownOpen && (
-                  <ul className="absolute rounded top-8 -left-2 bg-casa_background mt-0 py-2 w-20 2xl:w-36 shadow-lg flex justify-center items-center gap-1">
-                    <li className="px-2 py-0 rounded-lg cursor-pointer hover:bg-casa_scarlet hover:text-casa_background transition-all duration-200 ease-in-out font-light text-casa_scarlet">
-                      <Link rel="alternate" hreflang="en" href="#">
+                  <ul className="absolute rounded top-8 -left-2 bg-casa-background mt-0 py-2 w-20 2xl:w-36 shadow-lg flex justify-center items-center gap-1">
+                    <li className="px-2 py-0 rounded-lg cursor-pointer hover:bg-casa-scarlet hover:text-casa-background transition-all duration-200 ease-in-out font-light text-casa-scarlet">
+                      <Link rel="alternate" hrefLang="en" href="#">
                         {"EN"}
                       </Link>
                     </li>
-                    <li className="px-2 py-0 rounded-lg cursor-pointer hover:bg-casa_scarlet hover:text-casa_background transition-all duration-200 ease-in-out font-light text-casa_scarlet">
-                      <Link rel="alternate" hreflang="fr" href={`${path}`}>
+                    <li className="px-2 py-0 rounded-lg cursor-pointer hover:bg-casa-scarlet hover:text-casa-background transition-all duration-200 ease-in-out font-light text-casa-scarlet">
+                      <Link rel="alternate" hrefLang="fr" href={`${path}`}>
                         {"FR"}
                       </Link>
                     </li>
@@ -155,16 +157,16 @@ const Navbar = ({ path, change = false }) => {
         leaveFrom="transform -translate-x-0 opacity-100"
         leaveTo="transform -translate-x-full opacity-0"
       >
-        <div className="fixed top-0 left-0 z-9999 w-full h-screen bg-casa_background flex flex-col items-left justify-start gap-11 py-6 px-6 uppercase lg:hidden">
+        <div className="fixed top-0 left-0 z-9999 w-full h-screen bg-casa-background flex flex-col items-left justify-start gap-11 py-6 px-6 uppercase lg:hidden">
           <div
-            className="w-full flex justify-end items-center text-casa_scarlet text-[25px]"
+            className="w-full flex justify-end items-center text-casa-scarlet text-[25px]"
             onClick={() => setIsOpen(false)}
           >
             <IoMdClose />
           </div>
           <ul
             onClick={() => setIsOpen(false)}
-            className="space-y-3 text-casa_scarlet leading-12.25 text-[16px] flex flex-col justify-center items-center font-light"
+            className="space-y-3 text-casa-scarlet leading-12.25 text-[16px] flex flex-col justify-center items-center font-light"
           >
             <li className="">
               <Link href="/">{"Home"}</Link>
@@ -190,14 +192,14 @@ const Navbar = ({ path, change = false }) => {
             <li>
               <Link
                 href="/reservation"
-                className={`tracking-[0.2em] text-[12px] leading-8.5 py-3 px-4 transition-all duration-300 ease-in-out border-2 border-casa_scarlet text-casa_scarlet rounded-full`}
+                className={`tracking-[0.2em] text-[12px] leading-8.5 py-3 px-4 transition-all duration-300 ease-in-out border-2 border-casa-scarlet text-casa-scarlet rounded-full`}
               >
                 Reservation
               </Link>
             </li>
             <ul className="py-2 w-full flex justify-center items-start gap-3">
               <li className="px-2 rounded-lg cursor-pointer">
-                <Link rel="alternate" hreflang="en" href="#">
+                <Link rel="alternate" hrefLang="en" href="#">
                   <Image
                     src="/english.png"
                     width={100}
@@ -208,7 +210,7 @@ const Navbar = ({ path, change = false }) => {
                 </Link>
               </li>
               <li className="px-2 rounded-lg cursor-pointer">
-                <Link rel="alternate" hreflang="fr" href={`${path}`}>
+                <Link rel="alternate" hrefLang="fr" href={`${path}`}>
                   <Image
                     src="/france.png"
                     width={100}

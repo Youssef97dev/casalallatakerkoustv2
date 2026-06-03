@@ -1,6 +1,87 @@
-import "./globals.css";
+import localFont from "next/font/local";
 import Head from "next/head";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import "./globals.css";
+
+// Configure the local font
+const aktivGrotesk = localFont({
+  src: [
+    {
+      path: "./fonts/AktivGrotesk-Regular.woff",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/AktivGrotesk-Medium.woff",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "./fonts/AktivGrotesk-Light.woff",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "./fonts/AktivGrotesk-LightItalic.woff",
+      weight: "300",
+      style: "italic",
+    },
+    {
+      path: "./fonts/AktivGrotesk-Thin.woff",
+      weight: "200",
+      style: "normal",
+    },
+    {
+      path: "./fonts/AktivGrotesk-ThinItalic.woff",
+      weight: "200",
+      style: "italic",
+    },
+    {
+      path: "./fonts/AktivGrotesk-Hairline.woff",
+      weight: "100",
+      style: "normal",
+    },
+    {
+      path: "./fonts/AktivGrotesk-HairlineItalic.woff",
+      weight: "100",
+      style: "italic",
+    },
+  ],
+  variable: "--font-aktiv", // This creates a CSS variable for Tailwind
+  display: "swap",
+});
+const canela = localFont({
+  src: [
+    {
+      path: "./fonts/Canela-Thin.woff",
+      weight: "100",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Canela-ThinItalic.woff",
+      weight: "100",
+      style: "italic",
+    },
+  ],
+  variable: "--font-canela", // This creates a CSS variable for Tailwind
+  display: "swap",
+});
+const lora = localFont({
+  src: [
+    {
+      path: "./fonts/Lora-Regular.woff",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Lora-Italic.woff",
+      weight: "400",
+      style: "italic",
+    },
+  ],
+  variable: "--font-lora", // This creates a CSS variable for Tailwind
+  display: "swap",
+});
 
 export const metadata = {
   title: {
@@ -37,7 +118,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html>
+    <html
+      className={`${aktivGrotesk.variable} ${canela.variable} ${lora.variable}`}
+    >
       <Head>
         <script
           type="application/ld+json"

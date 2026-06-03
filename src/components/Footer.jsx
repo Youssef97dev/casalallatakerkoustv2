@@ -23,7 +23,7 @@ const Footer = () => {
       </div>
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
         {/* Left Section */}
-        <div className="w-full flex flex-col items-center lg:items-start justify-start gap-4 text-[15px] leading-[25.5px] text-casa_black font-light mt-2">
+        <div className="w-full flex flex-col items-center lg:items-start justify-start gap-4 text-[15px] leading-[25.5px] text-casa-black font-light mt-2">
           <p>
             <Link
               href="https://maps.app.goo.gl/n6jVMNXSKJzRcuMv7"
@@ -49,7 +49,7 @@ const Footer = () => {
         {/* Center Section */}
         <div className="w-full flex flex-col items-center justify-between gap-6 mt-2">
           {/* Links */}
-          <nav className="text-[14px] leading-[25.5px] text-casa_black font-light tracking-wider space-x-2">
+          <nav className="text-[14px] leading-[25.5px] text-casa-black font-light tracking-wider space-x-2">
             <Link href="/career" className="underline">
               CAREER
             </Link>{" "}
@@ -103,17 +103,17 @@ const Footer = () => {
             </Link>
           </div>
 
-          <p className="text-[15px] leading-[25.5px] font-light uppercase tracking-wider text-casa_black mt-2">
+          <p className="text-[15px] leading-[25.5px] font-light uppercase tracking-wider text-casa-black mt-2">
             © 2025, CASA LALLA TAKERKOUST
           </p>
         </div>
 
         {/* Right Section */}
         <div className="pl-0 lg:pl-12 w-full hidden md:flex flex-col items-center md:items-start justify-start gap-4">
-          <h3 className="text-[25px] leading-[32.5px] font-canela text-casa_black">
+          <h3 className="text-[25px] leading-[32.5px] font-canela text-casa-black">
             Stay up to date
           </h3>
-          <p className="text-[15px] font-light text-casa_black">
+          <p className="text-[15px] font-light text-casa-black">
             Sign up to receive CASA LALLA TAKERKOUST newsletter.
           </p>
 
@@ -121,7 +121,7 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Email Address"
-              className="w-full bg-transparent border-b border-[#8b3a2b] focus:outline-none focus:border-[#a04630] py-2 text-sm text-casa_black"
+              className="w-full bg-transparent border-b border-[#8b3a2b] focus:outline-none focus:border-[#a04630] py-2 text-sm text-casa-black"
             />
             <button
               type="submit"

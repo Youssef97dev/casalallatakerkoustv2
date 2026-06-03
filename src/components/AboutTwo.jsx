@@ -5,7 +5,7 @@ const AboutTwo = () => {
   return (
     <section
       id="about_two"
-      className="w-full flex flex-col justify-center items-center gap-5 text-center px-3 lg:px-40 text-casa_black py-20"
+      className="w-full flex flex-col justify-center items-center gap-5 text-center px-3 lg:px-40 text-casa-black py-20"
     >
       <h1 className="text-[32px] leading-10.5 2xl:text-[52px] 2xl:leading-15.5 font-canela">
         {"Casa Lalla Takerkoust, Agafay Desert Vibes"}
@@ -28,10 +28,10 @@ const AboutTwo = () => {
         cocktail at the <strong>poolside bar</strong>, making it the ultimate
         spot for <strong>gourmet dining in the Agafay Desert</strong>.
       </p>
-      <div className="h-0.5 w-14 bg-casa_scarlet mx-auto my-4"></div>
+      <div className="h-0.5 w-14 bg-casa-scarlet mx-auto my-4"></div>
       <Link
         href="/reservation"
-        className={`tracking-[0.2em] mt-2 uppercase text-[11px] 2xl:text-[21px] font-medium  py-3 px-5 transition-all duration-300 ease-in-out border-2 border-casa_scarlet text-casa_scarlet rounded-full hover:bg-casa_scarlet hover:text-casa_background`}
+        className={`tracking-[0.2em] mt-2 uppercase text-[11px] 2xl:text-[21px] font-medium  py-3 px-5 transition-all duration-300 ease-in-out border-2 border-casa-scarlet text-casa-scarlet rounded-full hover:bg-casa-scarlet hover:text-casa-background`}
       >
         Reservations
       </Link>

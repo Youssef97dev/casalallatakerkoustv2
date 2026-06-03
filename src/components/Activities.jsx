@@ -10,12 +10,12 @@ const Activities = () => {
       {/* 2. Unified layout: Flexbox for mobile, Absolute positioning for desktop */}
       <div className="z-20 w-[90%] lg:w-[43%] h-fit flex flex-col justify-center items-center lg:items-start gap-4 lg:gap-5 p-5 lg:p-10 relative lg:absolute lg:right-45.25 lg:top-1/2 lg:-translate-y-1/2 bg-transparent lg:bg-[#EDE5D9]">
         {/* 3. Only ONE <h2> tag now exists in the DOM for better SEO */}
-        <h2 className="font-canela text-[27px] leading-[32.4px] text-casa_black text-center lg:text-left">
+        <h2 className="font-canela text-[27px] leading-[32.4px] text-casa-black text-center lg:text-left">
           Casa Lalla producing unique member experiences
         </h2>
 
         {/* 4. Cleaned up unnecessary string literal concatenations */}
-        <p className="font-light text-[15px] leading-[25.5px] text-casa_black text-justify lg:text-left">
+        <p className="font-light text-[15px] leading-[25.5px] text-casa-black text-justify lg:text-left">
           <strong>Lalla Takerkoust</strong> is more than a picturesque
           destination — it’s a playground for adventure and exploration. Easily
           accessible by taxi or bus, visitors can dive straight into a variety
@@ -29,7 +29,7 @@ const Activities = () => {
           photography.
         </p>
 
-        <p className="font-light text-[15px] leading-[25.5px] text-casa_black text-justify lg:text-left">
+        <p className="font-light text-[15px] leading-[25.5px] text-casa-black text-justify lg:text-left">
           Discover the landscape on Horseback Riding adventures or explore the{" "}
           <strong>Agafay Desert</strong> just 5 minutes away — ideal for{" "}
           <strong>quad</strong>, <strong>buggy</strong>, or{" "}
@@ -45,12 +45,12 @@ const Activities = () => {
         {/* 5. Added an aria-label for accessibility (boosts SEO scores) */}
         <Link
           href="/lalla-takerkoust-activities"
-          className="font-canela italic text-[18px] leading-[25.5px] text-casa_scarlet hover:text-casa_scarlet_opacity group relative inline-block no-underline mt-2 lg:mt-0"
+          className="font-canela italic text-[18px] leading-[25.5px] text-casa-scarlet hover:text-casa-scarlet-opacity group relative inline-block no-underline mt-2 lg:mt-0"
           aria-label="Discover more activities and experiences at Lalla Takerkoust"
         >
           <span className="relative z-10">Discover More</span>
           <span
-            className="absolute left-0 -bottom-1 h-0.5 w-[90%] origin-left scale-x-0 bg-casa_scarlet transition-transform duration-500 ease-out group-hover:scale-x-100 group-focus:scale-x-100"
+            className="absolute left-0 -bottom-1 h-0.5 w-[90%] origin-left scale-x-0 bg-casa-scarlet transition-transform duration-500 ease-out group-hover:scale-x-100 group-focus:scale-x-100"
             aria-hidden="true"
           ></span>
         </Link>

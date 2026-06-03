@@ -51,20 +51,20 @@ const InstagramSection = () => {
   return (
     <section className="py-12 text-center">
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-[25px] leading-[35.2px] font-canela text-casa_black">
+        <h2 className="text-[25px] leading-[35.2px] font-canela text-casa-black">
           Experience Casa Lalla Takerkoust at your own pace — refined luxury,
           lakeside tranquility, and a culinary journey of emotion and culture.
         </h2>
-        <p className="text-[15px] leading-[25.5px] font-light mt-4 text-casa_black">
+        <p className="text-[15px] leading-[25.5px] font-light mt-4 text-casa-black">
           Follow us on Instagram{" "}
           <Link
             href="https://www.instagram.com/casa.lalla.takerkoust/"
-            className="text-casa_scarlet"
+            className="text-casa-scarlet"
           >
             @casa.lalla.takerkoust
           </Link>
         </p>
-        <div className="w-14 h-[1.8px] bg-casa_scarlet mx-auto mt-8 mb-8"></div>
+        <div className="w-14 h-[1.8px] bg-casa-scarlet mx-auto mt-8 mb-8"></div>
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 md:gap-2 max-w-7xl mx-auto px-4">

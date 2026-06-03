@@ -4,10 +4,10 @@ import Image from "next/image";
 const Intro = () => {
   return (
     <div className="w-full flex flex-col justify-center items-start gap-2 pt-2 pb-20 md:pt-28 md:pb-28 px-5 lg:px-40">
-      <h1 className="text-[40px] leading-15 2xl:text-[60px] 2xl:leading-20 font-canela font-thin text-casa_black">
+      <h1 className="text-[40px] leading-15 2xl:text-[60px] 2xl:leading-20 font-canela font-thin text-casa-black">
         {"Exquisite cuisine and amazing panoramic view"}
       </h1>
-      <p className="text-[25px] leading-11.25 2xl:text-[40px] 2xl:leading-16.25 font-canela font-thin italic text-justify text-casa_black tracking-wider">
+      <p className="text-[25px] leading-11.25 2xl:text-[40px] 2xl:leading-16.25 font-canela font-thin italic text-justify text-casa-black tracking-wider">
         Step into our Mediterranean culinary heaven at{" "}
         <strong>CASA LALLA TAKERKOUST</strong>,
         <br />a destination that stands out among the most unique{" "}

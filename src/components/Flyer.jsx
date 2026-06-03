@@ -26,7 +26,7 @@ const Flyer = ({ path }) => {
         <div className="w-80 lg:w-125 xl:w-96 mx-auto flex flex-col gap-2">
           {/* Close button */}
           <button
-            className="absolute -top-2 -right-2  text-white bg-casa_scarlet rounded-full flex items-center justify-center text-2xl z-10"
+            className="absolute -top-2 -right-2  text-white bg-casa-scarlet rounded-full flex items-center justify-center text-2xl z-10"
             onClick={() => setOpen(false)}
           >
             <IoMdCloseCircle size={28} />
@@ -46,7 +46,7 @@ const Flyer = ({ path }) => {
           {/* Button */}
           <Link
             href={path}
-            className="w-full text-center bg-casa_background text-casa_scarlet px-6 py-2 text-[14px] uppercase tracking-[0.20em] font-futura rounded-lg"
+            className="w-full text-center bg-casa-background text-casa-scarlet px-6 py-2 text-[14px] uppercase tracking-[0.20em] font-futura rounded-lg"
           >
             Reservation
           </Link>

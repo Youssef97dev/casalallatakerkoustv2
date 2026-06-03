@@ -4,7 +4,7 @@ const SpotifySection = () => {
   return (
     <section className="pt-16 text-center">
       <div className="max-w-3xl mx-auto mb-12 px-4">
-        <h2 className="text-[25px] leading-[32.5px] font-canela text-casa_black">
+        <h2 className="text-[25px] leading-[32.5px] font-canela text-casa-black">
           Discover our music
         </h2>
       </div>

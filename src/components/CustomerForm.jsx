@@ -111,7 +111,7 @@ const CustomerForm = ({
         theme="light"
         transition={Bounce}
       />
-      <h2 className="text-center text-[20px] text-casa_scarlet uppercase">
+      <h2 className="text-center text-[20px] text-casa-scarlet uppercase">
         Booking Request
       </h2>
 
