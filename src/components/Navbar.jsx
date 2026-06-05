@@ -95,7 +95,7 @@ const Navbar = ({ path, change = false }) => {
         >
           <ul className="flex justify-center items-center gap-3 uppercase text-[12px] 2xl:text-[24px] leading-9 2xl:leading-11.5 font-light">
             <li>
-              <Link href="#">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li>
               <Link href="/restaurant-casa-lalla">Restaurant</Link>

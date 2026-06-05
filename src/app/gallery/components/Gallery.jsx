@@ -17,8 +17,7 @@ export default function Gallery({ images, currentPage, totalImages }) {
                   src={image.image}
                   alt={image.altEn}
                   title={image.titleEn}
-                  width={800}
-                  height={800}
+                  fill
                   priority={currentPage === 1 && index === 0}
                   loading={currentPage === 1 && index === 0 ? "eager" : "lazy"}
                   sizes="
