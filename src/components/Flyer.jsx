@@ -35,7 +35,7 @@ const Flyer = ({ path }) => {
           {/* Image */}
           <div className="relative w-full aspect-9/16">
             <Image
-              src="/agafay-takerkoust/casalalla-takerkoust-eve.jpeg"
+              src="/images/casalalla-takerkoust-eve.jpeg"
               alt="casa lalla takerkoust event restaurant"
               width={800}
               height={800}

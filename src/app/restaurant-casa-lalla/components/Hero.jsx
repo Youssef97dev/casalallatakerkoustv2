@@ -5,7 +5,7 @@ const Hero = () => {
     <div id="hero" className="relative w-full h-screen">
       <div className="w-full h-full hidden lg:block">
         <Image
-          src="/agafay-takerkoust/seafood-pasta-mediterranean-dining-morocco.webp"
+          src="/images/seafood-pasta-mediterranean-dining-morocco.webp"
           alt="Fresh Mediterranean seafood pasta at our luxury Ibiza-style day club and restaurant near Marrakech"
           title="Premium Mediterranean Seafood Pasta at Our Luxury Day Club"
           loading="lazy"
@@ -16,7 +16,7 @@ const Hero = () => {
       </div>
       <div className="w-full h-full block lg:hidden">
         <Image
-          src="/agafay-takerkoust/casa-lalla-takerkoust-lake-view-terrace.webp"
+          src="/images/casa-lalla-takerkoust-lake-view-terrace.webp"
           alt="Panoramic lake view terrace at Casa Lalla Takerkoust offering a chic Mykonos vibe and luxury dining near the Agafay Desert"
           title="Luxury Lake View Terrace & Mykonos Vibe Dining at Casa Lalla"
           loading="lazy"

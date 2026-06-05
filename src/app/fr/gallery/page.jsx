@@ -9,7 +9,7 @@ export const metadata = {
     title: "Galerie Photos | Casa Lalla Takerkoust | Ambiance Mykonos",
     description: "Découvrez la galerie de Casa Lalla Takerkoust.",
     images: [
-      "/agafay-takerkoust/romantic-night-dining-ambiance-casa-lalla-takerkoust.webp",
+      "/images/romantic-night-dining-ambiance-casa-lalla-takerkoust.webp",
     ], // Add a preview image path here
   },
 };

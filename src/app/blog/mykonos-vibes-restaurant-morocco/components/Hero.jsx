@@ -5,7 +5,7 @@ const Hero = () => {
     <div id="hero" className="relative w-full h-screen">
       <div className="w-full h-full hidden lg:block">
         <Image
-          src="/agafay-takerkoust/destination-wedding-marrakech-lake-takerkoust.webp"
+          src="/images/destination-wedding-marrakech-lake-takerkoust.webp"
           alt="Cozy, luxurious guest room interior featuring traditional Moroccan decor at Casa Lalla Takerkoust."
           width={1500}
           height={1500}
@@ -14,7 +14,7 @@ const Hero = () => {
       </div>
       <div className="w-full h-full block lg:hidden">
         <Image
-          src="/agafay-takerkoust/casa-lalla-takerkoust-lake-view-terrace.webp"
+          src="/images/casa-lalla-takerkoust-lake-view-terrace.webp"
           alt="Stunning sunset reflecting over the peaceful waters of Lalla Takerkoust Lake in Morocco."
           width={1500}
           height={1500}

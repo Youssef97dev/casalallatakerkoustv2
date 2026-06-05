@@ -59,7 +59,7 @@ const Events = () => {
       {/* 6. Repositioned for the unified DOM and optimized the Next.js Image component */}
       <div className="z-10 w-[90%] lg:w-[40%] h-100 lg:h-full relative lg:absolute lg:right-44">
         <Image
-          src="/agafay-takerkoust/mediterranean-seafood-cuisine-marrakech.webp"
+          src="/images/mediterranean-seafood-cuisine-marrakech.webp"
           alt="Cuisine méditerranéenne gastronomique aux fruits de mer servie dans notre restaurant de luxe de style Mykonos près du lac Lalla Takerkoust à Marrakech"
           title="Dîner Premium de Fruits de Mer Méditerranéens avec Ambiance Ibiza au Lac Takerkoust"
           width={800}

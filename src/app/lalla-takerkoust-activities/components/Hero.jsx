@@ -5,7 +5,7 @@ const Hero = () => {
     <div id="hero" className="relative w-full h-screen">
       <div className="w-full h-full hidden lg:block">
         <Image
-          src="/agafay-takerkoust/high-atlas-mountains-quad-marrakech.webp"
+          src="/images/high-atlas-mountains-quad-marrakech.webp"
           alt="Scenic quad biking experience facing the High Atlas Mountains near our luxury Ibiza-style desert retreat"
           title="High Atlas Mountains Quad Adventure & Luxury Day Club Experience"
           width={1500}
@@ -15,7 +15,7 @@ const Hero = () => {
       </div>
       <div className="w-full h-full block lg:hidden">
         <Image
-          src="/agafay-takerkoust/adrenaline-buggy-tour-marrakech-agafay-desert.webp"
+          src="/images/adrenaline-buggy-tour-marrakech-agafay-desert.webp"
           alt="Adrenaline-fueled buggy tour through the Agafay Desert, a premium excursion near our Mykonos-inspired oasis"
           title="Adrenaline Buggy Tour in Agafay Desert – Luxury Off-Road Adventure"
           width={1500}

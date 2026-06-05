@@ -27,7 +27,7 @@ const Content = () => {
         {/* Left Images Column */}
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/agafay-gallery/chic-desert-oasis-design-mykonos-inspiration.webp"
+            src="/images/chic-desert-oasis-design-mykonos-inspiration.webp"
             alt="Luxury boutique accommodation at Casa Lalla Takerkoust with panoramic views of the High Atlas Mountains."
             width={500}
             height={500}
@@ -35,7 +35,7 @@ const Content = () => {
             className="object-cover w-full h-full aspect-3/4 rounded-md"
           />
           <Image
-            src="/agafay-gallery/luxury-dining-takerkoust-mykonos-style.webp"
+            src="/images/luxury-dining-takerkoust-mykonos-style.webp"
             alt="Serene lakeside retreat and tranquil eco-lodge situated at Lalla Takerkoust near Marrakech."
             width={500}
             height={500}
@@ -90,7 +90,7 @@ const Content = () => {
         {/* Right Images Column */}
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/agafay-gallery/restaurants-marocain-marrakech-garden.webp"
+            src="/images/restaurants-marocain-marrakech-garden.webp"
             alt="Authentic Moroccan hospitality and traditional riad-style architecture at the Casa Lalla Takerkoust oasis."
             width={500}
             height={500}
@@ -98,7 +98,7 @@ const Content = () => {
             className="object-cover w-full h-full aspect-3/4 rounded-md"
           />
           <Image
-            src="/agafay-gallery/restaurants-marocain-marrakech-show.webp"
+            src="/images/restaurants-marocain-marrakech-show.webp"
             alt="Relaxing outdoor swimming pool overlooking the breathtaking Lalla Takerkoust Lake and desert landscape."
             width={500}
             height={500}

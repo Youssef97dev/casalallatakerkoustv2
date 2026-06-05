@@ -16,7 +16,7 @@ const Content = () => {
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] gap-8 px-3 lg:px-14 10 mt-8">
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/agafay-takerkoust/quad-tour-agafay-desert-marrakech.webp"
+            src="/images/quad-tour-agafay-desert-marrakech.webp"
             alt="Excursion premium en quad dans le désert d'Agafay près de notre day club de luxe de style Ibiza à Marrakech"
             title="Excursion Premium en Quad à Agafay et Day Club de Luxe"
             width={500}
@@ -24,7 +24,7 @@ const Content = () => {
             className="object-cover w-full h-full aspect-3/4"
           />
           <Image
-            src="/agafay-takerkoust/adrenaline-quad-biking-marrakech-desert.webp"
+            src="/images/adrenaline-quad-biking-marrakech-desert.webp"
             alt="Aventure palpitante en quad dans le désert de Marrakech, suivie d'une retraite VIP de style Mykonos au bord du lac"
             title="Aventure Palpitante en Quad et Retraite VIP de Luxe"
             width={500}
@@ -118,7 +118,7 @@ const Content = () => {
         </div>
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/agafay-takerkoust/quad-bike-tour-agafay-desert-adventure.webp"
+            src="/images/quad-bike-tour-agafay-desert-adventure.webp"
             alt="Aventure riche en action lors d'une excursion en quad dans le désert d'Agafay offrant une sortie de luxe près du lac Takerkoust"
             title="Aventure Exaltante en Quad dans le Désert d'Agafay"
             width={500}
@@ -126,7 +126,7 @@ const Content = () => {
             className="object-cover w-full h-full aspect-3/4"
           />
           <Image
-            src="/agafay-takerkoust/luxury-tour-experience-casa-lalla-takerkoust.webp"
+            src="/images/luxury-tour-experience-casa-lalla-takerkoust.webp"
             alt="Expérience d'excursion de luxe exclusive à Casa Lalla Takerkoust combinant aventures dans le désert d'Agafay et ambiance chic d'Ibiza"
             title="Expérience Exclusive d'Excursion de Luxe à Casa Lalla Takerkoust"
             width={500}

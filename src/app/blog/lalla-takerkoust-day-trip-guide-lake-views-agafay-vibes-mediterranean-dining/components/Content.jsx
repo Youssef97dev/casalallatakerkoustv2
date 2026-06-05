@@ -27,7 +27,7 @@ const Content = () => {
         {/* Left Images Column */}
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/agafay-gallery/agafay-desert-buggy-tour-marrakech.webp"
+            src="/images/agafay-desert-buggy-tour-marrakech.webp"
             alt="Majestic snow-capped High Atlas Mountains viewed from the scenic terrace at Casa Lalla Takerkoust."
             width={500}
             height={500}
@@ -35,7 +35,7 @@ const Content = () => {
             className="object-cover w-full h-full aspect-3/4 rounded-md"
           />
           <Image
-            src="/agafay-gallery/lalla-takerkoust-lake-weather-marrakech.webp"
+            src="/images/lalla-takerkoust-lake-weather-marrakech.webp"
             alt="Beautiful natural surroundings and lush oasis landscapes bordering the Agafay Desert."
             width={500}
             height={500}
@@ -87,7 +87,7 @@ const Content = () => {
         {/* Right Images Column */}
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/agafay-takerkoust/luxury-trip-from-mamounia-the-lake.webp"
+            src="/images/luxury-trip-from-mamounia-the-lake.webp"
             alt="Scenic panoramic view showcasing the transition from the rocky Agafay Desert to Lalla Takerkoust Lake."
             width={500}
             height={500}
@@ -95,7 +95,7 @@ const Content = () => {
             className="object-cover w-full h-full aspect-3/4 rounded-md"
           />
           <Image
-            src="/agafay-takerkoust/restaurant-lake-view-casa-lalla-takerkoust.webp"
+            src="/images/restaurant-lake-view-casa-lalla-takerkoust.webp"
             alt="Peaceful morning landscape of Lalla Takerkoust, a premier nature getaway just outside Marrakech."
             width={500}
             height={500}

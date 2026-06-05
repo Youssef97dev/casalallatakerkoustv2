@@ -28,7 +28,7 @@ const Content = () => {
         {/* Left Images Column */}
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/agafay-takerkoust/agafay-desert-marrakech-restaurants.webp"
+            src="/images/agafay-desert-marrakech-restaurants.webp"
             alt="Fresh, locally sourced Moroccan breakfast spread at a luxury boutique lodge near Marrakech."
             width={500}
             height={500}
@@ -36,7 +36,7 @@ const Content = () => {
             className="object-cover w-full h-full aspect-3/4 rounded-md"
           />
           <Image
-            src="/agafay-takerkoust/high-atlas-mountains-snow-peaks-marrakech.webp"
+            src="/images/high-atlas-mountains-snow-peaks-marrakech.webp"
             alt="Enjoying traditional Moroccan mint tea on a sunlit terrace overlooking the Agafay Desert."
             width={500}
             height={500}
@@ -90,7 +90,7 @@ const Content = () => {
         {/* Right Images Column */}
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/agafay-takerkoust/elegant-table-setting-mediterranean-luxe.webp"
+            src="/images/elegant-table-setting-mediterranean-luxe.webp"
             alt="Gourmet culinary experience and elegant table setting at Casa Lalla Takerkoust."
             width={500}
             height={500}
@@ -98,7 +98,7 @@ const Content = () => {
             className="object-cover w-full h-full aspect-3/4 rounded-md"
           />
           <Image
-            src="/agafay-takerkoust/meilleur-restaurant-ibiza.webp"
+            src="/images/meilleur-restaurant-ibiza.webp"
             alt="Thrilling quad biking and off-road buggy adventure through the Agafay Desert starting from Casa Lalla Takerkoust."
             width={500}
             height={500}

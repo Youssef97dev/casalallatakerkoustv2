@@ -17,7 +17,7 @@ const Content = () => {
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] gap-8 px-3 lg:px-14 10 mt-8">
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/agafay-takerkoust/quad-tour-agafay-desert-marrakech.webp"
+            src="/images/quad-tour-agafay-desert-marrakech.webp"
             alt="Premium quad bike tour in the Agafay Desert near our luxury Ibiza-style day club in Marrakech"
             title="Premium Agafay Desert Quad Tour & Luxury Day Club"
             width={500}
@@ -25,7 +25,7 @@ const Content = () => {
             className="object-cover w-full h-full aspect-3/4"
           />
           <Image
-            src="/agafay-takerkoust/adrenaline-quad-biking-marrakech-desert.webp"
+            src="/images/adrenaline-quad-biking-marrakech-desert.webp"
             alt="Thrilling adrenaline quad biking adventure in the Marrakech desert, followed by a VIP Mykonos-style lakeside retreat"
             title="Adrenaline Quad Biking Adventure & VIP Luxury Retreat"
             width={500}
@@ -107,7 +107,7 @@ const Content = () => {
         </div>
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/agafay-takerkoust/quad-bike-tour-agafay-desert-adventure.webp"
+            src="/images/quad-bike-tour-agafay-desert-adventure.webp"
             alt="Action-packed quad bike tour adventure in the Agafay Desert offering a luxury excursion near Lake Takerkoust"
             title="Action-Packed Agafay Desert Quad Bike Adventure"
             width={500}
@@ -115,7 +115,7 @@ const Content = () => {
             className="object-cover w-full h-full aspect-3/4"
           />
           <Image
-            src="/agafay-takerkoust/luxury-tour-experience-casa-lalla-takerkoust.webp"
+            src="/images/luxury-tour-experience-casa-lalla-takerkoust.webp"
             alt="Exclusive luxury tour experience at Casa Lalla Takerkoust combining Agafay Desert adventures with chic Ibiza vibes"
             title="Exclusive Luxury Tour Experience at Casa Lalla Takerkoust"
             width={500}

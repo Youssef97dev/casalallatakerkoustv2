@@ -5,7 +5,7 @@ const Hero = () => {
     <div id="hero" className="relative w-full h-screen">
       <div className="w-full h-full hidden lg:block">
         <Image
-          src="/agafay-takerkoust/mykonos-style-architecture-marrakech-lake.webp"
+          src="/images/mykonos-style-architecture-marrakech-lake.webp"
           alt="Stunning Mykonos style architecture at our luxury day club oasis overlooking Lake Takerkoust near Marrakech"
           title="Mykonos Style Architecture & Luxury Oasis at Lake Takerkoust"
           loading="lazy"
@@ -16,7 +16,7 @@ const Hero = () => {
       </div>
       <div className="w-full h-full block lg:hidden">
         <Image
-          src="/agafay-takerkoust/destination-wedding-marrakech-lake-takerkoust.webp"
+          src="/images/destination-wedding-marrakech-lake-takerkoust.webp"
           alt="Elegant boho-chic destination wedding venue featuring luxury Ibiza vibes at Lake Lalla Takerkoust near the Agafay Desert"
           title="Luxury Destination Wedding with Ibiza Vibes at Lake Takerkoust"
           loading="lazy"

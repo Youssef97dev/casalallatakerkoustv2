@@ -5,7 +5,7 @@ const Hero = () => {
     <div id="hero" className="relative w-full h-screen">
       <div className="w-full h-full">
         <Image
-          src="/agafay-takerkoust/corporate-event-venue-marrakech-lake.webp"
+          src="/images/corporate-event-venue-marrakech-lake.webp"
           alt="Lieu de luxe sophistiqué inspiré de Mykonos pour des événements d'entreprise privés au lac Lalla Takerkoust près de Marrakech"
           title="Lieu d'événement d'entreprise de luxe de style Ibiza au lac Takerkoust"
           width={1500}

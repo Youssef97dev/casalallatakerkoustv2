@@ -5,7 +5,7 @@ const Hero = () => {
     <div id="hero" className="relative w-full h-screen">
       <div className="w-full h-full">
         <Image
-          src="/agafay-takerkoust/corporate-event-venue-marrakech-lake.webp"
+          src="/images/corporate-event-venue-marrakech-lake.webp"
           alt="Sophisticated venue setup for a private corporate event at Lalla Takerkoust"
           title="Luxury Ibiza-Style Corporate Event Venue at Lake Takerkoust"
           width={1500}

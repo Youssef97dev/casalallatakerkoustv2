@@ -61,7 +61,7 @@ const Activities = () => {
       <div className="z-10 w-[90%] lg:w-[40%] h-125 lg:h-full relative lg:absolute lg:left-40">
         {/* 6. Used Next.js `fill` instead of hardcoded width/height to prevent layout shift and improve Core Web Vitals */}
         <Image
-          src="/agafay-gallery/agafay-desert-buggy-tour-marrakech.webp"
+          src="/images/agafay-desert-buggy-tour-marrakech.webp"
           alt="Aventure premium en buggy dans le désert d'Agafay offrant une expérience VIP de luxe près de notre day club de style Mykonos à Marrakech"
           title="Excursion VIP en Buggy à Agafay et Expérience Day Club de Luxe"
           fill

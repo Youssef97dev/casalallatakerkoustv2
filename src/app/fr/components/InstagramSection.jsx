@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const images = [
   {
-    src: "/agafay-takerkoust/mykonos-vibes-restaurant-agafay-desert-marrakech.webp",
+    src: "/images/mykonos-vibes-restaurant-agafay-desert-marrakech.webp",
     alt: "Oasis de luxe avec restaurant et day club ambiance Mykonos dans le désert d'Agafay près de Marrakech",
     title:
       "Découvrez l'ambiance Mykonos dans notre restaurant du désert d'Agafay",
@@ -12,35 +12,35 @@ const images = [
     link: "https://www.instagram.com/p/DSHv8mkDbTF/",
   },
   {
-    src: "/agafay-takerkoust/ibiza-sunset-lounge-near-royal-mansour.webp",
+    src: "/images/ibiza-sunset-lounge-near-royal-mansour.webp",
     alt: "Lounge coucher de soleil chic de style Ibiza offrant des expériences de luxe premium et un service VIP près de Marrakech",
     title: "Lounge coucher de soleil de style Ibiza et Day Club de luxe",
     video: false,
     link: "https://www.instagram.com/p/DSHvxAujVCu/",
   },
   {
-    src: "/agafay-takerkoust/mykonos-chic-Lalla-akerkoust-lake-morocco.webp",
+    src: "/images/mykonos-chic-Lalla-akerkoust-lake-morocco.webp",
     alt: "Dîner au bord du lac chic façon Mykonos et atmosphère boho-chic au lac Lalla Takerkoust au Maroc",
     title: "Dîner de luxe chic façon Mykonos au lac Lalla Takerkoust",
     video: false,
     link: "https://www.instagram.com/p/DSHuJyJDShv/",
   },
   {
-    src: "/agafay-takerkoust/luxury-trip-from-mamounia-the-lake.webp",
+    src: "/images/luxury-trip-from-mamounia-the-lake.webp",
     alt: "Excursion de luxe exclusive au lac Takerkoust offrant l'ambiance vibrante d'un beach club d'Ibiza et des vues imprenables",
     title: "Excursion de luxe exclusive dans notre Beach Club au bord du lac",
     video: false,
     link: "https://www.instagram.com/p/DHjsxYRoOAP/",
   },
   {
-    src: "/agafay-takerkoust/royal-mansour-lake-takerkoust-agafay.webp",
+    src: "/images/royal-mansour-lake-takerkoust-agafay.webp",
     alt: "Oasis VIP haut de gamme dans le désert près du lac Takerkoust et d'Agafay offrant un service 5 étoiles",
     title: "Oasis VIP dans le désert et Day Club de luxe près d'Agafay",
     video: false,
     link: "https://www.instagram.com/p/DQ7fxQFDl_v/",
   },
   {
-    src: "/agafay-takerkoust/restaurants-marocain-marrakech-agafay.jpg",
+    src: "/images/restaurants-marocain-marrakech-agafay.jpg",
     alt: "Restaurant marocain gastronomique authentique dans le désert d'Agafay avec une atmosphère bohème élégante façon Mykonos",
     title: "Gastronomie marocaine dans un cadre chic du désert d'Agafay",
     video: false,
