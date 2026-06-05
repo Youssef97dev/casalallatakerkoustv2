@@ -1,4 +1,4 @@
-import { PdfViewer } from "./components/Menu";
+import PdfViewerClient from "./components/PdfClient";
 
 export const metadata = {
   title: "Menu | Casa Lalla Takerkoust | Ibiza Style",
@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 const page = () => {
-  return <PdfViewer file="/menu/menu-casalalla-anglais.pdf" />;
+  return <PdfViewerClient file="/menu/menu-casalalla-anglais.pdf" />;
 };
 
 export default page;
