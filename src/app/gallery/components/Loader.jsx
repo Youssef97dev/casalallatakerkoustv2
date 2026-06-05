@@ -1,20 +1,19 @@
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
-import React from "react";
 import Gallery from "./Gallery";
-import ButtonWtsp from "@/components/ButtonWtsp";
-import Hero from "./Hero";
+import gallery from "@/data/gallery.json";
+import { IMAGES_PER_PAGE } from "@/lib/constants";
 
 const Loader = () => {
+  const page = 1;
+
+  const images = gallery.slice(0, IMAGES_PER_PAGE);
+
   return (
     <div className="relative">
-      <Navbar path={"/fr/gallery"} />
-      <Hero />
-      <Gallery />
-      <Footer />
-      <div className="fixed bottom-7 right-6 text-riad_primary z-50">
-        <ButtonWtsp />
-      </div>
+      <Gallery
+        images={images}
+        currentPage={page}
+        totalImages={gallery.length}
+      />
     </div>
   );
 };
