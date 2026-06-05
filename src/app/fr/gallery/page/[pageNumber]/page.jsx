@@ -2,6 +2,14 @@ import gallery from "@/data/gallery.json";
 import Gallery from "../../components/Gallery";
 import { IMAGES_PER_PAGE } from "@/lib/constants";
 
+export function generateStaticParams() {
+  const totalPages = Math.ceil(gallery.length / IMAGES_PER_PAGE);
+
+  return Array.from({ length: totalPages - 1 }, (_, index) => ({
+    pageNumber: String(index + 2),
+  }));
+}
+
 export default async function Page({ params }) {
   const { pageNumber } = await params;
 
