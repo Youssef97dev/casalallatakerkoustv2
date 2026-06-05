@@ -120,6 +120,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       className={`${aktivGrotesk.variable} ${canela.variable} ${lora.variable}`}
+      data-scroll-behavior="smooth"
     >
       <Head>
         <script

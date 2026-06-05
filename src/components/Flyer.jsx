@@ -37,7 +37,8 @@ const Flyer = ({ path }) => {
             <Image
               src="/agafay-takerkoust/casalalla-takerkoust-eve.jpeg"
               alt="casa lalla takerkoust event restaurant"
-              fill
+              width={800}
+              height={800}
               className="object-cover rounded-lg "
               priority
             />

@@ -47,6 +47,7 @@ const Navbar = ({ path, change = false }) => {
               }
               width={300}
               height={300}
+              loading="eager"
               alt="Logo casa lalla takerkoust, agafay vibes, agafay desert, takerkoust"
               className={`py-2 w-16.25 2xl:w-30`}
             />

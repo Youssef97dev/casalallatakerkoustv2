@@ -14,7 +14,8 @@ const Gallery = () => {
                 src={image.image}
                 alt={image.altEn}
                 title={image.titleEn}
-                fill
+                width={800}
+                height={800}
                 className={`object-cover aspect-square h-full ${image.class}`}
               />
             </div>

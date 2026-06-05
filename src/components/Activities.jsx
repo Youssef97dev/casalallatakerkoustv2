@@ -63,7 +63,8 @@ const Activities = () => {
           src="/agafay-gallery/agafay-desert-buggy-tour-marrakech.webp"
           alt="Premium Agafay Desert buggy tour adventure offering a VIP luxury experience near our Mykonos-style day club in Marrakech"
           title="VIP Agafay Desert Buggy Tour & Luxury Day Club Experience"
-          fill
+          width={800}
+          height={800}
           sizes="(max-width: 1024px) 90vw, 50vw"
           className="object-cover"
         />

@@ -62,7 +62,8 @@ const Events = () => {
           src="/agafay-takerkoust/mediterranean-seafood-cuisine-marrakech.webp"
           alt="Cuisine méditerranéenne gastronomique aux fruits de mer servie dans notre restaurant de luxe de style Mykonos près du lac Lalla Takerkoust à Marrakech"
           title="Dîner Premium de Fruits de Mer Méditerranéens avec Ambiance Ibiza au Lac Takerkoust"
-          fill
+          width={800}
+          height={800}
           sizes="(max-width: 1024px) 90vw, 50vw"
           className="object-cover"
         />
