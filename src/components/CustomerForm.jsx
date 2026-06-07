@@ -1,8 +1,7 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { FiArrowLeft } from "react-icons/fi";
 import { ToastContainer, toast, Bounce } from "react-toastify";
-import emailjs from "@emailjs/browser";
 import { ClockLoader } from "react-spinners";
 
 const CustomerForm = ({
@@ -47,8 +46,22 @@ const CustomerForm = ({
     });
 
   const clickBook = async () => {
-    const serviceId = "service_zk1myao";
-    const templateId = "template_c262tqj";
+    const formDataToSend = new FormData();
+
+    formDataToSend.append("full_name", formData.fullName);
+    formDataToSend.append("email", formData.email);
+    formDataToSend.append("phone", formData.phone);
+    formDataToSend.append("number_personne", formData.guests);
+    formDataToSend.append(
+      "date",
+      new Intl.DateTimeFormat("en-En", {
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+      }).format(new Date(reservationDate))
+    );
+    formDataToSend.append("time", formatTime(formData.time));
+    formDataToSend.append("comment", formData.comment);
     if (
       formData.fullName &&
       formData.email &&
@@ -59,19 +72,13 @@ const CustomerForm = ({
     ) {
       try {
         setLoading(true);
-        const res = await emailjs.send(serviceId, templateId, {
-          full_name: formData.fullName,
-          email: formData.email,
-          phone: formData.phone,
-          number_personne: formData.guests,
-          date: new Intl.DateTimeFormat("en-En", {
-            day: "numeric",
-            month: "long",
-            year: "numeric",
-          }).format(new Date(reservationDate)),
-          time: formatTime(formData.time),
-          comment: formData.comment,
-        });
+        const res = await fetch(
+          "https://casalallatakerkoust.com/api/reservation.php",
+          {
+            method: "POST",
+            body: formDataToSend,
+          }
+        );
         if (res.status === 200) {
           notifySent();
         }
@@ -90,10 +97,6 @@ const CustomerForm = ({
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
-
-  useEffect(() => {
-    emailjs.init("1D9YARxa2KB7aQtKm");
-  }, []);
 
   return (
     <div className="space-y-6">
