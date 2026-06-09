@@ -7,8 +7,21 @@ const Loader = () => {
 
   const images = gallery.slice(0, IMAGES_PER_PAGE);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ImageGallery",
+    name: "Casa Lalla Takerkoust Gallery | Luxury Retreat, Pool & Atlas Mountain Views",
+    description:
+      "Browse photos of Casa Lalla Takerkoust, a luxury retreat near Marrakech. Discover elegant rooms, swimming pool, Atlas Mountain landscapes, Lalla Takerkoust Lake, outdoor experiences, dining areas, and authentic Moroccan hospitality.",
+    image: gallery.map((img) => img.image),
+  };
+
   return (
     <div className="relative">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Gallery
         images={images}
         currentPage={page}
