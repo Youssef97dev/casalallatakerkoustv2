@@ -30,6 +30,7 @@ const Content = () => {
           <Image
             src="/images/agafay-desert-marrakech-restaurants.webp"
             alt="Fresh, locally sourced Moroccan breakfast spread at a luxury boutique lodge near Marrakech."
+            title="Moroccan breakfast experience near Agafay Desert"
             width={500}
             height={500}
             priority // Added priority if this loads above the fold
@@ -38,6 +39,7 @@ const Content = () => {
           <Image
             src="/images/high-atlas-mountains-snow-peaks-marrakech.webp"
             alt="Enjoying traditional Moroccan mint tea on a sunlit terrace overlooking the Agafay Desert."
+            title="Mint tea terrace with Agafay Desert views"
             width={500}
             height={500}
             loading="lazy"
@@ -92,6 +94,7 @@ const Content = () => {
           <Image
             src="/images/elegant-table-setting-mediterranean-luxe.webp"
             alt="Gourmet culinary experience and elegant table setting at Casa Lalla Takerkoust."
+            title="Elegant dining experience at Casa Lalla Takerkoust"
             width={500}
             height={500}
             loading="lazy"
@@ -100,6 +103,7 @@ const Content = () => {
           <Image
             src="/images/meilleur-restaurant-ibiza.webp"
             alt="Thrilling quad biking and off-road buggy adventure through the Agafay Desert starting from Casa Lalla Takerkoust."
+            title="Agafay Desert quad biking and buggy adventure"
             width={500}
             height={500}
             loading="lazy"

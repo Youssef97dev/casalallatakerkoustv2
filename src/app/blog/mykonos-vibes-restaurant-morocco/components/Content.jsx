@@ -26,6 +26,7 @@ const Content = () => {
           <Image
             src="/images/chic-desert-oasis-design-mykonos-inspiration.webp"
             alt="Luxury boutique accommodation at Casa Lalla Takerkoust with panoramic views of the High Atlas Mountains."
+            title="Luxury boutique accommodation near Marrakech with Atlas Mountain views"
             width={500}
             height={500}
             priority // Added priority if this loads above the fold
@@ -34,6 +35,7 @@ const Content = () => {
           <Image
             src="/images/luxury-dining-takerkoust-mykonos-style.webp"
             alt="Serene lakeside retreat and tranquil eco-lodge situated at Lalla Takerkoust near Marrakech."
+            title="Peaceful lakeside eco-lodge at Lalla Takerkoust"
             width={500}
             height={500}
             loading="lazy"
@@ -79,6 +81,7 @@ const Content = () => {
           <Image
             src="/images/restaurants-marocain-marrakech-garden.webp"
             alt="Authentic Moroccan hospitality and traditional riad-style architecture at the Casa Lalla Takerkoust oasis."
+            title="Traditional Moroccan riad-inspired retreat in Lalla Takerkoust"
             width={500}
             height={500}
             loading="lazy"
@@ -87,6 +90,7 @@ const Content = () => {
           <Image
             src="/images/restaurants-marocain-marrakech-show.webp"
             alt="Relaxing outdoor swimming pool overlooking the breathtaking Lalla Takerkoust Lake and desert landscape."
+            title="Swimming pool with panoramic views of Lalla Takerkoust Lake"
             width={500}
             height={500}
             loading="lazy"

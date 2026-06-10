@@ -18,7 +18,7 @@ const DOMAIN = "https://casalallatakerkoust.com";
 const sitePages = [
   // --- ENGLISH PAGES ---
   {
-    pageUrl: "/gallery",
+    pageUrl: "/gallery/",
     lastmod: "2026-06-01",
     priority: "1.0",
     images: [
@@ -321,6 +321,57 @@ const sitePages = [
         alt: "Beautiful table setup for a private event and unforgettable wedding celebration at Casa Lalla Takerkoust venue",
         title:
           "Exclusive Ibiza Style Venue for Private Events at Lake Takerkoust",
+      },
+      {
+        image: "/images/mediterranean-seafood-cuisine-marrakech.webp",
+        alt: "Gourmet Mediterranean seafood cuisine served at our luxury Mykonos-style restaurant near Lake Lalla Takerkoust in Marrakech",
+        title:
+          "Premium Mediterranean Seafood Dining with Ibiza Vibes at Lake Takerkoust",
+      },
+    ],
+  },
+  {
+    pageUrl: "/blog/mykonos-vibes-restaurant-morocco/",
+    lastmod: "2026-06-10",
+    priority: "0.9",
+    images: [
+      {
+        image: "/images/restaurants-marocain-marrakech-garden.webp",
+        alt: "Authentic Moroccan hospitality and traditional riad-style architecture at the Casa Lalla Takerkoust oasis.",
+        title: "Traditional Moroccan riad-inspired retreat in Lalla Takerkoust",
+      },
+      {
+        image: "/images/restaurants-marocain-marrakech-show.webp",
+        alt: "Relaxing outdoor swimming pool overlooking the breathtaking Lalla Takerkoust Lake and desert landscape.",
+        title: "Swimming pool with panoramic views of Lalla Takerkoust Lake",
+      },
+    ],
+  },
+  {
+    pageUrl:
+      "/blog/marrakech-beach-clubs-discover-the-ibiza-mykonos-experience-at-lake-takerkoust/",
+    lastmod: "2026-06-10",
+    priority: "0.9",
+    images: [
+      {
+        image: "/images/agafay-desert-marrakech-restaurants.webp",
+        alt: "Fresh, locally sourced Moroccan breakfast spread at a luxury boutique lodge near Marrakech.",
+        title: "Moroccan breakfast experience near Agafay Desert",
+      },
+      {
+        image: "/images/high-atlas-mountains-snow-peaks-marrakech.webp",
+        alt: "Enjoying traditional Moroccan mint tea on a sunlit terrace overlooking the Agafay Desert.",
+        title: "Mint tea terrace with Agafay Desert views",
+      },
+      {
+        image: "/images/elegant-table-setting-mediterranean-luxe.webp",
+        alt: "Gourmet culinary experience and elegant table setting at Casa Lalla Takerkoust.",
+        title: "Elegant dining experience at Casa Lalla Takerkoust",
+      },
+      {
+        image: "/images/meilleur-restaurant-ibiza.webp",
+        alt: "Thrilling quad biking and off-road buggy adventure through the Agafay Desert starting from Casa Lalla Takerkoust.",
+        title: "Agafay Desert quad biking and buggy adventure",
       },
     ],
   },
