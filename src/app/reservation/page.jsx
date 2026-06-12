@@ -2,9 +2,21 @@ import React from "react";
 import Loader from "./components/Loader";
 
 export const metadata = {
-  title: "Agafay Wedding Venue & Restaurant | Ibiza Style Events | Casa Lalla",
+  title:
+    "Agafay Wedding Venue & Private Events | Casa Lalla Takerkoust Near Marrakech",
   description:
-    "Book your private event or Agafay wedding at Casa Lalla. Experience a top Moroccan restaurant with a chic Ibiza Mykonos style atmosphere by the lake",
+    "Host your wedding or private event at Casa Lalla Takerkoust, a unique lakeside venue near Marrakech. Enjoy breathtaking Agafay Desert views, elegant dining, and unforgettable celebrations by the lake.",
+  alternates: {
+    canonical: "https://casalallatakerkoust.com/reservation/",
+  },
+  openGraph: {
+    title: "Agafay Wedding Venue & Private Events | Casa Lalla Takerkoust",
+    description:
+      "Plan your wedding or private event at Casa Lalla Takerkoust. A stunning lakeside venue near Marrakech offering panoramic views, refined cuisine, and exclusive experiences.",
+    url: "https://casalallatakerkoust.com/reservation/",
+    siteName: "Casa Lalla Takerkoust",
+    type: "website",
+  },
 };
 
 const page = () => {

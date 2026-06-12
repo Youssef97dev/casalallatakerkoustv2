@@ -5,9 +5,14 @@ export const metadata = {
   title: "Galerie Photos | Casa Lalla Takerkoust | Ambiance Mykonos",
   description:
     "Découvrez la galerie de Casa Lalla Takerkoust. Plongez dans l'ambiance Ibiza de notre restaurant près de Marrakech avec vue imprenable sur le lac.",
+  alternates: {
+    canonical: "https://casalallatakerkoust.com/fr/gallery/",
+  },
   openGraph: {
     title: "Galerie Photos | Casa Lalla Takerkoust | Ambiance Mykonos",
     description: "Découvrez la galerie de Casa Lalla Takerkoust.",
+    url: "https://casalallatakerkoust.com/fr/gallery/",
+    siteName: "Casa Lalla Takerkoust",
     images: [
       "/images/romantic-night-dining-ambiance-casa-lalla-takerkoust.webp",
     ], // Add a preview image path here

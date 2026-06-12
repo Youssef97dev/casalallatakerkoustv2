@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://casalallatakerkoust.com/gallery</loc>
+    <loc>https://casalallatakerkoust.com/gallery/</loc>
     <lastmod>2026-06-01</lastmod>
     <priority>1.0</priority>
     <image:image>
@@ -349,6 +349,58 @@
       <image:loc>https://casalallatakerkoust.com/images/private-event-wedding-setup-casa-lalla.webp</image:loc>
       <image:caption>Beautiful table setup for a private event and unforgettable wedding celebration at Casa Lalla Takerkoust venue | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
       <image:title>Exclusive Ibiza Style Venue for Private Events at Lake Takerkoust</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/mediterranean-seafood-cuisine-marrakech.webp</image:loc>
+      <image:caption>Gourmet Mediterranean seafood cuisine served at our luxury Mykonos-style restaurant near Lake Lalla Takerkoust in Marrakech | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Premium Mediterranean Seafood Dining with Ibiza Vibes at Lake Takerkoust</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://casalallatakerkoust.com/blog/mykonos-vibes-restaurant-morocco/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/restaurants-marocain-marrakech-garden.webp</image:loc>
+      <image:caption>Authentic Moroccan hospitality and traditional riad-style architecture at the Casa Lalla Takerkoust oasis. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Traditional Moroccan riad-inspired retreat in Lalla Takerkoust</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/restaurants-marocain-marrakech-show.webp</image:loc>
+      <image:caption>Relaxing outdoor swimming pool overlooking the breathtaking Lalla Takerkoust Lake and desert landscape. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Swimming pool with panoramic views of Lalla Takerkoust Lake</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://casalallatakerkoust.com/blog/marrakech-beach-clubs-discover-the-ibiza-mykonos-experience-at-lake-takerkoust/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/agafay-desert-marrakech-restaurants.webp</image:loc>
+      <image:caption>Fresh, locally sourced Moroccan breakfast spread at a luxury boutique lodge near Marrakech. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Moroccan breakfast experience near Agafay Desert</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/high-atlas-mountains-snow-peaks-marrakech.webp</image:loc>
+      <image:caption>Enjoying traditional Moroccan mint tea on a sunlit terrace overlooking the Agafay Desert. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Mint tea terrace with Agafay Desert views</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/elegant-table-setting-mediterranean-luxe.webp</image:loc>
+      <image:caption>Gourmet culinary experience and elegant table setting at Casa Lalla Takerkoust. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Elegant dining experience at Casa Lalla Takerkoust</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/meilleur-restaurant-ibiza.webp</image:loc>
+      <image:caption>Thrilling quad biking and off-road buggy adventure through the Agafay Desert starting from Casa Lalla Takerkoust. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Agafay Desert quad biking and buggy adventure</image:title>
       <image:geo_location>Marrakech, Morocco</image:geo_location>
     </image:image>
   </url>
