@@ -19,9 +19,19 @@ const sitePages = [
   // --- ENGLISH PAGES ---
   {
     pageUrl: "/gallery/",
-    lastmod: "2026-06-01",
+    lastmod: "2026-06-22",
     priority: "1.0",
     images: [
+      {
+        image: "/images/agafay-desert-sunset-dinner-restaurant-marrakech.webp",
+        alt: "Guests enjoying a boho sunset dinner and cocktails at Casa Lalla lounge near Agafay",
+        title: "Agafay Sunset Dinner & Boho Lounge — Casa Lalla",
+      },
+      {
+        image: "/images/best-restaurant-lake-lalla-takerkoust-lunch-view.webp",
+        alt: "Fresh Mediterranean lunch served on the sunny terrace overlooking Lake Lalla Takerkoust",
+        title: "Lake View Restaurant Lunch — Casa Lalla Takerkoust",
+      },
       {
         image: "/images/restaurant-casa-lalla-takerkoust-agafay-vibes.webp",
         alt: "Restaurant Casa Lalla dining area overlooking Lake Takerkoust with Agafay desert vibes near Marrakech",

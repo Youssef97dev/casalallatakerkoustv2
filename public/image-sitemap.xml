@@ -2,8 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://casalallatakerkoust.com/gallery/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/agafay-desert-sunset-dinner-restaurant-marrakech.webp</image:loc>
+      <image:caption>Guests enjoying a boho sunset dinner and cocktails at Casa Lalla lounge near Agafay | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Agafay Sunset Dinner &amp; Boho Lounge — Casa Lalla</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/best-restaurant-lake-lalla-takerkoust-lunch-view.webp</image:loc>
+      <image:caption>Fresh Mediterranean lunch served on the sunny terrace overlooking Lake Lalla Takerkoust | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Lake View Restaurant Lunch — Casa Lalla Takerkoust</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
     <image:image>
       <image:loc>https://casalallatakerkoust.com/images/restaurant-casa-lalla-takerkoust-agafay-vibes.webp</image:loc>
       <image:caption>Restaurant Casa Lalla dining area overlooking Lake Takerkoust with Agafay desert vibes near Marrakech | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
