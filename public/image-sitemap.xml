@@ -250,12 +250,6 @@
       <image:title>Panoramic Atlas Mountains Dining</image:title>
       <image:geo_location>Marrakech, Morocco</image:geo_location>
     </image:image>
-    <image:image>
-      <image:loc>https://casalallatakerkoust.com/images/fine-dining-dessert-luxury-restaurant-morocco.webp</image:loc>
-      <image:caption>Exquisite fine dining Moroccan dessert beautifully plated at Casa Lalla in Takerkoust | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
-      <image:title>Fine Dining Moroccan Desserts</image:title>
-      <image:geo_location>Marrakech, Morocco</image:geo_location>
-    </image:image>
   </url>
   <url>
     <loc>https://casalallatakerkoust.com/</loc>
@@ -413,6 +407,75 @@
       <image:loc>https://casalallatakerkoust.com/images/meilleur-restaurant-ibiza.webp</image:loc>
       <image:caption>Thrilling quad biking and off-road buggy adventure through the Agafay Desert starting from Casa Lalla Takerkoust. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
       <image:title>Agafay Desert quad biking and buggy adventure</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://casalallatakerkoust.com/restaurant-casa-lalla/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/pool-day-pass-agafay-lalla-takerkoust-marrakech.webp</image:loc>
+      <image:caption>Bohemian white sunbeds and swimming pool at Casa Lalla day club near Agafay, Marrakech | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Agafay and Lalla Takerkoust Pool Day Pass — Casa Lalla</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://casalallatakerkoust.com/private-events/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/mykonos-style-architecture-marrakech-lake.webp</image:loc>
+      <image:caption>Stunning Mykonos style architecture at our luxury day club oasis overlooking Lake Takerkoust near Marrakech | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Mykonos Style Architecture &amp; Luxury Oasis at Lake Takerkoust</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/ibiza-mykonos-style-restaurants.webp</image:loc>
+      <image:caption>Chic Ibiza and Mykonos style restaurant setting offering a VIP luxury day club experience near the Agafay Desert | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Ibiza &amp; Mykonos Style Luxury Restaurant Near Agafay</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/boho-chic-interior-design-marrakech-lake.webp</image:loc>
+      <image:caption>Stunning boho-chic interior design at our luxury lakeside restaurant, blending Mykonos aesthetics with Marrakech charm | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Boho-Chic Interior Design at Our Luxury Lakeside Restaurant</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://casalallatakerkoust.com/lalla-takerkoust-activities/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/high-atlas-mountains-quad-marrakech.webp</image:loc>
+      <image:caption>Scenic quad biking experience facing the High Atlas Mountains near our luxury Ibiza-style desert retreat | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>High Atlas Mountains Quad Adventure &amp; Luxury Day Club Experience</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/adrenaline-buggy-tour-marrakech-agafay-desert.webp</image:loc>
+      <image:caption>Adrenaline-fueled buggy tour through the Agafay Desert, a premium excursion near our Mykonos-inspired oasis | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Adrenaline Buggy Tour in Agafay Desert – Luxury Off-Road Adventure</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/quad-tour-agafay-desert-marrakech.webp</image:loc>
+      <image:caption>Premium quad bike tour in the Agafay Desert near our luxury Ibiza-style day club in Marrakech | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Premium Agafay Desert Quad Tour &amp; Luxury Day Club</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/quad-bike-tour-agafay-desert-adventure.webp</image:loc>
+      <image:caption>Action-packed quad bike tour adventure in the Agafay Desert offering a luxury excursion near Lake Takerkoust | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Action-Packed Agafay Desert Quad Bike Adventure</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/luxury-tour-experience-casa-lalla-takerkoust.webp</image:loc>
+      <image:caption>Exclusive luxury tour experience at Casa Lalla Takerkoust combining Agafay Desert adventures with chic Ibiza vibes | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Exclusive Luxury Tour Experience at Casa Lalla Takerkoust</image:title>
       <image:geo_location>Marrakech, Morocco</image:geo_location>
     </image:image>
   </url>
