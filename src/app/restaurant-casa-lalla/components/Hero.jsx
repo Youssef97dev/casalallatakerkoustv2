@@ -5,10 +5,9 @@ const Hero = () => {
     <div id="hero" className="relative w-full h-screen">
       <div className="w-full h-full hidden lg:block">
         <Image
-          src="/images/seafood-pasta-mediterranean-dining-morocco.webp"
-          alt="Fresh Mediterranean seafood pasta at our luxury Ibiza-style day club and restaurant near Marrakech"
-          title="Premium Mediterranean Seafood Pasta at Our Luxury Day Club"
-          loading="lazy"
+          src="/images/pool-day-pass-agafay-lalla-takerkoust-marrakech.webp"
+          alt="Bohemian white sunbeds and swimming pool at Casa Lalla day club near Agafay, Marrakech"
+          title="Agafay and Lalla Takerkoust Pool Day Pass — Casa Lalla"
           width={1500}
           height={1500}
           className={`w-full h-full object-cover object-center`}
@@ -19,7 +18,6 @@ const Hero = () => {
           src="/images/casa-lalla-takerkoust-lake-view-terrace.webp"
           alt="Panoramic lake view terrace at Casa Lalla Takerkoust offering a chic Mykonos vibe and luxury dining near the Agafay Desert"
           title="Luxury Lake View Terrace & Mykonos Vibe Dining at Casa Lalla"
-          loading="lazy"
           width={1500}
           height={1500}
           className={`w-full h-full object-cover`}

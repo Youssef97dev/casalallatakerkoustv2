@@ -5,9 +5,9 @@ const Hero = () => {
     <div id="hero" className="relative w-full h-screen">
       <div className="w-full h-full hidden lg:block">
         <Image
-          src="/images/seafood-pasta-mediterranean-dining-morocco.webp"
-          alt="Pâtes aux fruits de mer méditerranéennes fraîches dans notre day club et restaurant de luxe de style Ibiza près de Marrakech"
-          title="Pâtes aux Fruits de Mer Premium dans Notre Day Club de Luxe"
+          src="/images/pool-day-pass-agafay-lalla-takerkoust-marrakech.webp"
+          alt="Transats bohèmes et piscine au day club du restaurant Casa Lalla près du désert d'Agafay, Marrakech"
+          title="Day Pass Piscine Agafay et Lalla Takerkoust — Casa Lalla"
           width={1500}
           height={1500}
           className={`w-full h-full object-cover`}

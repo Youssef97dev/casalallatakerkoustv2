@@ -233,11 +233,6 @@ const sitePages = [
         alt: "Stunning panoramic views of the snow-capped Atlas Mountains from a luxury dining table in Morocco",
         title: "Panoramic Atlas Mountains Dining",
       },
-      {
-        image: "/images/fine-dining-dessert-luxury-restaurant-morocco.webp",
-        alt: "Exquisite fine dining Moroccan dessert beautifully plated at Casa Lalla in Takerkoust",
-        title: "Fine Dining Moroccan Desserts",
-      },
     ],
   },
   {
@@ -382,6 +377,74 @@ const sitePages = [
         image: "/images/meilleur-restaurant-ibiza.webp",
         alt: "Thrilling quad biking and off-road buggy adventure through the Agafay Desert starting from Casa Lalla Takerkoust.",
         title: "Agafay Desert quad biking and buggy adventure",
+      },
+    ],
+  },
+  {
+    pageUrl: "/restaurant-casa-lalla/",
+    lastmod: "2026-06-24",
+    priority: "0.9",
+    images: [
+      {
+        image: "/images/pool-day-pass-agafay-lalla-takerkoust-marrakech.webp",
+        alt: "Bohemian white sunbeds and swimming pool at Casa Lalla day club near Agafay, Marrakech",
+        title: "Agafay and Lalla Takerkoust Pool Day Pass — Casa Lalla",
+      },
+    ],
+  },
+  {
+    pageUrl: "/private-events/",
+    lastmod: "2026-06-24",
+    priority: "0.9",
+    images: [
+      {
+        image: "/images/mykonos-style-architecture-marrakech-lake.webp",
+        alt: "Stunning Mykonos style architecture at our luxury day club oasis overlooking Lake Takerkoust near Marrakech",
+        title: "Mykonos Style Architecture & Luxury Oasis at Lake Takerkoust",
+      },
+      {
+        image: "/images/ibiza-mykonos-style-restaurants.webp",
+        alt: "Chic Ibiza and Mykonos style restaurant setting offering a VIP luxury day club experience near the Agafay Desert",
+        title: "Ibiza & Mykonos Style Luxury Restaurant Near Agafay",
+      },
+      {
+        image: "/images/boho-chic-interior-design-marrakech-lake.webp",
+        alt: "Stunning boho-chic interior design at our luxury lakeside restaurant, blending Mykonos aesthetics with Marrakech charm",
+        title: "Boho-Chic Interior Design at Our Luxury Lakeside Restaurant",
+      },
+    ],
+  },
+  {
+    pageUrl: "/lalla-takerkoust-activities/",
+    lastmod: "2026-06-24",
+    priority: "0.9",
+    images: [
+      {
+        image: "/images/high-atlas-mountains-quad-marrakech.webp",
+        alt: "Scenic quad biking experience facing the High Atlas Mountains near our luxury Ibiza-style desert retreat",
+        title:
+          "High Atlas Mountains Quad Adventure & Luxury Day Club Experience",
+      },
+      {
+        image: "/images/adrenaline-buggy-tour-marrakech-agafay-desert.webp",
+        alt: "Adrenaline-fueled buggy tour through the Agafay Desert, a premium excursion near our Mykonos-inspired oasis",
+        title:
+          "Adrenaline Buggy Tour in Agafay Desert – Luxury Off-Road Adventure",
+      },
+      {
+        image: "/images/quad-tour-agafay-desert-marrakech.webp",
+        alt: "Premium quad bike tour in the Agafay Desert near our luxury Ibiza-style day club in Marrakech",
+        title: "Premium Agafay Desert Quad Tour & Luxury Day Club",
+      },
+      {
+        image: "/images/quad-bike-tour-agafay-desert-adventure.webp",
+        alt: "Action-packed quad bike tour adventure in the Agafay Desert offering a luxury excursion near Lake Takerkoust",
+        title: "Action-Packed Agafay Desert Quad Bike Adventure",
+      },
+      {
+        image: "/images/luxury-tour-experience-casa-lalla-takerkoust.webp",
+        alt: "Exclusive luxury tour experience at Casa Lalla Takerkoust combining Agafay Desert adventures with chic Ibiza vibes",
+        title: "Exclusive Luxury Tour Experience at Casa Lalla Takerkoust",
       },
     ],
   },

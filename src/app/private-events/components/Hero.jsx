@@ -8,7 +8,6 @@ const Hero = () => {
           src="/images/mykonos-style-architecture-marrakech-lake.webp"
           alt="Stunning Mykonos style architecture at our luxury day club oasis overlooking Lake Takerkoust near Marrakech"
           title="Mykonos Style Architecture & Luxury Oasis at Lake Takerkoust"
-          loading="lazy"
           width={1500}
           height={1500}
           className={`w-full h-full object-cover object-[50%_75%]`}
@@ -19,7 +18,6 @@ const Hero = () => {
           src="/images/destination-wedding-marrakech-lake-takerkoust.webp"
           alt="Elegant boho-chic destination wedding venue featuring luxury Ibiza vibes at Lake Lalla Takerkoust near the Agafay Desert"
           title="Luxury Destination Wedding with Ibiza Vibes at Lake Takerkoust"
-          loading="lazy"
           width={1500}
           height={1500}
           className={`w-full h-full object-cover object-[15%_50%]`}
