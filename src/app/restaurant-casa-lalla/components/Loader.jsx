@@ -21,11 +21,7 @@ const Loader = () => {
       "@type": "Restaurant",
       name: "Casa Lalla Takerkoust",
       image: [
-        "https://casalallatakerkoust.com/images/high-atlas-mountains-quad-marrakech.webp",
-        "https://casalallatakerkoust.com/images/adrenaline-buggy-tour-marrakech-agafay-desert.webp",
-        "https://casalallatakerkoust.com/images/quad-tour-agafay-desert-marrakech.webp",
-        "https://casalallatakerkoust.com/images/quad-bike-tour-agafay-desert-adventure.webp",
-        "https://casalallatakerkoust.com/images/luxury-tour-experience-casa-lalla-takerkoust.webp",
+        "https://casalallatakerkoust.com/images/pool-day-pass-agafay-lalla-takerkoust-marrakech.webp",
       ],
       servesCuisine: ["Mediterranean", "International", "Moroccan Fusion"],
       priceRange: "$$$",

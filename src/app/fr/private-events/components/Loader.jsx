@@ -15,7 +15,7 @@ const Loader = () => {
     description:
       "Privatisation de lieu pour mariages, anniversaires, soirées privées et séminaires d'entreprise au Lac Lalla Takerkoust. Pool club esprit Mykonos face au lac, à 10 minutes du désert d'Agafay.",
 
-    url: "https://casalallatakerkoust.com/private-events/", // <-- Update to exact page URL
+    url: "https://casalallatakerkoust.com/fr/private-events/", // <-- Update to exact page URL
     image: [
       "https://casalallatakerkoust.com/images/mykonos-style-architecture-marrakech-lake.webp",
       "https://casalallatakerkoust.com/images/ibiza-mykonos-style-restaurants.webp",
