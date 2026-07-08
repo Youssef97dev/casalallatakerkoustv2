@@ -16,27 +16,27 @@ const Content = () => {
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] gap-8 px-3 lg:px-14 10 mt-8">
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/menu/im-1.jpeg"
-            alt="Panoramic lake view terrace at Casa Lalla Takerkoust, a luxury Mykonos-style day club near Marrakech"
-            title="Casa Lalla Takerkoust Luxury Lake View Terrace"
+            src="/images/boutique-hotel-lalla-takerkoust-lake-view.webp"
+            alt="Exterior of Casa Lalla Hotel Rural overlooking the shimmering waters of Lake Lalla Takerkoust."
+            title="Lake View Boutique Hotel — Casa Lalla Takerkoust"
             loading="lazy"
             width={500}
             height={500}
             className="object-cover w-full h-125"
           />
           <Image
-            src="/menu/im-2.jpeg"
-            alt="Exclusive dining experience in the Agafay Desert featuring luxury Ibiza vibes and premium Marrakech restaurant service"
-            title="Exclusive Agafay Desert Restaurant & Luxury Dining"
+            src="/images/patio-sofas-lounge-boutique-hotel-marrakech.webp"
+            alt="Comfortable patio sofas under the shade, ideal for a peaceful afternoon escape."
+            title="Comfortable Shaded Patio Lounge"
             loading="lazy"
             width={500}
             height={500}
             className="object-cover w-full h-125"
           />
           <Image
-            src="/menu/im-3.jpeg"
-            alt="Chic Ibiza and Mykonos style restaurant setting offering a VIP luxury day club experience near the Agafay Desert"
-            title="Ibiza & Mykonos Style Luxury Restaurant Near Agafay"
+            src="/images/retro-bohemian-room-boutique-hotel-agafay.webp"
+            alt="Spacious retro-bohemian guest room blending vintage warmth with understated elegance at Casa Lalla."
+            title="Retro-Bohemian Guest Room — Agafay Area"
             loading="lazy"
             width={500}
             height={500}
@@ -106,27 +106,27 @@ const Content = () => {
         </div>
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/menu/im-8.jpeg"
-            alt="Stunning boho-chic interior design at our luxury lakeside restaurant, blending Mykonos aesthetics with Marrakech charm"
-            title="Boho-Chic Interior Design at Our Luxury Lakeside Restaurant"
+            src="/images/sunset-golden-hour-hotel-rural-lalla-takerkoust.webp"
+            alt="Warm golden hour sunlight bathing the tranquil courtyards of Casa Lalla Hotel Rural."
+            title="Golden Hour at Casa Lalla Hotel"
             loading="lazy"
             width={500}
             height={500}
             className="object-cover w-full h-125"
           />
           <Image
-            src="/menu/im-5.jpeg"
-            alt="Breathtaking views of the snow-capped High Atlas Mountains from our exclusive Ibiza-style day club near Marrakech"
-            title="Stunning High Atlas Mountain Views from Our Luxury Day Club"
+            src="/images/vintage-moroccan-decor-room-marrakech-getaway.webp"
+            alt="Thoughtfully designed bedroom featuring vintage Moroccan decor and cozy textures for a relaxing stay."
+            title="Vintage Moroccan Room Decor — Casa Lalla"
             loading="lazy"
             width={500}
             height={500}
             className="object-cover w-full h-125"
           />
           <Image
-            src="/menu/im-6.jpeg"
-            alt="The best Ibiza-style luxury restaurant and day club experience at Lake Lalla Takerkoust in Marrakech"
-            title="Best Ibiza-Style Luxury Restaurant Experience in Marrakech"
+            src="/images/atlas-mountains-view-hotel-getaway-marrakech.webp"
+            alt="Snow-capped Atlas Mountains serving as the backdrop for the serene Casa Lalla rural hotel."
+            title="Atlas Mountains View Hotel Near Marrakech"
             loading="lazy"
             width={500}
             height={500}

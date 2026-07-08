@@ -101,9 +101,6 @@ const Navbar = ({ path, change = false }) => {
               <Link href="/restaurant-casa-lalla">Restaurant</Link>
             </li>
             <li>
-              <Link href="/rural-hotel">Rural Hotel</Link>
-            </li>
-            <li>
               <Link href="/private-events">Private Events</Link>
             </li>
             <li>
@@ -177,9 +174,6 @@ const Navbar = ({ path, change = false }) => {
             </li>
             <li className="">
               <Link href="/restaurant-casa-lalla">{"Restaurant"}</Link>
-            </li>
-            <li>
-              <Link href="/rural-hotel">Rural Hotel</Link>
             </li>
             <li className="">
               <Link href="/private-events">{"Private Events"}</Link>

@@ -53,11 +53,12 @@ export default function Hero() {
           >
             <div className="relative h-[750px] rounded-[40px] overflow-hidden shadow-2xl">
               <Image
-                src="/menu/im-12.jpeg"
+                src="/images/swimming-pool-oasis-hotel-agafay-takerkoust.webp"
+                alt="Serene swimming pool oasis surrounded by nature at Casa Lalla Hotel Rural."
+                title="Tranquil Swimming Pool Oasis"
                 fill
                 priority
                 className="object-cover hover:scale-105 duration-700"
-                alt="Casa Lalla Takerkoust Rural Hotel"
               />
             </div>
           </motion.div>
