@@ -24,6 +24,7 @@
     "react-phone-input-2": "^2.15.1",
     "react-spinners": "^0.17.0",
     "react-toastify": "^11.1.0",
+    "rsuite": "^6.2.1",
     "swiper": "^12.2.0"
   },
   "devDependencies": {
