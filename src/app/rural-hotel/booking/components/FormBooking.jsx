@@ -75,7 +75,7 @@ const Booking = () => {
       try {
         setLoading(true);
         const res = await fetch(
-          "https://purehouseonthelake.com/api/hotel-booking.php",
+          "https://casalallatakerkoust.com/api/hotel-booking.php",
           {
             method: "POST",
             body: formDataToSend,
