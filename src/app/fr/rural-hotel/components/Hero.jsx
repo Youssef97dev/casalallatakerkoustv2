@@ -22,30 +22,33 @@ export default function Hero() {
             </span>
 
             <h1 className="mt-6 text-6xl lg:text-7xl leading-tight font-serif text-[#2D241C]">
-              A Peaceful Escape
+              Une escapade paisible
               <br />
-              by the Lake
+              au bord du lac
             </h1>
 
             <p className="mt-10 text-lg leading-9 text-[#5F574F] max-w-xl">
-              Experience authentic Moroccan hospitality, elegant rooms,
-              breathtaking lake views, exceptional cuisine and unforgettable
-              sunsets in Lalla Takerkoust.
+              Découvrez {"l'authentique"} hospitalité marocaine dans un cadre
+              {"d'exception"} à Lalla Takerkoust. Profitez de chambres
+              élégantes,
+              {"d'une"} vue imprenable sur le lac, {"d'une"} cuisine raffinée
+              aux saveurs locales et de couchers de soleil inoubliables, à
+              seulement quelques minutes de Marrakech.
             </p>
 
             <div className="flex gap-5 mt-14">
               <Link
-                href="/fr/rural-hotel"
+                href="/fr/rural-hotel/booking"
                 className="bg-[#2D241C] text-white px-8 py-4 rounded-full hover:bg-[#A58D6A] duration-300"
               >
-                Book your stay
+                Réservez votre séjour
               </Link>
 
               <Link
                 href="#"
                 className="border border-[#2D241C] px-8 py-4 rounded-full hover:bg-[#2D241C] hover:text-white duration-300"
               >
-                Discover
+                Découvrir
               </Link>
             </div>
           </motion.div>
@@ -61,8 +64,8 @@ export default function Hero() {
             <div className="relative h-187.5 rounded-[40px] overflow-hidden shadow-2xl">
               <Image
                 src="/images/swimming-pool-oasis-hotel-agafay-takerkoust.webp"
-                alt="Serene swimming pool oasis surrounded by nature at Casa Lalla Hotel Rural."
-                title="Tranquil Swimming Pool Oasis"
+                alt="Piscine extérieure de Casa Lalla, hôtel rural à Lalla Takerkoust, offrant un cadre naturel et relaxant près de Marrakech."
+                title="Piscine extérieure de Casa Lalla à Lalla Takerkoust"
                 fill
                 priority
                 className="object-cover hover:scale-105 duration-700"
