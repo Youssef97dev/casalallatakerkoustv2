@@ -2,8 +2,80 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://casalallatakerkoust.com/gallery/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/petit-dejeuner-piscine-hotel-lalla-takerkoust.webp</image:loc>
+      <image:caption>Fresh morning breakfast served by the poolside at Casa Lalla Hotel Rural overlooking Lake Takerkoust. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Morning Poolside Breakfast — Casa Lalla Hotel</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/agafay-desert-accommodation-hotel-rural-oasis.webp</image:loc>
+      <image:caption>Casa Lalla rural oasis located where the golden dunes of the Agafay Desert meet the water. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Agafay Desert Accommodation Oasis</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/charming-guest-room-accommodation-lalla-takerkoust.webp</image:loc>
+      <image:caption>One of the 9 uniquely designed charming guest rooms at Casa Lalla Takerkoust. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Charming Boutique Hotel Room</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/elegant-bathroom-hotel-rural-agafay-desert.webp</image:loc>
+      <image:caption>Elegant and clean guest bathroom featuring warm natural materials at Casa Lalla Hotel Rural. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Elegant Hotel Bathroom Amenities</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/evening-dining-access-casa-lalla-restaurant.webp</image:loc>
+      <image:caption>An intimate evening dining experience set up for guests transitioning from day to night. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Intimate Evening Dining Experience</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/mediterranean-lifestyle-architecture-agafay-marrakech.webp</image:loc>
+      <image:caption>Beautiful retro-bohemian architectural details embodying the Mediterranean lifestyle at the hotel. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Retro-Bohemian Hotel Architecture</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/poolside-breakfast-hotel-rural-lalla-takerkoust.webp</image:loc>
+      <image:caption>Fresh morning breakfast served gently by the poolside for guests of the boutique hotel. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Morning Poolside Breakfast</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/relaxing-sunbeds-poolside-hotel-lalla-takerkoust.webp</image:loc>
+      <image:caption>Plush sunbeds aligned by the poolside inviting guests to unwind and slow down. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Poolside Sunbeds &amp; Relaxation</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/romantic-night-ambiance-boutique-hotel-marrakech.webp</image:loc>
+      <image:caption>Serene and welcoming nighttime ambiance at Casa Lalla, illuminated by soft retro lighting. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Serene Nighttime Hotel Ambiance</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/scenic-window-view-accommodation-agafay-marrakech.webp</image:loc>
+      <image:caption>Looking out the bedroom window at the beautiful natural landscape surrounding the rural hotel. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Scenic Room Views of Nature</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/shaded-guest-patio-room-view-lake-takerkoust.webp</image:loc>
+      <image:caption>Shaded guest patio outside the room, the perfect spot to read and disconnect near Marrakech. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Relaxing Guest Patio &amp; Terrace</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/patio-salon-boheme-hotel-marrakech-agafay.webp</image:loc>
+      <image:caption>Shaded patio sofas and retro-bohemian outdoor lounge for relaxing at Casa Lalla Hotel Rural near Agafay. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Bohemian Patio Lounge &amp; Terrace — Casa Lalla</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
     <image:image>
       <image:loc>https://casalallatakerkoust.com/images/agafay-desert-sunset-dinner-restaurant-marrakech.webp</image:loc>
       <image:caption>Guests enjoying a boho sunset dinner and cocktails at Casa Lalla lounge near Agafay | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
@@ -476,6 +548,77 @@
       <image:loc>https://casalallatakerkoust.com/images/luxury-tour-experience-casa-lalla-takerkoust.webp</image:loc>
       <image:caption>Exclusive luxury tour experience at Casa Lalla Takerkoust combining Agafay Desert adventures with chic Ibiza vibes | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
       <image:title>Exclusive Luxury Tour Experience at Casa Lalla Takerkoust</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://casalallatakerkoust.com/rural-hotel/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/hotel-marrakech-vue-montagnes-atlas.webp</image:loc>
+      <image:caption>Snow-capped Atlas Mountains serving as a breathtaking backdrop for guests relaxing at Casa Lalla Hotel Rural. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Atlas Mountains View Hotel</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/hotel-de-charme-marrakech-chambre-retro-boheme.webp</image:loc>
+      <image:caption>Spacious retro-bohemian guest room blending vintage Moroccan warmth and understated elegance at Casa Lalla Hotel Rural. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Boutique Hotel Room</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/hotel-vue-lac-lalla-takerkoust-marrakech.webp</image:loc>
+      <image:caption>Exterior of Casa Lalla Hotel Rural overlooking the shimmering waters of Lake Lalla Takerkoust. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Lake View Boutique Hotel</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/piscine-oasis-hotel-rural-lalla-takerkoust.webp</image:loc>
+      <image:caption>Serene swimming pool oasis surrounded by nature and plush sunbeds at Casa Lalla Hotel Rural near Marrakech. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Tranquil lake view</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/hebergement-proche-desert-agafay-oasis.webp</image:loc>
+      <image:caption>Casa Lalla rural hotel located at the crossroads where the golden Agafay Desert meets Lake Takerkoust. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Agafay Desert Accommodation Oasis</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/boutique-hotel-lalla-takerkoust-lake-view.webp</image:loc>
+      <image:caption>Exterior of Casa Lalla Hotel Rural overlooking the shimmering waters of Lake Lalla Takerkoust. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Lake View Boutique Hotel — Casa Lalla Takerkoust</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/patio-sofas-lounge-boutique-hotel-marrakech.webp</image:loc>
+      <image:caption>Comfortable patio sofas under the shade, ideal for a peaceful afternoon escape. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Comfortable Shaded Patio Lounge</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/retro-bohemian-room-boutique-hotel-agafay.webp</image:loc>
+      <image:caption>Spacious retro-bohemian guest room blending vintage warmth with understated elegance at Casa Lalla. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Retro-Bohemian Guest Room — Agafay Area</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/sunset-golden-hour-hotel-rural-lalla-takerkoust.webp</image:loc>
+      <image:caption>Warm golden hour sunlight bathing the tranquil courtyards of Casa Lalla Hotel Rural. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Golden Hour at Casa Lalla Hotel</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/vintage-moroccan-decor-room-marrakech-getaway.webp</image:loc>
+      <image:caption>Thoughtfully designed bedroom featuring vintage Moroccan decor and cozy textures for a relaxing stay. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Vintage Moroccan Room Decor — Casa Lalla</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/atlas-mountains-view-hotel-getaway-marrakech.webp</image:loc>
+      <image:caption>Snow-capped Atlas Mountains serving as the backdrop for the serene Casa Lalla rural hotel. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Atlas Mountains View Hotel Near Marrakech</image:title>
       <image:geo_location>Marrakech, Morocco</image:geo_location>
     </image:image>
   </url>
