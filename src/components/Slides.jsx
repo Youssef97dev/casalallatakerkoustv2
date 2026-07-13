@@ -8,25 +8,25 @@ const images = [
     id: 1,
     src: "/images/hotel-marrakech-vue-montagnes-atlas.webp",
     alt: "Snow-capped Atlas Mountains serving as a breathtaking backdrop for guests relaxing at Casa Lalla Hotel Rural.",
-    title: "Atlas Mountains View Hotel — Casa Lalla Takerkoust",
+    title: "Atlas Mountains View Hotel",
   },
   {
     id: 2,
     src: "/images/hotel-de-charme-marrakech-chambre-retro-boheme.webp",
     alt: "Spacious retro-bohemian guest room blending vintage Moroccan warmth and understated elegance at Casa Lalla Hotel Rural.",
-    title: "Boutique Hotel Room — Casa Lalla Takerkoust",
+    title: "Boutique Hotel Room",
   },
   {
     id: 3,
     src: "/images/hotel-vue-lac-lalla-takerkoust-marrakech.webp",
     alt: "Exterior of Casa Lalla Hotel Rural overlooking the shimmering waters of Lake Lalla Takerkoust.",
-    title: "Lake View Boutique Hotel — Casa Lalla Takerkoust",
+    title: "Lake View Boutique Hotel",
   },
   {
     id: 4,
     src: "/images/piscine-oasis-hotel-rural-lalla-takerkoust.webp",
     alt: "Serene swimming pool oasis surrounded by nature and plush sunbeds at Casa Lalla Hotel Rural near Marrakech.",
-    title: "Tranquil lake view — Casa Lalla Takerkoust",
+    title: "Tranquil lake view",
   },
   {
     id: 5,
@@ -73,7 +73,7 @@ export default function SingleImageSlider() {
               width={1000}
             />
             {/* Optional Caption Overlay */}
-            <div className="absolute bottom-12 left-0 right-0 text-center text-white/90 bg-black/30 backdrop-blur-xs py-2 px-4 w-max mx-auto rounded-full text-sm">
+            <div className="absolute bottom-12 left-0 right-0 text-center text-white/90 bg-black/30 backdrop-blur-xs py-2 px-4 w-max mx-auto rounded-full text-[10px] lg:text-sm">
               {img.title}
             </div>
           </div>

@@ -1,5 +1,109 @@
 [
   {
+    "image": "/images/petit-dejeuner-piscine-hotel-lalla-takerkoust.webp",
+    "altEn": "Fresh morning breakfast served by the poolside at Casa Lalla Hotel Rural overlooking Lake Takerkoust.",
+    "titleEn": "Morning Poolside Breakfast — Casa Lalla Hotel",
+    "altFr": "Petit-déjeuner frais et gourmand servi au bord de la piscine au Casa Lalla Hotel Rural face au lac.",
+    "titleFr": "Petit-Déjeuner au Bord de la Piscine — Casa Lalla",
+    "class": "object-center"
+  },
+  {
+    "image": "/images/agafay-desert-accommodation-hotel-rural-oasis.webp",
+    "altEn": "Casa Lalla rural oasis located where the golden dunes of the Agafay Desert meet the water.",
+    "titleEn": "Agafay Desert Accommodation Oasis",
+    "altFr": "Oasis rurale Casa Lalla située à la croisée des dunes dorées du désert d'Agafay et de l'eau.",
+    "titleFr": "Hébergement Oasis Désert Agafay",
+    "class": "object-center"
+  },
+  {
+    "image": "/images/charming-guest-room-accommodation-lalla-takerkoust.webp",
+    "altEn": "One of the 9 uniquely designed charming guest rooms at Casa Lalla Takerkoust.",
+    "titleEn": "Charming Boutique Hotel Room",
+    "altFr": "L'une des 9 chambres charmantes au design unique du Casa Lalla Takerkoust.",
+    "titleFr": "Chambre d'Hôtel Boutique de Charme",
+    "class": "object-center"
+  },
+  {
+    "image": "/images/elegant-bathroom-hotel-rural-agafay-desert.webp",
+    "altEn": "Elegant and clean guest bathroom featuring warm natural materials at Casa Lalla Hotel Rural.",
+    "titleEn": "Elegant Hotel Bathroom Amenities",
+    "altFr": "Salle de bain élégante et épurée mettant en valeur des matériaux naturels chaleureux au Casa Lalla.",
+    "titleFr": "Salle de Bain Élégante de l'Hôtel",
+    "class": "object-center"
+  },
+  {
+    "image": "/images/evening-dining-access-casa-lalla-restaurant.webp",
+    "altEn": "An intimate evening dining experience set up for guests transitioning from day to night.",
+    "titleEn": "Intimate Evening Dining Experience",
+    "altFr": "Une expérience de dîner intime préparée pour les clients lors de la transition du jour à la nuit.",
+    "titleFr": "Expérience de Dîner Intime en Soirée",
+    "class": "object-center"
+  },
+  {
+    "image": "/images/mediterranean-lifestyle-architecture-agafay-marrakech.webp",
+    "altEn": "Beautiful retro-bohemian architectural details embodying the Mediterranean lifestyle at the hotel.",
+    "titleEn": "Retro-Bohemian Hotel Architecture",
+    "altFr": "Magnifiques détails architecturaux rétro-bohèmes incarnant le style de vie méditerranéen à l'hôtel.",
+    "titleFr": "Architecture d'Hôtel Rétro-Bohème",
+    "class": "object-center"
+  },
+  {
+    "image": "/images/poolside-breakfast-hotel-rural-lalla-takerkoust.webp",
+    "altEn": "Fresh morning breakfast served gently by the poolside for guests of the boutique hotel.",
+    "titleEn": "Morning Poolside Breakfast",
+    "altFr": "Petit-déjeuner frais servi en douceur au bord de la piscine pour les clients de l'hôtel de charme.",
+    "titleFr": "Petit-Déjeuner Matinal au Bord de la Piscine",
+    "class": "object-center"
+  },
+  {
+    "image": "/images/relaxing-sunbeds-poolside-hotel-lalla-takerkoust.webp",
+    "altEn": "Plush sunbeds aligned by the poolside inviting guests to unwind and slow down.",
+    "titleEn": "Poolside Sunbeds & Relaxation",
+    "altFr": "Transats confortables alignés au bord de la piscine invitant les clients à se détendre et ralentir.",
+    "titleFr": "Transats et Détente au Bord de la Piscine",
+    "class": "object-center"
+  },
+  {
+    "image": "/images/romantic-night-ambiance-boutique-hotel-marrakech.webp",
+    "altEn": "Serene and welcoming nighttime ambiance at Casa Lalla, illuminated by soft retro lighting.",
+    "titleEn": "Serene Nighttime Hotel Ambiance",
+    "altFr": "Ambiance nocturne sereine et accueillante au Casa Lalla, illuminée par un doux éclairage rétro.",
+    "titleFr": "Ambiance Nocturne Sereine de l'Hôtel",
+    "class": "object-center"
+  },
+  {
+    "image": "/images/scenic-window-view-accommodation-agafay-marrakech.webp",
+    "altEn": "Looking out the bedroom window at the beautiful natural landscape surrounding the rural hotel.",
+    "titleEn": "Scenic Room Views of Nature",
+    "altFr": "Vue depuis la fenêtre de la chambre sur le magnifique paysage naturel entourant l'hôtel rural.",
+    "titleFr": "Vue Panoramique sur la Nature depuis la Chambre",
+    "class": "object-center"
+  },
+  {
+    "image": "/images/shaded-guest-patio-room-view-lake-takerkoust.webp",
+    "altEn": "Shaded guest patio outside the room, the perfect spot to read and disconnect near Marrakech.",
+    "titleEn": "Relaxing Guest Patio & Terrace",
+    "altFr": "Patio ombragé devant la chambre, l'endroit idéal pour lire et se déconnecter près de Marrakech.",
+    "titleFr": "Patio et Terrasse de Détente pour les Invités",
+    "class": "object-center"
+  },
+  {
+    "image": "/images/patio-salon-boheme-hotel-marrakech-agafay.webp",
+    "altEn": "Shaded patio sofas and retro-bohemian outdoor lounge for relaxing at Casa Lalla Hotel Rural near Agafay.",
+    "titleEn": "Bohemian Patio Lounge & Terrace — Casa Lalla",
+    "altFr": "Canapés de patio ombragés et salon extérieur rétro-bohème pour se détendre au Casa Lalla Hotel Rural près d'Agafay.",
+    "titleFr": "Patio et Salon de Détente Bohème — Casa Lalla",
+    "class": "object-center"
+  },
+  {
+    "image": "/images/",
+    "altEn": "",
+    "titleEn": "",
+    "altFr": "",
+    "titleFr": "",
+    "class": "object-center"
+  },
+  {
     "image": "/images/agafay-desert-sunset-dinner-restaurant-marrakech.webp",
     "altEn": "Guests enjoying a boho sunset dinner and cocktails at Casa Lalla lounge near Agafay",
     "titleEn": "Agafay Sunset Dinner & Boho Lounge — Casa Lalla",
