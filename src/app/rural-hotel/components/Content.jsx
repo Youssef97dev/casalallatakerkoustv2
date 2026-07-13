@@ -1,3 +1,4 @@
+import ImageSlider from "@/components/Slides";
 import Image from "next/image";
 import React from "react";
 
@@ -14,7 +15,7 @@ const Content = () => {
         9 Retro-Bohemian Rooms Where the Atlas Mountains Meet the Desert
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] gap-8 px-3 lg:px-14 10 mt-8">
-        <div className="w-full flex flex-col justify-start items-start gap-24">
+        <div className="w-full flex flex-col justify-start items-start gap-0.5">
           <Image
             src="/images/boutique-hotel-lalla-takerkoust-lake-view.webp"
             alt="Exterior of Casa Lalla Hotel Rural overlooking the shimmering waters of Lake Lalla Takerkoust."
@@ -22,7 +23,7 @@ const Content = () => {
             loading="lazy"
             width={500}
             height={500}
-            className="object-cover w-full h-125"
+            className="object-cover w-full h-120 lg:h-110 rounded-xl"
           />
           <Image
             src="/images/patio-sofas-lounge-boutique-hotel-marrakech.webp"
@@ -31,7 +32,7 @@ const Content = () => {
             loading="lazy"
             width={500}
             height={500}
-            className="object-cover w-full h-125"
+            className="object-cover w-full h-120 lg:h-110 rounded-xl"
           />
           <Image
             src="/images/retro-bohemian-room-boutique-hotel-agafay.webp"
@@ -40,7 +41,7 @@ const Content = () => {
             loading="lazy"
             width={500}
             height={500}
-            className="object-cover w-full h-125"
+            className="object-cover w-full h-120 lg:h-110 rounded-xl"
           />
         </div>
         <div className="w-full flex flex-col justify-start items-center text-left gap-10">
@@ -103,8 +104,9 @@ const Content = () => {
               </li>
             </ul>
           </div>
+          <ImageSlider />
         </div>
-        <div className="w-full flex flex-col justify-start items-start gap-24">
+        <div className="w-full flex flex-col justify-start items-start gap-0.5">
           <Image
             src="/images/sunset-golden-hour-hotel-rural-lalla-takerkoust.webp"
             alt="Warm golden hour sunlight bathing the tranquil courtyards of Casa Lalla Hotel Rural."
@@ -112,7 +114,7 @@ const Content = () => {
             loading="lazy"
             width={500}
             height={500}
-            className="object-cover w-full h-125"
+            className="object-cover w-full h-120 lg:h-110 rounded-xl"
           />
           <Image
             src="/images/vintage-moroccan-decor-room-marrakech-getaway.webp"
@@ -121,7 +123,7 @@ const Content = () => {
             loading="lazy"
             width={500}
             height={500}
-            className="object-cover w-full h-125"
+            className="object-cover w-full h-120 lg:h-110 rounded-xl"
           />
           <Image
             src="/images/atlas-mountains-view-hotel-getaway-marrakech.webp"
@@ -130,7 +132,7 @@ const Content = () => {
             loading="lazy"
             width={500}
             height={500}
-            className="object-cover w-full h-125"
+            className="object-cover w-full h-120 lg:h-110 rounded-xl"
           />
         </div>
       </div>
