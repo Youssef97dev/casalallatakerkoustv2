@@ -99,6 +99,9 @@ const Navbar = ({ path, change = false }) => {
               <Link href="/fr/restaurant-casa-lalla">Restaurant</Link>
             </li>
             <li>
+              <Link href="/fr/rural-hotel">Hôtel Rural</Link>
+            </li>
+            <li>
               <Link href="/fr/private-events">Événements privés</Link>
             </li>
             <li>
@@ -172,6 +175,9 @@ const Navbar = ({ path, change = false }) => {
             </li>
             <li className="">
               <Link href="/fr/restaurant-casa-lalla">{"Restaurant"}</Link>
+            </li>
+            <li>
+              <Link href="/fr/rural-hotel">Hôtel Rural</Link>
             </li>
             <li className="">
               <Link href="/fr/private-events">{"Événements privés"}</Link>
