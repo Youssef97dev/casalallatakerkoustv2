@@ -39,9 +39,9 @@ const Content = () => {
             className="object-cover w-full h-120 lg:h-110 rounded-xl"
           />
           <Image
-            src="/images/retro-bohemian-room-boutique-hotel-agafay.webp"
-            alt="Chambre d'hôtes spacieuse au style rétro-bohème alliant chaleur vintage et élégance discrète."
-            title="Chambre d'Hôtes Rétro-Bohème — Région Agafay"
+            src="/images/relaxing-sunbeds-poolside-hotel-lalla-takerkoust.webp"
+            alt="Transats confortables alignés au bord de la piscine invitant les clients à se détendre et ralentir."
+            title="Transats et Détente au Bord de la Piscine"
             loading="lazy"
             width={500}
             height={500}

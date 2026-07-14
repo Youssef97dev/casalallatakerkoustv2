@@ -60,9 +60,9 @@ const sitePages = [
         title: "Morning Poolside Breakfast",
       },
       {
-        image: "/images/relaxing-sunbeds-poolside-hotel-lalla-takerkoust.webp",
-        alt: "Plush sunbeds aligned by the poolside inviting guests to unwind and slow down.",
-        title: "Poolside Sunbeds & Relaxation",
+        image: "/images/hotel-de-charme-marrakech-chambre-retro-boheme.webp",
+        alt: "Spacious retro-bohemian guest room blending vintage Moroccan warmth and understated elegance at Casa Lalla Hotel Rural.",
+        title: "Boutique Hotel Room",
       },
       {
         image: "/images/romantic-night-ambiance-boutique-hotel-marrakech.webp",
@@ -521,9 +521,9 @@ const sitePages = [
         title: "Atlas Mountains View Hotel",
       },
       {
-        image: "/images/hotel-de-charme-marrakech-chambre-retro-boheme.webp",
-        alt: "Spacious retro-bohemian guest room blending vintage Moroccan warmth and understated elegance at Casa Lalla Hotel Rural.",
-        title: "Boutique Hotel Room",
+        image: "/images/relaxing-sunbeds-poolside-hotel-lalla-takerkoust.webp",
+        alt: "Plush sunbeds aligned by the poolside inviting guests to unwind and slow down.",
+        title: "Poolside Sunbeds & Relaxation",
       },
       {
         image: "/images/hotel-vue-lac-lalla-takerkoust-marrakech.webp",

@@ -35,9 +35,9 @@ const Content = () => {
             className="object-cover w-full h-120 lg:h-110 rounded-xl"
           />
           <Image
-            src="/images/retro-bohemian-room-boutique-hotel-agafay.webp"
-            alt="Spacious retro-bohemian guest room blending vintage warmth with understated elegance at Casa Lalla."
-            title="Retro-Bohemian Guest Room — Agafay Area"
+            src="/images/relaxing-sunbeds-poolside-hotel-lalla-takerkoust.webp"
+            alt="Plush sunbeds aligned by the poolside inviting guests to unwind and slow down."
+            title="Poolside Sunbeds & Relaxation"
             loading="lazy"
             width={500}
             height={500}
