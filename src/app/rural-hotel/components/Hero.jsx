@@ -35,14 +35,14 @@ export default function Hero() {
 
             <div className="flex gap-5 mt-14">
               <Link
-                href="/fr/rural-hotel"
+                href="/rural-hotel/booking"
                 className="bg-[#2D241C] text-white px-8 py-4 rounded-full hover:bg-[#A58D6A] duration-300"
               >
                 Book your stay
               </Link>
 
               <Link
-                href="#"
+                href="/gallery"
                 className="border border-[#2D241C] px-8 py-4 rounded-full hover:bg-[#2D241C] hover:text-white duration-300"
               >
                 Discover

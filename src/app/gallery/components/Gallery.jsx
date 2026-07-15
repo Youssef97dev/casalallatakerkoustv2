@@ -34,20 +34,67 @@ export default function Gallery({ images, currentPage, totalImages }) {
           ))}
         </div>
 
-        {/* Pagination */}
-
-        <nav className="flex justify-center gap-2 mt-10">
-          {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+        {/* Updated Pagination */}
+        <nav className="flex items-center justify-center gap-3 mt-10 text-sm md:text-base text-gray-700">
+          {/* Previous Link */}
+          {currentPage > 1 ? (
             <Link
-              key={page}
-              href={page === 1 ? "/gallery" : `/gallery/page/${page}`}
-              className={`px-4 py-2 border rounded ${
-                currentPage === page ? "font-bold" : ""
-              }`}
+              href={
+                currentPage === 2
+                  ? "/gallery"
+                  : `/gallery/page/${currentPage - 1}`
+              }
+              className="hover:text-black transition-colors"
             >
-              {page}
+              &larr; Previous
             </Link>
-          ))}
+          ) : (
+            <span className="text-gray-400 cursor-not-allowed">
+              &larr; Previous
+            </span>
+          )}
+
+          <span className="text-gray-300">|</span>
+
+          {/* Page Numbers */}
+          {Array.from({ length: totalPages }, (_, i) => i + 1).map(
+            (page, index) => [
+              <Link
+                key={`page-${page}`}
+                href={page === 1 ? "/gallery" : `/gallery/page/${page}`}
+                className={`transition-colors ${
+                  currentPage === page
+                    ? "font-bold text-black"
+                    : "hover:text-black"
+                }`}
+              >
+                {page}
+              </Link>,
+
+              /* Separator between numbers */
+              index < totalPages - 1 && (
+                <span key={`sep-${page}`} className="text-gray-300">
+                  |
+                </span>
+              ),
+            ]
+          )}
+
+          <span className="text-gray-300">|</span>
+
+          {/* Next Link */}
+          {currentPage < totalPages ? (
+            <Link
+              href={`/gallery/page/${currentPage + 1}`}
+              className="hover:text-black transition-colors"
+            >
+              Next &rarr;
+            </Link>
+          ) : (
+            <span className="text-gray-400 cursor-not-allowed">
+              Next &rarr;
+            </span>
+          )}
         </nav>
       </section>
     </>

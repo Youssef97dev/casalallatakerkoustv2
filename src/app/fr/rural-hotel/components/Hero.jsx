@@ -45,7 +45,7 @@ export default function Hero() {
               </Link>
 
               <Link
-                href="#"
+                href="/fr/gallery"
                 className="border border-[#2D241C] px-8 py-4 rounded-full hover:bg-[#2D241C] hover:text-white duration-300"
               >
                 Découvrir
