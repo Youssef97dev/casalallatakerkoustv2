@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://casalallatakerkoust.com/gallery/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-20</lastmod>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/restaurant-casa-lalla-takerkoust-terrace-lake-view.webp</image:loc>
+      <image:caption>Outdoor dining table on the terrace at Casa Lalla Takerkoust restaurant with panoramic views of Lake Takerkoust and the Atlas Mountains | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Restaurant Terrace &amp; Lake View — Casa Lalla Takerkoust</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/restaurant-marocain-casa-lalla-takerkoust-cuisine-marrakech.webp</image:loc>
+      <image:caption>Traditional Moroccan tagine and refined local cuisine served at Casa Lalla Takerkoust restaurant near Marrakesh | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Refined Moroccan Cuisine — Restaurant Casa Lalla Takerkoust</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/restaurant-casa-lalla-takerkoust-sunset-dining-marrakech.webp</image:loc>
+      <image:caption>Elegant table setting for lunch and sunset dining at Casa Lalla Takerkoust restaurant overlooking the water | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Sunset Dining Experience — Casa Lalla Takerkoust</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
     <image:image>
       <image:loc>https://casalallatakerkoust.com/images/petit-dejeuner-piscine-hotel-lalla-takerkoust.webp</image:loc>
       <image:caption>Fresh morning breakfast served by the poolside at Casa Lalla Hotel Rural overlooking Lake Takerkoust. | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>

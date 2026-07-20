@@ -19,9 +19,27 @@ const sitePages = [
   // --- ENGLISH PAGES ---
   {
     pageUrl: "/gallery/",
-    lastmod: "2026-07-13",
+    lastmod: "2026-07-20",
     priority: "1.0",
     images: [
+      {
+        image:
+          "/images/restaurant-casa-lalla-takerkoust-terrace-lake-view.webp",
+        alt: "Outdoor dining table on the terrace at Casa Lalla Takerkoust restaurant with panoramic views of Lake Takerkoust and the Atlas Mountains",
+        title: "Restaurant Terrace & Lake View — Casa Lalla Takerkoust",
+      },
+      {
+        image:
+          "/images/restaurant-marocain-casa-lalla-takerkoust-cuisine-marrakech.webp",
+        alt: "Traditional Moroccan tagine and refined local cuisine served at Casa Lalla Takerkoust restaurant near Marrakesh",
+        title: "Refined Moroccan Cuisine — Restaurant Casa Lalla Takerkoust",
+      },
+      {
+        image:
+          "/images/restaurant-casa-lalla-takerkoust-sunset-dining-marrakech.webp",
+        alt: "Elegant table setting for lunch and sunset dining at Casa Lalla Takerkoust restaurant overlooking the water",
+        title: "Sunset Dining Experience — Casa Lalla Takerkoust",
+      },
       {
         image: "/images/petit-dejeuner-piscine-hotel-lalla-takerkoust.webp",
         alt: "Fresh morning breakfast served by the poolside at Casa Lalla Hotel Rural overlooking Lake Takerkoust.",

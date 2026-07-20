@@ -12,7 +12,7 @@ export default function Gallery({ images, currentPage, totalImages }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-[1.5px]">
           {images.map((image, index) => (
             <figure key={image.image} className="flex flex-col">
-              <div className="relative w-full h-[65vh]">
+              <div className="group relative overflow-hidden shadow-sm transition-all duration-500 bg-[#E5DCC8]/30 border border-[#E5DCC8] rounded-xl h-[75vh] lg:h-[65vh]">
                 <Image
                   src={image.image}
                   alt={image.altFr}
@@ -25,7 +25,7 @@ export default function Gallery({ images, currentPage, totalImages }) {
                     (max-width:1024px) 50vw,
                     25vw
                   "
-                  className={`object-cover lg:rounded-md ${image.class}`}
+                  className={`object-cover transition-transform duration-700 ease-out group-hover:scale-105 ${image.class}`}
                 />
               </div>
 

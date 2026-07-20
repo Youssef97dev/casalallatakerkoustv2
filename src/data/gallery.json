@@ -1,5 +1,21 @@
 [
   {
+    "image": "/images/restaurant-casa-lalla-takerkoust-terrace-lake-view.webp",
+    "altEn": "Outdoor dining table on the terrace at Casa Lalla Takerkoust restaurant with panoramic views of Lake Takerkoust and the Atlas Mountains",
+    "titleEn": "Restaurant Terrace & Lake View — Casa Lalla Takerkoust",
+    "altFr": "Table de restaurant en terrasse à Casa Lalla Takerkoust avec vue panoramique sur le lac Takerkoust et les montagnes de l'Atlas",
+    "titleFr": "Restaurant Terrasse Vue Lac — Casa Lalla Takerkoust",
+    "class": "object-center"
+  },
+  {
+    "image": "/images/restaurant-marocain-casa-lalla-takerkoust-cuisine-marrakech.webp",
+    "altEn": "Traditional Moroccan tagine and refined local cuisine served at Casa Lalla Takerkoust restaurant near Marrakesh",
+    "titleEn": "Refined Moroccan Cuisine — Restaurant Casa Lalla Takerkoust",
+    "altFr": "Tajine marocain traditionnel et cuisine gastronomique servis au restaurant Casa Lalla Takerkoust près de Marrakech",
+    "titleFr": "Cuisine Marocaine Raffinée — Restaurant Casa Lalla Takerkoust",
+    "class": "object-center"
+  },
+  {
     "image": "/images/petit-dejeuner-piscine-hotel-lalla-takerkoust.webp",
     "altEn": "Fresh morning breakfast served by the poolside at Casa Lalla Hotel Rural overlooking Lake Takerkoust.",
     "titleEn": "Morning Poolside Breakfast — Casa Lalla Hotel",
@@ -125,6 +141,14 @@
     "titleEn": "Romantic Couples Dining in Morocco",
     "altFr": "Couple profitant d'un dîner romantique de luxe avec vue sur le coucher de soleil près du désert d'Agafay",
     "titleFr": "Dîner Romantique pour Couples au Maroc",
+    "class": "object-center"
+  },
+  {
+    "image": "/images/restaurant-casa-lalla-takerkoust-sunset-dining-marrakech.webp",
+    "altEn": "Elegant table setting for lunch and sunset dining at Casa Lalla Takerkoust restaurant overlooking the water",
+    "titleEn": "Sunset Dining Experience — Casa Lalla Takerkoust",
+    "altFr": "Table dressée élégante pour le déjeuner et le dîner au coucher du soleil au restaurant Casa Lalla Takerkoust surplombant l'eau",
+    "titleFr": "Déjeuner et Dîner au Coucher du Soleil — Casa Lalla Takerkoust",
     "class": "object-center"
   },
   {
