@@ -2,8 +2,7 @@ import React from "react";
 import Loader from "./components/Loader";
 
 export const metadata = {
-  title:
-    "Casa Lalla Takerkoust | Restaurant & Expériences au Lac de Takerkoust Style Ibiza Mykonos",
+  title: "Casa Lalla Takerkoust | Là où l’Atlas rencontre l’eau",
   description:
     "Découvrez Casa Lalla Takerkoust, restaurant et lieu d'expériences au bord du lac de Takerkoust près de Marrakech. Cuisine marocaine raffinée, activités et événements avec vue sur l'Atlas et le désert d'Agafay.",
   alternates: {
