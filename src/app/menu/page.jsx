@@ -18,7 +18,7 @@ export const metadata = {
 };
 
 const page = () => {
-  return <PdfViewerClient file="/menu/menu-casalalla-anglais.pdf" />;
+  return <PdfViewerClient file="/menu/menu-casalalla-anglais-sans-prix.pdf" />;
 };
 
 export default page;
