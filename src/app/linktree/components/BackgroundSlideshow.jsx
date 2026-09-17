@@ -8,6 +8,8 @@ import { useEffect, useState } from "react";
  * Put your photos in /public/linktree/ and list them below (or pass `images`).
  */
 const DEFAULT_IMAGES = [
+  "/menu/image-17.jpeg",
+  "/menu/image-18.jpeg",
   "/menu/image-3.jpeg",
   "/menu/image-5.jpeg",
   "/menu/image-6.jpeg",
@@ -20,8 +22,6 @@ const DEFAULT_IMAGES = [
   "/menu/image-12.jpeg",
   "/menu/image-15.jpeg",
   "/menu/image-16.jpeg",
-  "/menu/image-17.jpeg",
-  "/menu/image-18.jpeg",
 ];
 
 const BackgroundSlideshow = ({ images = DEFAULT_IMAGES, interval = 4000 }) => {
@@ -75,6 +75,9 @@ const BackgroundSlideshow = ({ images = DEFAULT_IMAGES, interval = 4000 }) => {
           />
         </div>
       ))}
+
+      {/* Darkens just the top so the logo/avatar stays readable, leaves the rest of the photo untouched */}
+      <div className="absolute inset-0 bg-linear-to-b from-black/70 via-black/10 to-transparent" />
     </div>
   );
 };

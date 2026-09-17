@@ -43,12 +43,12 @@ const LinkTree = () => {
       {/* Avatar */}
       <div className="mb-5 flex justify-center drop-shadow-sm">
         <div className="rounded-full p-0.5">
-          <div className="h-28 w-28 overflow-hidden">
+          <div className="h-40 w-40 overflow-hidden">
             <Image
-              src="/casa-lalla-background-new.png"
+              src="/casa-lalla-logo-white.png"
               alt="Casa Lalla Takerkoust"
-              width={112}
-              height={112}
+              width={1000}
+              height={1000}
               priority
               className="h-full w-full object-cover"
             />
@@ -56,16 +56,16 @@ const LinkTree = () => {
         </div>
       </div>
 
-      {/* Name */}
+      {/* Name 
       <h1 className="text-center text-2xl font-light tracking-wide drop-shadow-sm">
         Enjoy Marrakech
       </h1>
       <p className="mt-1 text-center text-sm font-light text-white/75 drop-shadow-sm">
         with us
-      </p>
+      </p>*/}
 
       {/* Links */}
-      <nav className="mt-8 flex flex-col gap-3">
+      <nav className="mt-20 flex flex-col gap-3">
         {links.map(({ label, href, icon: Icon, external }) => (
           <Link
             key={label}
