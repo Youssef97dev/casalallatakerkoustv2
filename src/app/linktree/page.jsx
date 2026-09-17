@@ -1,11 +1,12 @@
-import React from "react";
+import BackgroundSlideshow from "./components/BackgroundSlideshow";
 import LinkTree from "./components/LinkTree";
 
 const page = () => {
   return (
-    <div className="p-5 flex flex-col justify-center items-center pb-14 bg-casa-background-opacity h-screen">
+    <main className="relative flex min-h-[100dvh] flex-col items-center justify-center overflow-hidden p-5">
+      <BackgroundSlideshow />
       <LinkTree />
-    </div>
+    </main>
   );
 };
 
