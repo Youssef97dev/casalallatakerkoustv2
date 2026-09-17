@@ -25,7 +25,7 @@ const DEFAULT_IMAGES = [
   "/menu/image-16.jpeg",
 ];
 
-const BackgroundSlideshow = ({ images = DEFAULT_IMAGES, interval = 6000 }) => {
+const BackgroundSlideshow = ({ images = DEFAULT_IMAGES, interval = 4000 }) => {
   const [index, setIndex] = useState(0);
   // Start "false" on both server and client render -> no mismatch.
   // Flip it after mount, once we can safely read matchMedia.
@@ -70,15 +70,12 @@ const BackgroundSlideshow = ({ images = DEFAULT_IMAGES, interval = 6000 }) => {
             fill
             priority={i === 0}
             sizes="100vw"
-            className={`object-cover transition-transform duration-[7000ms] ease-out ${
+            className={`object-cover transition-transform duration-4000 ease-out ${
               allowZoom && i === index ? "scale-110" : "scale-100"
             }`}
           />
         </div>
       ))}
-
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/35 to-black/75" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_35%,rgba(0,0,0,0.55)_100%)]" />
     </div>
   );
 };
