@@ -8,21 +8,20 @@ import { useEffect, useState } from "react";
  * Put your photos in /public/linktree/ and list them below (or pass `images`).
  */
 const DEFAULT_IMAGES = [
-  "/menu/image-1.jpeg",
-  "/menu/image-2.jpeg",
   "/menu/image-3.jpeg",
-  "/menu/image-4.jpeg",
   "/menu/image-5.jpeg",
   "/menu/image-6.jpeg",
-  "/menu/image-7.jpeg",
   "/menu/image-8.jpeg",
+  "https://purehouseonthelake.com/_next/image?url=%2Fimages%2Fagafay-desert-luxury-icon.webp&w=384&q=75",
+  "https://purehouseonthelake.com/_next/image?url=%2Fimages%2Fagafay-desert-signature-experience.webp&w=384&q=75",
   "/menu/image-9.jpeg",
   "/menu/image-10.jpeg",
   "/menu/image-11.jpeg",
   "/menu/image-12.jpeg",
-  "/menu/image-13.jpeg",
   "/menu/image-15.jpeg",
   "/menu/image-16.jpeg",
+  "/menu/image-17.jpeg",
+  "/menu/image-18.jpeg",
 ];
 
 const BackgroundSlideshow = ({ images = DEFAULT_IMAGES, interval = 4000 }) => {
