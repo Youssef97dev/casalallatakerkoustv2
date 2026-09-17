@@ -26,18 +26,20 @@ const links = [
 
 const LinkTree = () => {
   return (
-    <div className="w-full max-w-sm rounded-4xl   p-8 text-white  bg-transparent">
+    <div className="w-full max-w-sm rounded-4xl p-8 text-white backdrop-saturate-150">
       {/* Avatar */}
       <div className="mb-5 flex justify-center">
         <div className="rounded-full p-0.5 ring-1 ring-white/40">
-          <Image
-            src="/logos/casalalla-takerkoust-logo.png"
-            alt="Casa Lalla Takerkoust"
-            width={500}
-            height={500}
-            priority
-            className="h-28 w-28 rounded-full bg-casa-background/80 object-cover"
-          />
+          <div className="h-28 w-28 overflow-hidden rounded-full bg-casa-background/80">
+            <Image
+              src="/logos/casalalla-takerkoust-logo.png"
+              alt="Casa Lalla Takerkoust"
+              width={112}
+              height={112}
+              priority
+              className="h-full w-full object-cover"
+            />
+          </div>
         </div>
       </div>
 
@@ -58,7 +60,7 @@ const LinkTree = () => {
             {...(external
               ? { target: "_blank", rel: "noopener noreferrer" }
               : {})}
-            className="group relative flex items-center justify-center rounded-xl border border-white/25 bg-white/10 py-3.5 text-[15px] font-light text-white shadow-lg backdrop-blur-md transition duration-300 ease-out hover:-translate-y-0.5 hover:border-white/40 hover:bg-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 motion-reduce:transform-none"
+            className="group relative flex items-center justify-center rounded-xl border border-white/25 bg-white/10 py-3.5 text-[15px] font-light text-white transition duration-300 ease-out hover:-translate-y-0.5 hover:border-white/40 hover:bg-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 motion-reduce:transform-none shadow-[0_20px_60px_-15px_rgba(0,0,0,0.6)] backdrop-blur-4xl"
           >
             <Icon className="absolute left-6 text-lg opacity-90 transition-opacity group-hover:opacity-100" />
             <span className="pt-0.5">{label}</span>

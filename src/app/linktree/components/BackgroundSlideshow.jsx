@@ -27,9 +27,10 @@ const DEFAULT_IMAGES = [
 
 const BackgroundSlideshow = ({ images = DEFAULT_IMAGES, interval = 6000 }) => {
   const [index, setIndex] = useState(0);
-  const [allowZoom, setAllowZoom] = useState(true);
+  // Start "false" on both server and client render -> no mismatch.
+  // Flip it after mount, once we can safely read matchMedia.
+  const [allowZoom, setAllowZoom] = useState(false);
 
-  // The slideshow ALWAYS runs. Only the Ken Burns zoom respects reduced motion.
   useEffect(() => {
     const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
     const sync = () => setAllowZoom(!mq.matches);
@@ -48,17 +49,20 @@ const BackgroundSlideshow = ({ images = DEFAULT_IMAGES, interval = 6000 }) => {
   }, [images.length, interval]);
 
   return (
-    <div className="absolute inset-0 z-0 overflow-hidden bg-casa-black">
+    <div
+      className="absolute inset-0 z-0 overflow-hidden bg-casa-black"
+      suppressHydrationWarning
+    >
       {images.map((src, i) => (
         <div
           key={src}
           aria-hidden="true"
+          className="absolute inset-0"
           style={{
             opacity: i === index ? 1 : 0,
             transition: "opacity 2000ms ease-in-out",
-            transform: "translateZ(0)",
           }}
-          className="absolute inset-0"
+          suppressHydrationWarning
         >
           <Image
             src={src}
@@ -66,20 +70,14 @@ const BackgroundSlideshow = ({ images = DEFAULT_IMAGES, interval = 6000 }) => {
             fill
             priority={i === 0}
             sizes="100vw"
-            style={{
-              transform: allowZoom
-                ? i === index
-                  ? "scale(1.12) translateZ(0)"
-                  : "scale(1) translateZ(0)"
-                : "translateZ(0)",
-              transition: allowZoom ? "transform 7000ms ease-out" : "none",
-            }}
-            className="object-cover"
+            className={`object-cover transition-transform duration-[7000ms] ease-out ${
+              allowZoom && i === index ? "scale-110" : "scale-100"
+            }`}
           />
         </div>
       ))}
 
-      <div className="absolute inset-0 bg-linear-to-b from-black/60 via-black/35 to-black/75" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/35 to-black/75" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_35%,rgba(0,0,0,0.55)_100%)]" />
     </div>
   );
