@@ -8,6 +8,14 @@ import { useEffect, useState } from "react";
  * Put your photos in /public/linktree/ and list them below (or pass `images`).
  */
 const DEFAULT_IMAGES = [
+  "/menu/image-1.jpeg",
+  "/menu/image-2.jpeg",
+  "/menu/image-3.jpeg",
+  "/menu/image-4.jpeg",
+  "/menu/image-5.jpeg",
+  "/menu/image-6.jpeg",
+  "/menu/image-7.jpeg",
+  "/menu/image-8.jpeg",
   "/menu/image-9.jpeg",
   "/menu/image-10.jpeg",
   "/menu/image-11.jpeg",
@@ -19,11 +27,19 @@ const DEFAULT_IMAGES = [
 
 const BackgroundSlideshow = ({ images = DEFAULT_IMAGES, interval = 6000 }) => {
   const [index, setIndex] = useState(0);
+  const [allowZoom, setAllowZoom] = useState(true);
+
+  // The slideshow ALWAYS runs. Only the Ken Burns zoom respects reduced motion.
+  useEffect(() => {
+    const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const sync = () => setAllowZoom(!mq.matches);
+    sync();
+    mq.addEventListener("change", sync);
+    return () => mq.removeEventListener("change", sync);
+  }, []);
 
   useEffect(() => {
     if (images.length < 2) return;
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-
     const id = setInterval(
       () => setIndex((i) => (i + 1) % images.length),
       interval
@@ -32,14 +48,17 @@ const BackgroundSlideshow = ({ images = DEFAULT_IMAGES, interval = 6000 }) => {
   }, [images.length, interval]);
 
   return (
-    <div className="fixed inset-0 -z-10 overflow-hidden bg-casa-black">
+    <div className="absolute inset-0 z-0 overflow-hidden bg-casa-black">
       {images.map((src, i) => (
         <div
           key={src}
           aria-hidden="true"
-          className={`absolute inset-0 transition-opacity duration-2000 ease-in-out ${
-            i === index ? "opacity-100" : "opacity-0"
-          }`}
+          style={{
+            opacity: i === index ? 1 : 0,
+            transition: "opacity 2000ms ease-in-out",
+            transform: "translateZ(0)",
+          }}
+          className="absolute inset-0"
         >
           <Image
             src={src}
@@ -47,14 +66,19 @@ const BackgroundSlideshow = ({ images = DEFAULT_IMAGES, interval = 6000 }) => {
             fill
             priority={i === 0}
             sizes="100vw"
-            className={`object-cover transition-transform duration-7000 ease-out will-change-transform ${
-              i === index ? "scale-110" : "scale-100"
-            }`}
+            style={{
+              transform: allowZoom
+                ? i === index
+                  ? "scale(1.12) translateZ(0)"
+                  : "scale(1) translateZ(0)"
+                : "translateZ(0)",
+              transition: allowZoom ? "transform 7000ms ease-out" : "none",
+            }}
+            className="object-cover"
           />
         </div>
       ))}
 
-      {/* Readability layer: darker at the edges, lighter in the middle */}
       <div className="absolute inset-0 bg-linear-to-b from-black/60 via-black/35 to-black/75" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_35%,rgba(0,0,0,0.55)_100%)]" />
     </div>
