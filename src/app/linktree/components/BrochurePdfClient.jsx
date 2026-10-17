@@ -3,7 +3,10 @@
 import dynamic from "next/dynamic";
 
 const BrochurePdfViewer = dynamic(
-  () => import("./BrochurePdfViewer").then((mod) => mod.PdfViewer),
+  () =>
+    import("./BrochurePdfViewer").then(
+      (mod) => mod.PdfViewer || mod.BrochurePdfViewer || mod.default
+    ),
   {
     ssr: false,
   }
