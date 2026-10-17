@@ -1,5 +1,7 @@
-import BackgroundSlideshow from "./components/BackgroundSlideshow";
-import LinkTree from "./components/LinkTree";
+//import BackgroundSlideshow from "./components/BackgroundSlideshow";
+//import LinkTree from "./components/LinkTree";
+
+import BrochureContainer from "./components/BrochureContainer";
 
 export const metadata = {
   metadataBase: new URL("https://casalallatakerkoust.com"),
@@ -37,10 +39,13 @@ export const metadata = {
 
 const page = () => {
   return (
-    <main className="relative flex min-h-[100dvh] flex-col items-center justify-center overflow-hidden p-5">
+    <>
+      {/*<main className="relative flex min-h-[100dvh] flex-col items-center justify-center overflow-hidden p-5">
       <BackgroundSlideshow />
       <LinkTree />
-    </main>
+    </main>*/}
+      <BrochureContainer />
+    </>
   );
 };
 
