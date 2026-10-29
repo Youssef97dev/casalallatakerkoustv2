@@ -4,20 +4,20 @@ import Image from "next/image";
 const Intro = () => {
   return (
     <div className="w-full flex flex-col justify-center items-start gap-2 pt-2 pb-20 md:pt-28 md:pb-28 px-5 lg:px-40">
-      <h1 className="text-[40px] leading-15 2xl:text-[60px] 2xl:leading-20 font-canela font-thin text-casa-black">
+      <h2 className="text-[40px] leading-15 2xl:text-[60px] 2xl:leading-20 font-canela font-thin text-casa-black">
         {"Exquisite cuisine and amazing panoramic view"}
-      </h1>
+      </h2>
       <p className="text-[25px] leading-11.25 2xl:text-[40px] 2xl:leading-16.25 font-canela font-thin italic text-justify text-casa-black tracking-wider">
-        Step into our Mediterranean culinary heaven at{" "}
+        Step into our Mediterranean culinary haven at{" "}
         <strong>CASA LALLA TAKERKOUST</strong>,
         <br />a destination that stands out among the most unique{" "}
-        <strong>morrocan restaurants</strong> near the city. Discover Casa Lalla
+        <strong>Moroccan restaurants</strong> near the city. Discover Casa Lalla
         Takerkoust, our charming lakeside retreat offering authentic flavors and
         warm hospitality that rivals the{" "}
-        <strong>best morrocan restaurants</strong> in the region. Whether you
+        <strong>best Moroccan restaurants</strong> in the region. Whether you
         are looking for a tranquil <strong>lunch</strong> or a{" "}
         <strong>sunset</strong> <strong>dinner</strong>, we provide a refined
-        alternative to the busy <strong>restaurants marocain marrakech</strong>,{" "}
+        alternative to the busy <strong>restaurants in Marrakech</strong>,{" "}
         blending fresh local ingredients with a stunning view of the{" "}
         <strong>Atlas Mountains</strong>.
       </p>

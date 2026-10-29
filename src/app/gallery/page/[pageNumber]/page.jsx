@@ -10,6 +10,32 @@ export function generateStaticParams() {
   }));
 }
 
+export async function generateMetadata({ params }) {
+  const { pageNumber } = await params;
+  return {
+    title: `Photo Gallery - Page ${pageNumber} | Casa Lalla Takerkoust`,
+    description: `Explore page ${pageNumber} of the Casa Lalla Takerkoust photo gallery: lakeside dining, bohemian decor, and Atlas Mountain vistas.`,
+    alternates: {
+      canonical: `https://casalallatakerkoust.com/gallery/page/${pageNumber}/`,
+      languages: {
+        en: `https://casalallatakerkoust.com/gallery/page/${pageNumber}/`,
+        fr: `https://casalallatakerkoust.com/fr/gallery/page/${pageNumber}/`,
+        "x-default": `https://casalallatakerkoust.com/gallery/page/${pageNumber}/`,
+      },
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
+    },
+  };
+}
+
 export default async function Page({ params }) {
   const { pageNumber } = await params;
 

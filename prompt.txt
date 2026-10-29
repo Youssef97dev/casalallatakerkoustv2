@@ -1,0 +1,88 @@
+# Task: Full-Project Bilingual (FR/EN) Redesign, Content Cleanup & Technical SEO Overhaul — Casa Lalla Takerkoust
+
+## 1. Context & Mandatory Preparation
+We are executing a complete, site-wide redesign, content cleanup, and technical SEO overhaul for **Casa Lalla Takerkoust** (`https://casalallatakerkoust.com/`).
+Before modifying any files, **you must read and strictly follow all design, architectural, UI/UX, and coding guidelines defined in `skill.md`** in the project. Every page, layout, and component across the entire repository must be brought up to the standards of `skill.md`.
+
+## 2. Global Scope (All Pages, Layouts & Shared Components)
+Apply this redesign and technical update across **the entire project**, including:
+- **Global Layouts & Navigation:** Header, Navbar, Mobile Menu, Language Switcher, Footer, Floating Booking/WhatsApp CTAs.
+- **All Pages (FR & EN):** Homepage, Restaurant / Menu, Experiences / Activities (Jet Ski, Quad, Buggy, Boat, Day Pass, Pool), Events / Private Hire, Gallery, About, Contact / Reservation, and 404/Error pages.
+- **Privacy Policy Page Only:** Politique de Confidentialité (FR) & Privacy Policy (EN) — *do NOT create a "Mentions Légales" page*.
+- **Global SEO & Config Files:** `robots.txt` / `robots.ts`, `sitemap.xml` / `sitemap.ts`, metadata configs, JSON-LD schema components, and i18n/translation dictionaries.
+
+---
+
+## 3. Core Content & UI Fixes (Site-Wide)
+
+### A. 100% Language Separation & Orthography Cleanup (FR & EN)
+- Audit **every page, component, modal, form validation message, and translation file** in the project.
+- **Fix all spelling & grammar errors:** Correct all French orthography, grammar, syntax, and typographic rules (accents on capitals included: `À, É, È`, proper spacing), and refine all English copy so it reads like natural, high-end luxury hospitality writing.
+- **Eliminate Franglais (Zero Language Mixing):** Ensure the French routes (`fr`) contain zero untranslated English strings (buttons, section headers like "Discover our music", form labels, badges, footer links) and the English routes (`en`) contain zero untranslated French strings.
+- **Preserve Core Content:** Keep the existing core storytelling, menu items, and activity offerings, but elevate the formatting and fix every linguistic error.
+
+### B. Fix Broken/Empty Sections ("Discover Our Music" & Media Blocks)
+- Locate the currently empty **"Discover our music"** section (and audit all other pages for empty containers, broken embeds, or missing assets).
+- Either populate the Music section with a refined, minimalist audio/ambiance showcase using existing project assets/links (curated Lake Takerkoust Sunset & Lounge vibe), OR refactor it into a cohesive "Ambiance & Musical Curation" architectural block so there are zero empty or broken sections anywhere on the site.
+
+### C. Single Source of Truth for Opening Hours & Contact Info
+- **Problem:** Opening hours are currently inconsistent across the site.
+- **Fix:** Create or update a single centralized configuration object (e.g., `siteConfig` or global i18n constants) for **Opening Hours**, phone numbers, WhatsApp links, email, and physical address.
+- Replace all hardcoded schedules across the Header, Homepage, Restaurant page, Contact page, Footer, and JSON-LD Schema with this single source of truth so schedules are 100% consistent everywhere in both FR and EN.
+
+### D. TripAdvisor Link Consolidation
+- **Problem:** Two separate TripAdvisor listings exist, diluting reviews.
+- **Fix:** Audit the entire codebase for TripAdvisor URLs or widgets. Ensure **only one single official TripAdvisor URL** is referenced across all footer links, social icons, review badges, and JSON-LD `sameAs` arrays. Remove any secondary or duplicate TripAdvisor URLs.
+
+### E. Inclusive Hospitality & Transparency Policy
+- Integrate a refined, welcoming hospitality charter/note on the Reservation/Contact page, About section, and Footer (in both FR and EN) stating clearly that Casa Lalla Takerkoust welcomes guests of all nationalities—Moroccan residents and international travelers alike—under transparent, unified reservation and family/dress-code guidelines.
+
+### F. Privacy Policy Only (`Politique de Confidentialité` / `Privacy Policy`)
+- **Strict Rule:** Do **NOT** create or link any "Mentions Légales" / "Legal Notice" page. Only include a **Privacy Policy**.
+- Create a clean, minimalist Privacy Policy page (or modal) in both languages:
+  - **FR (`/fr/politique-de-confidentialite` or `/politique-de-confidentialite`):** Covers personal data collected via reservation/contact forms and WhatsApp, how data is used solely for booking management and guest communication, cookie usage, data security, and guest rights regarding their personal data.
+  - **EN (`/en/privacy-policy` or `/privacy-policy`):** Full English equivalent.
+- Add the link (`Politique de Confidentialité` in FR / `Privacy Policy` in EN) cleanly in the global Footer across all pages.
+
+---
+
+## 4. Site-Wide Technical SEO & Indexing Overhaul
+
+1. **Fix Google Indexing Blockers Immediately:**
+   - Audit all layouts, `<head>` tags, `next.config` / headers, and meta tags for any accidental `noindex` or `nofollow` directives. Explicitly enforce `index, follow, max-image-preview:large, max-snippet:-1`.
+   - Generate or fix `robots.txt` (`robots.ts`) to allow all crawlers and point to `https://casalallatakerkoust.com/sitemap.xml`.
+   - Generate a dynamic, complete bilingual `sitemap.xml` (`sitemap.ts`) listing every valid FR and EN route with proper `xhtml:link` hreflang alternates and `lastmod` dates.
+
+2. **Per-Page Bilingual Metadata & Canonical Architecture:**
+   - Every single page in the project must have unique, keyword-optimized `<title>` and `<meta name="description">` tags in both FR and EN (targeting *Restaurant Lalla Takerkoust, Vue Lac Marrakech, Jet Ski & Quad Lalla Takerkoust, Day Pass Piscine, Événements Privés Marrakech*).
+   - Every page must output strict self-referencing `<link rel="canonical">` tags and bidirectional `hreflang="fr"`, `hreflang="en"`, and `hreflang="x-default"` tags.
+   - Include complete OpenGraph (`og:title`, `og:description`, `og:image`, `og:locale`, `og:url`) and Twitter Card tags for every route.
+
+3. **Semantic HTML & Accessibility Across All Pages:**
+   - Enforce strict heading hierarchy on every page: **exactly one `<h1>`** per page matching the page's primary intent, followed by logical `<h2>` and `<h3>` subheadings.
+   - Add descriptive, localized (FR/EN) `alt` attributes to every `<img>` / `<Image>` across the entire project.
+   - Ensure all interactive elements (buttons, language switchers, mobile drawers, booking links) have proper `aria-label` attributes.
+
+4. **Site-Wide Structured Data (JSON-LD Schema):**
+   - Implement rich JSON-LD structured data:
+     - **Global / Homepage & Restaurant:** `Restaurant` and `LocalBusiness` schema (exact geo-coordinates for Lalla Takerkoust, unified `openingHoursSpecification`, priceRange, telephone, menu link, `sameAs` with the single TripAdvisor URL + Instagram).
+     - **Activities / Experiences Page:** `TouristAttraction` or `OfferCatalog` schema for Jet Ski, Quad, Boat, and Day Pass packages.
+     - **Inner Pages:** `BreadcrumbList` schema for clean search appearance in Google SERPs.
+
+---
+
+## 5. Minimalist Luxury Redesign Standards (Strictly per `skill.md`)
+- Apply the visual language defined in `skill.md` uniformly across **every route** so the transition from Homepage to Menu, Activities, Gallery, Contact, and Privacy Policy feels seamless.
+- **Design Aesthetic:** High-end Mediterranean/Moroccan lakeside minimalism—warm organic tones (travertine, sand, linen), high-contrast editorial typography, refined spacing, subtle animations, and zero visual clutter.
+- **Core Web Vitals (LCP, CLS, INP):**
+  - Priority-load above-the-fold Hero visuals on each page; lazy-load all below-the-fold media.
+  - Enforce explicit aspect ratios / dimensions on all images and embeds to keep CLS at `0`.
+  - Keep client-side JavaScript minimal and fast.
+
+---
+
+## 6. Execution Plan (Step-by-Step)
+1. **Audit Phase:** Read `skill.md`, scan the entire repository structure, list all existing pages/routes, and output a brief diagnostic report of all indexing issues, broken sections, inconsistent hours, and language errors found across the project.
+2. **Global Foundation:** Create/update the centralized site config (opening hours, contact details, single TripAdvisor link, SEO defaults) and global layout components (Header, Footer, Privacy Policy route, SEO/Schema helpers).
+3. **Page-by-Page Redesign & Content Fix:** Systematically redesign and clean up every page in both **FR** and **EN**, ensuring 100% adherence to `skill.md`, zero spelling errors, and zero language mixing.
+4. **SEO & Build Verification:** Update `robots`, `sitemap`, per-page metadata, and JSON-LD schemas. Run the project build/typecheck to confirm zero errors, and provide a complete summary of every file created or modified.

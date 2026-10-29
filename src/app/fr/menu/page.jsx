@@ -2,24 +2,69 @@ import PdfViewerClient from "./components/PdfClient";
 
 export const metadata = {
   title:
-    "La Carte | Casa Lalla Takerkoust | Restaurant Marocain & Ibiza Style près de Marrakech",
+    "La Carte du Restaurant | Casa Lalla Takerkoust près de Marrakech",
   description:
-    "Découvrez la carte de Casa Lalla Takerkoust, restaurant marocain près de Marrakech. Cuisine raffinée à base de produits frais locaux, avec vue sur le lac de Takerkoust et l’Atlas, dans une ambiance Ibiza style unique.",
+    "Découvrez la carte de Casa Lalla Takerkoust : cuisine marocaine et méditerranéenne raffinée, produits locaux frais, pastilla, couscous safrané et vue sur le lac.",
   alternates: {
     canonical: "https://casalallatakerkoust.com/fr/menu/",
+    languages: {
+      en: "https://casalallatakerkoust.com/menu/",
+      fr: "https://casalallatakerkoust.com/fr/menu/",
+      "x-default": "https://casalallatakerkoust.com/menu/",
+    },
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
   openGraph: {
-    title: "La Carte | Casa Lalla Takerkoust | Ibiza Style & Cuisine Marocaine",
+    title:
+      "La Carte du Restaurant | Casa Lalla Takerkoust près de Marrakech",
     description:
-      "Explorez la carte du restaurant Casa Lalla Takerkoust près de Marrakech. Plats marocains raffinés, produits frais et ambiance Ibiza style au bord du lac de Takerkoust.",
+      "Explorez la carte du restaurant Casa Lalla Takerkoust près de Marrakech. Plats marocains raffinés, produits frais et ambiance au bord du lac de Takerkoust.",
     url: "https://casalallatakerkoust.com/fr/menu/",
     siteName: "Casa Lalla Takerkoust",
+    locale: "fr_FR",
+    alternateLocale: ["en_US"],
     type: "website",
   },
 };
 
 const page = () => {
-  return <PdfViewerClient file="/menu/menu-casalalla-francais.pdf" />;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Accueil",
+        item: "https://casalallatakerkoust.com/fr/",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "La Carte",
+        item: "https://casalallatakerkoust.com/fr/menu/",
+      },
+    ],
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <PdfViewerClient file="/menu/menu-casalalla-francais.pdf" />
+    </>
+  );
 };
 
 export default page;

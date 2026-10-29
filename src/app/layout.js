@@ -1,5 +1,4 @@
 import localFont from "next/font/local";
-import Head from "next/head";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
@@ -113,68 +112,24 @@ export const metadata = {
     locale: "en_US",
     type: "website",
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
   metadataBase: new URL("https://casalallatakerkoust.com"),
 };
 
 export default function RootLayout({ children }) {
   return (
     <html
+      lang="en"
       className={`${aktivGrotesk.variable} ${canela.variable} ${lora.variable}`}
       data-scroll-behavior="smooth"
     >
-      <Head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Restaurant",
-              name: "Casa Lalla Takerkoust",
-              image:
-                "https://casalallatakerkoust.com/casalalla-takerkoust-agafay-vibes.jpg",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "Lalla Takerkoust",
-                addressLocality: "Marrakech",
-                postalCode: "40000",
-                addressCountry: "MA",
-              },
-              geo: {
-                "@type": "GeoCoordinates",
-                latitude: 31.352234464303265,
-                longitude: -8.131036157671632,
-              },
-              url: "https://casalallatakerkoust.com",
-              telephone: "+212675480103",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "Marrakech",
-                addressCountry: "MA",
-              },
-              servesCuisine: ["Marocaine", "Internationale"],
-              sameAs: ["https://www.instagram.com/casa.lalla.takerkoust/"],
-              openingHoursSpecification: [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  dayOfWeek: [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday",
-                  ],
-                  opens: "13:00",
-                  closes: "17:00",
-                },
-              ],
-              menu: "https://casalallatakerkoust.com",
-              acceptsReservations: "True",
-            }),
-          }}
-        />
-      </Head>
       <body>{children}</body>
       <GoogleAnalytics gaId="G-1GSVC5EJ1N" />
     </html>

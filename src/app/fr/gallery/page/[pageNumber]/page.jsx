@@ -10,6 +10,32 @@ export function generateStaticParams() {
   }));
 }
 
+export async function generateMetadata({ params }) {
+  const { pageNumber } = await params;
+  return {
+    title: `Galerie Photos - Page ${pageNumber} | Casa Lalla Takerkoust`,
+    description: `Découvrez la page ${pageNumber} de la galerie de Casa Lalla Takerkoust : restaurant au bord du lac, décor bohème et vue panoramique sur l'Atlas.`,
+    alternates: {
+      canonical: `https://casalallatakerkoust.com/fr/gallery/page/${pageNumber}/`,
+      languages: {
+        en: `https://casalallatakerkoust.com/gallery/page/${pageNumber}/`,
+        fr: `https://casalallatakerkoust.com/fr/gallery/page/${pageNumber}/`,
+        "x-default": `https://casalallatakerkoust.com/gallery/page/${pageNumber}/`,
+      },
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
+    },
+  };
+}
+
 export default async function Page({ params }) {
   const { pageNumber } = await params;
 

@@ -4,46 +4,60 @@ import Footer from "../../components/Footer";
 import Hero from "./Hero";
 import Content from "./Content";
 import ButtonWtsp from "@/components/ButtonWtsp";
+import { siteConfig } from "@/data/siteConfig";
 
 const Loader = () => {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "AboutPage",
-
-    // ENGLISH STRINGS (See below for French)
-    name: "Notre Histoire — Casa Lalla Takerkoust & Oasis d'Agafay",
+    "@type": ["Restaurant", "LocalBusiness"],
+    name: "Restaurant Casa Lalla Takerkoust",
     description:
-      "Découvrez la vision derrière Casa Lalla, un restaurant et day club d'inspiration Mykonos alliant l'esthétique méditerranéenne à la beauté sauvage du lac Lalla Takerkoust et du désert d'Agafay.",
-
-    url: "https://casalallatakerkoust.com/fr/restaurant-casa-lalla/", // <-- Update to your exact routing path
-
-    mainEntity: {
-      "@type": "Restaurant",
-      name: "Casa Lalla Takerkoust",
-      image: [
-        "https://casalallatakerkoust.com/images/pool-day-pass-agafay-lalla-takerkoust-marrakech.webp",
-      ],
-      servesCuisine: ["Mediterranean", "International", "Moroccan Fusion"],
-      priceRange: "$$$",
-
-      // THE KNOWLEDGE GRAPH ANCHOR:
-      // This silently tells Google that this restaurant is backed by an established hospitality group, instantly boosting its domain authority.
-      parentOrganization: {
-        "@type": "Organization",
-        name: "Casa Lalla Takerkoust",
-        url: "https://casalallatakerkoust.com/",
-      },
-
-      // SEMANTIC KEYWORD INJECTION:
-      // This array tells Google exactly what conceptual topics your brand is an authority on, outside of just "food."
-      knowsAbout: [
-        "Ibiza Style Pool Club",
-        "Agafay Desert Dining Experience",
-        "Lake Lalla Takerkoust Activities",
-        "Boho Lifestyle",
-      ],
+      "Restaurant d’exception au bord du lac de Takerkoust près de Marrakech, offrant une cuisine marocaine et méditerranéenne raffinée face aux sommets de l’Atlas.",
+    url: "https://casalallatakerkoust.com/fr/restaurant-casa-lalla/",
+    telephone: siteConfig.phone,
+    menu: "https://casalallatakerkoust.com/fr/menu/",
+    acceptsReservations: "True",
+    servesCuisine: ["Marocaine", "Méditerranéenne"],
+    priceRange: "$$$",
+    image: [
+      "https://casalallatakerkoust.com/images/restaurant-casa-lalla-takerkoust-terrace-lake-view.webp",
+    ],
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: siteConfig.address.street,
+      addressLocality: siteConfig.address.locality,
+      addressRegion: siteConfig.address.region,
+      postalCode: siteConfig.address.postalCode,
+      addressCountry: "MA",
     },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: siteConfig.geo.latitude,
+      longitude: siteConfig.geo.longitude,
+    },
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday",
+        ],
+        opens: siteConfig.hours.opens,
+        closes: siteConfig.hours.closes,
+      },
+    ],
+    sameAs: [
+      siteConfig.instagramUrl,
+      siteConfig.mapsUrl,
+      siteConfig.tripadvisorUrl,
+    ],
   };
+
   return (
     <div className="relative">
       <script

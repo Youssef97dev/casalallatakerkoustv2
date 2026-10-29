@@ -1,25 +1,55 @@
-import React from "react";
-import Loader from "./components/Loader";
+import HomePage from "@/components/home/HomePage";
+import { homeContentFr } from "@/content/home.fr";
 
 export const metadata = {
-  title: "Casa Lalla Takerkoust | Là où l’Atlas rencontre l’eau",
-  description:
-    "Découvrez Casa Lalla Takerkoust, restaurant et lieu d'expériences au bord du lac de Takerkoust près de Marrakech. Cuisine marocaine raffinée, activités et événements avec vue sur l'Atlas et le désert d'Agafay.",
+  title: homeContentFr.meta.title,
+  description: homeContentFr.meta.description,
   alternates: {
-    canonical: "https://casalallatakerkoust.com/fr/",
+    canonical: homeContentFr.meta.canonical,
+    languages: {
+      en: "https://casalallatakerkoust.com/",
+      fr: "https://casalallatakerkoust.com/fr/",
+      "x-default": "https://casalallatakerkoust.com/",
+    },
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
   openGraph: {
-    title: "Casa Lalla Takerkoust | Restaurant & Expériences près de Marrakech",
-    description:
-      "Restaurant et destination unique au lac de Takerkoust. Profitez d’une cuisine marocaine, d’expériences outdoor et d’une vue exceptionnelle sur l’Atlas et l’Agafay.",
+    title: homeContentFr.meta.ogTitle,
+    description: homeContentFr.meta.ogDescription,
     url: "https://casalallatakerkoust.com/fr/",
     siteName: "Casa Lalla Takerkoust",
+    locale: homeContentFr.meta.ogLocale,
+    alternateLocale: [homeContentFr.meta.ogLocaleAlternate],
     type: "website",
+    images: [
+      {
+        url: "https://casalallatakerkoust.com/casalalla-takerkoust-agafay-vibes.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Casa Lalla Takerkoust vue sur le lac près de Marrakech",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: homeContentFr.meta.ogTitle,
+    description: homeContentFr.meta.ogDescription,
+    images: [
+      "https://casalallatakerkoust.com/casalalla-takerkoust-agafay-vibes.jpg",
+    ],
   },
 };
 
-const page = () => {
-  return <Loader />;
-};
-
-export default page;
+export default function HomeFr() {
+  return <HomePage locale="fr" content={homeContentFr} />;
+}
