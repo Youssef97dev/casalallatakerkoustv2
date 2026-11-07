@@ -349,6 +349,7 @@ export const homeContentFr = {
       { label: "ACTIVITÉS", href: "/fr/lalla-takerkoust-activities" },
       { label: "RÉSERVATION", href: "/fr/reservation" },
       { label: "CONTACT", href: "/fr/contact" },
+      { label: "BLOG", href: "/fr/blog" },
     ],
     socialAria: {
       instagram: "Consulter la page Instagram de Casa Lalla",

@@ -12,6 +12,7 @@
   --font-canela: var(--font-canela), sans-serif;
   --font-lora: var(--font-lora), sans-serif;
   --font-aktiv: var(--font-aktiv), sans-serif;
+  --font-cormorant: var(--font-cormorant), cormorantgaramond-light, cormorantgaramond, "Cormorant Garamond", serif;
 
   /* Animations */
   --animate-slide-left: slideLeft 2s ease-in-out forwards;

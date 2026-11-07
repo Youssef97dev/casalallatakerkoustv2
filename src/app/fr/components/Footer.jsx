@@ -99,6 +99,15 @@ const Footer = () => {
             >
               CONTACT
             </Link>
+            <span className="opacity-30" aria-hidden="true">
+              |
+            </span>
+            <Link
+              href="/fr/blog"
+              className="hover:text-casa-scarlet transition-colors"
+            >
+              BLOG
+            </Link>
           </nav>
 
           <div className="w-12 h-0.5 bg-casa-scarlet mx-auto" aria-hidden="true" />

@@ -1,88 +1,97 @@
-# Task: Full-Project Bilingual (FR/EN) Redesign, Content Cleanup & Technical SEO Overhaul — Casa Lalla Takerkoust
+# Task: Implement Bilingual SEO Brand Interception Blog Posts (Kasbah d'If & Casa Lalla Takerkoust)
 
-## 1. Context & Mandatory Preparation
-We are executing a complete, site-wide redesign, content cleanup, and technical SEO overhaul for **Casa Lalla Takerkoust** (`https://casalallatakerkoust.com/`).
-Before modifying any files, **you must read and strictly follow all design, architectural, UI/UX, and coding guidelines defined in `skill.md`** in the project. Every page, layout, and component across the entire repository must be brought up to the standards of `skill.md`.
+You are an expert Full-Stack Developer and Technical SEO Specialist working on the `casalallatakerkoust.com` codebase. 
 
-## 2. Global Scope (All Pages, Layouts & Shared Components)
-Apply this redesign and technical update across **the entire project**, including:
-- **Global Layouts & Navigation:** Header, Navbar, Mobile Menu, Language Switcher, Footer, Floating Booking/WhatsApp CTAs.
-- **All Pages (FR & EN):** Homepage, Restaurant / Menu, Experiences / Activities (Jet Ski, Quad, Buggy, Boat, Day Pass, Pool), Events / Private Hire, Gallery, About, Contact / Reservation, and 404/Error pages.
-- **Privacy Policy Page Only:** Politique de Confidentialité (FR) & Privacy Policy (EN) — *do NOT create a "Mentions Légales" page*.
-- **Global SEO & Config Files:** `robots.txt` / `robots.ts`, `sitemap.xml` / `sitemap.ts`, metadata configs, JSON-LD schema components, and i18n/translation dictionaries.
+## 1. Objective
+We need to publish a high-converting, SEO-optimized bilingual travel guide on `casalallatakerkoust.com` that legally and organically intercepts search traffic for the query `"kasbah dif"` / `"kasbah d'if"`. The article will position **Casa Lalla Takerkoust** as the ultimate lakeside lunch, day-pass, and sunset dining companion for travelers staying at or researching **Kasbah d'If** in the Agafay Desert.
 
----
+## 2. Routing & Bilingual Architecture
+First, inspect the existing project structure (check how bilingual routes, blog posts, or static JSON/MDX content are currently handled). Follow the existing patterns and styling of the codebase.
 
-## 3. Core Content & UI Fixes (Site-Wide)
-
-### A. 100% Language Separation & Orthography Cleanup (FR & EN)
-- Audit **every page, component, modal, form validation message, and translation file** in the project.
-- **Fix all spelling & grammar errors:** Correct all French orthography, grammar, syntax, and typographic rules (accents on capitals included: `À, É, È`, proper spacing), and refine all English copy so it reads like natural, high-end luxury hospitality writing.
-- **Eliminate Franglais (Zero Language Mixing):** Ensure the French routes (`fr`) contain zero untranslated English strings (buttons, section headers like "Discover our music", form labels, badges, footer links) and the English routes (`en`) contain zero untranslated French strings.
-- **Preserve Core Content:** Keep the existing core storytelling, menu items, and activity offerings, but elevate the formatting and fix every linguistic error.
-
-### B. Fix Broken/Empty Sections ("Discover Our Music" & Media Blocks)
-- Locate the currently empty **"Discover our music"** section (and audit all other pages for empty containers, broken embeds, or missing assets).
-- Either populate the Music section with a refined, minimalist audio/ambiance showcase using existing project assets/links (curated Lake Takerkoust Sunset & Lounge vibe), OR refactor it into a cohesive "Ambiance & Musical Curation" architectural block so there are zero empty or broken sections anywhere on the site.
-
-### C. Single Source of Truth for Opening Hours & Contact Info
-- **Problem:** Opening hours are currently inconsistent across the site.
-- **Fix:** Create or update a single centralized configuration object (e.g., `siteConfig` or global i18n constants) for **Opening Hours**, phone numbers, WhatsApp links, email, and physical address.
-- Replace all hardcoded schedules across the Header, Homepage, Restaurant page, Contact page, Footer, and JSON-LD Schema with this single source of truth so schedules are 100% consistent everywhere in both FR and EN.
-
-### D. TripAdvisor Link Consolidation
-- **Problem:** Two separate TripAdvisor listings exist, diluting reviews.
-- **Fix:** Audit the entire codebase for TripAdvisor URLs or widgets. Ensure **only one single official TripAdvisor URL** is referenced across all footer links, social icons, review badges, and JSON-LD `sameAs` arrays. Remove any secondary or duplicate TripAdvisor URLs.
-
-### E. Inclusive Hospitality & Transparency Policy
-- Integrate a refined, welcoming hospitality charter/note on the Reservation/Contact page, About section, and Footer (in both FR and EN) stating clearly that Casa Lalla Takerkoust welcomes guests of all nationalities—Moroccan residents and international travelers alike—under transparent, unified reservation and family/dress-code guidelines.
-
-### F. Privacy Policy Only (`Politique de Confidentialité` / `Privacy Policy`)
-- **Strict Rule:** Do **NOT** create or link any "Mentions Légales" / "Legal Notice" page. Only include a **Privacy Policy**.
-- Create a clean, minimalist Privacy Policy page (or modal) in both languages:
-  - **FR (`/fr/politique-de-confidentialite` or `/politique-de-confidentialite`):** Covers personal data collected via reservation/contact forms and WhatsApp, how data is used solely for booking management and guest communication, cookie usage, data security, and guest rights regarding their personal data.
-  - **EN (`/en/privacy-policy` or `/privacy-policy`):** Full English equivalent.
-- Add the link (`Politique de Confidentialité` in FR / `Privacy Policy` in EN) cleanly in the global Footer across all pages.
+* **English Root (`/`):** 
+  * Target URL: `/blog/kasbah-dif-agafay-guide-casa-lalla-takerkoust` (or match the existing blog route structure under `/`, e.g., `/blog/[slug]` or `/guide/[slug]`).
+* **French Root (`/fr/`):** 
+  * Target URL: `/fr/blog/guide-kasbah-dif-agafay-casa-lalla-takerkoust` (matching the French route structure under `/fr/`).
+* **Hreflang & Canonical Alternates:**
+  * Ensure both pages cross-reference each other via `<link rel="alternate" hreflang="en" ... />`, `<link rel="alternate" hreflang="fr" ... />`, and `x-default` pointing to the English version.
+* **Sitemap:**
+  * Ensure both new URLs are automatically or manually added to `sitemap.xml` with appropriate `priority` (0.8) and `lastmod` dates.
 
 ---
 
-## 4. Site-Wide Technical SEO & Indexing Overhaul
+## 3. SEO Metadata & Schema Specifications
 
-1. **Fix Google Indexing Blockers Immediately:**
-   - Audit all layouts, `<head>` tags, `next.config` / headers, and meta tags for any accidental `noindex` or `nofollow` directives. Explicitly enforce `index, follow, max-image-preview:large, max-snippet:-1`.
-   - Generate or fix `robots.txt` (`robots.ts`) to allow all crawlers and point to `https://casalallatakerkoust.com/sitemap.xml`.
-   - Generate a dynamic, complete bilingual `sitemap.xml` (`sitemap.ts`) listing every valid FR and EN route with proper `xhtml:link` hreflang alternates and `lastmod` dates.
+### English Version (`/blog/kasbah-dif-agafay-guide-casa-lalla-takerkoust`)
+* **Meta Title:** `Staying at Kasbah d'If (Kasbah Dif)? Why You Must Visit Casa Lalla Takerkoust Nearby`
+* **Meta Description:** `Planning a trip to Kasbah d'If (Kasbah Dif) in the Agafay Desert? Discover why Casa Lalla Takerkoust is the best nearby lakeside restaurant, day pass, and excursion spot.`
+* **Keywords:** `kasbah dif, kasbah d'if, kasbah dif agafay, restaurant near kasbah dif, lalla takerkoust, casa lalla takerkoust, agafay desert day trip`
+* **OpenGraph:** Configure `og:title`, `og:description`, `og:type="article"`, `og:locale="en_US"`, and use an existing high-res WebP hero image of Casa Lalla Takerkoust.
 
-2. **Per-Page Bilingual Metadata & Canonical Architecture:**
-   - Every single page in the project must have unique, keyword-optimized `<title>` and `<meta name="description">` tags in both FR and EN (targeting *Restaurant Lalla Takerkoust, Vue Lac Marrakech, Jet Ski & Quad Lalla Takerkoust, Day Pass Piscine, Événements Privés Marrakech*).
-   - Every page must output strict self-referencing `<link rel="canonical">` tags and bidirectional `hreflang="fr"`, `hreflang="en"`, and `hreflang="x-default"` tags.
-   - Include complete OpenGraph (`og:title`, `og:description`, `og:image`, `og:locale`, `og:url`) and Twitter Card tags for every route.
+### French Version (`/fr/blog/guide-kasbah-dif-agafay-casa-lalla-takerkoust`)
+* **Meta Title:** `Séjour à la Kasbah d'If (Kasbah Dif) : Escapade & Déjeuner au Bord du Lac à Casa Lalla Takerkoust`
+* **Meta Description:** `Vous séjournez ou visitez la Kasbah d'If (Kasbah Dif) à Agafay ? Découvrez Casa Lalla Takerkoust, le restaurant et day-pass incontournable au bord du lac à quelques minutes.`
+* **Keywords:** `kasbah dif, kasbah d'if, kasbah dif agafay, restaurant proche kasbah dif, barrage lalla takerkoust, casa lalla takerkoust, excursion agafay`
+* **OpenGraph:** Configure `og:title`, `og:description`, `og:type="article"`, `og:locale="fr_FR"`, and use the same high-res WebP hero image.
 
-3. **Semantic HTML & Accessibility Across All Pages:**
-   - Enforce strict heading hierarchy on every page: **exactly one `<h1>`** per page matching the page's primary intent, followed by logical `<h2>` and `<h3>` subheadings.
-   - Add descriptive, localized (FR/EN) `alt` attributes to every `<img>` / `<Image>` across the entire project.
-   - Ensure all interactive elements (buttons, language switchers, mobile drawers, booking links) have proper `aria-label` attributes.
-
-4. **Site-Wide Structured Data (JSON-LD Schema):**
-   - Implement rich JSON-LD structured data:
-     - **Global / Homepage & Restaurant:** `Restaurant` and `LocalBusiness` schema (exact geo-coordinates for Lalla Takerkoust, unified `openingHoursSpecification`, priceRange, telephone, menu link, `sameAs` with the single TripAdvisor URL + Instagram).
-     - **Activities / Experiences Page:** `TouristAttraction` or `OfferCatalog` schema for Jet Ski, Quad, Boat, and Day Pass packages.
-     - **Inner Pages:** `BreadcrumbList` schema for clean search appearance in Google SERPs.
+### JSON-LD Structured Data (Inject on both pages in their respective languages)
+1. **`Article` Schema:** Include `headline`, `description`, `author` (Casa Lalla Takerkoust), `publisher`, and `about` referencing both `"Kasbah d'If"` and `"Casa Lalla Takerkoust"`.
+2. **`FAQPage` Schema:** Include 3 FAQ items (detailed below in the content section) so Google renders rich FAQ snippets directly on the `"kasbah dif"` search results page.
 
 ---
 
-## 5. Minimalist Luxury Redesign Standards (Strictly per `skill.md`)
-- Apply the visual language defined in `skill.md` uniformly across **every route** so the transition from Homepage to Menu, Activities, Gallery, Contact, and Privacy Policy feels seamless.
-- **Design Aesthetic:** High-end Mediterranean/Moroccan lakeside minimalism—warm organic tones (travertine, sand, linen), high-contrast editorial typography, refined spacing, subtle animations, and zero visual clutter.
-- **Core Web Vitals (LCP, CLS, INP):**
-  - Priority-load above-the-fold Hero visuals on each page; lazy-load all below-the-fold media.
-  - Enforce explicit aspect ratios / dimensions on all images and embeds to keep CLS at `0`.
-  - Keep client-side JavaScript minimal and fast.
+## 4. Full Article Content Structure & Requirements
+
+Write rich, authentic, luxury-hospitality-grade copy (minimum 900–1,200 words per language). Do NOT write thin or robotic text. Naturally include both spellings (`Kasbah d'If` with the apostrophe and `Kasbah Dif` without the apostrophe) in the body text and headings so Google matches exact user queries.
+
+### Required Sections for the English Article (`/`):
+1. **H1:** `Staying at Kasbah d'If (Agafay)? Complete Your Trip with a Lakeside Escape at Casa Lalla Takerkoust`
+2. **Introduction (First 100 words):** 
+   * Immediately mention **Kasbah d'If** (`Kasbah Dif`) and **Casa Lalla Takerkoust**.
+   * Validate the reader's choice: praise Kasbah d'If as a peaceful, mineral desert fortress in the Agafay plateau with Atlas Mountain views.
+   * Introduce the contrast: explain that just minutes away where the desert trails meet the water of the Lalla Takerkoust dam, **Casa Lalla Takerkoust** offers the ultimate waterfront dining, sunset music, and water activities experience.
+3. **H2: What to Expect at Kasbah d'If in the Agafay Desert**
+   * Briefly highlight the desert ambiance, architecture, and tranquility of Kasbah Dif. Include one clean, natural `rel="noopener noreferrer" target="_blank"` outbound link to `https://www.kasbahdif.com` (this signals editorial authenticity and topical relevance to Google).
+4. **H2: Desert Meets Water: Why Pair Kasbah Dif with Casa Lalla Takerkoust?**
+   * Contrast the dry stillness of the Agafay Desert with the refreshing breeze and turquoise waters of Lake Lalla Takerkoust.
+   * Provide a clean HTML/Tailwind comparison table comparing the two complementary experiences:
+     * **Setting:** Agafay Stone Desert (Kasbah d'If) vs. Waterfront Panorama & Atlas Views (Casa Lalla Takerkoust)
+     * **Vibe:** Quiet Desert Retreat vs. Chic Lakeside Gastronomy, Day Pass & Sunset Grooves
+     * **Activities:** Desert Stargazing & Relaxation vs. Jet-Ski, Quad Biking across Agafay, Boat Rides & Long Festive Lunches
+5. **H2: What to Do at Casa Lalla Takerkoust During Your Agafay Stay**
+   * **Mediterranean & Moroccan Gastronomy:** Fresh grilled fish, shared tapas, signature tagines, and handcrafted cocktails overlooking the lake.
+   * **Activities & Adventures:** Quad and buggy tours linking the Agafay trails around Kasbah Dif directly to the lake, plus jet-skiing and hoverboarding on the water.
+   * **The Golden Hour:** Why sunset at Casa Lalla Takerkoust is an unmissable ritual before heading back to your desert camp or Marrakech.
+6. **H2: How to Get from Kasbah Dif to Casa Lalla Takerkoust**
+   * Practical logistics: explain how close the Lalla Takerkoust lake shore is to the Agafay plateau, whether arriving by car, private driver, or arriving via a quad/buggy excursion across the trails.
+7. **H2: Frequently Asked Questions (Kasbah d'If & Lalla Takerkoust)**
+   * *Q1: How far is Casa Lalla Takerkoust from Kasbah d'If (Kasbah Dif)?*
+   * *Q2: Can I visit Casa Lalla Takerkoust for lunch or a day pass while staying in the Agafay Desert?*
+   * *Q3: Can I book quad biking from the lake toward the Agafay desert trails near Kasbah Dif?*
+8. **Conversion CTA Block:**
+   * A visually striking call-to-action card with direct internal links to the Reservation/Booking page (`/reservation` or WhatsApp/booking modal) and Menu/Experiences pages.
+
+### Required Sections for the French Article (`/fr/`):
+Create the complete, native-level French luxury hospitality adaptation (not a literal word-for-word translation—use natural French travel & gastronomy phrasing):
+1. **H1:** `Séjour à la Kasbah d'If (Agafay) : Pourquoi Échapper au Désert pour un Déjeuner au Bord du Lac à Casa Lalla Takerkoust`
+2. **Introduction:** Mention `Kasbah d'If`, `Kasbah Dif`, and `Casa Lalla Takerkoust` within the first 100 words. Highlight the complementary magic between the mineral silence of Agafay and the vibrant lakeside oasis of Barrage Lalla Takerkoust.
+3. **H2: L'Expérience Kasbah d'If dans le Désert d'Agafay** (with outbound link to `https://www.kasbahdif.com`).
+4. **H2: Du Désert au Lac : Pourquoi Combiner la Kasbah Dif et Casa Lalla Takerkoust ?** (Include the French comparison table).
+5. **H2: Déjeuner, Day Pass et Activités Nautiques à Casa Lalla Takerkoust** (Gastronomie méditerranéenne et marocaine, jet-ski, quad dans le désert d'Agafay, coucher de soleil face à l'Atlas).
+6. **H2: Comment Rejoindre Casa Lalla Takerkoust depuis la Kasbah Dif ?**
+7. **H2: Questions Fréquentes (FAQ : Kasbah d'If & Lac Lalla Takerkoust)** (3 questions matching the French JSON-LD FAQ schema).
+8. **Conversion CTA Block:** Direct links to the French reservation flow (`/fr/...`).
 
 ---
 
-## 6. Execution Plan (Step-by-Step)
-1. **Audit Phase:** Read `skill.md`, scan the entire repository structure, list all existing pages/routes, and output a brief diagnostic report of all indexing issues, broken sections, inconsistent hours, and language errors found across the project.
-2. **Global Foundation:** Create/update the centralized site config (opening hours, contact details, single TripAdvisor link, SEO defaults) and global layout components (Header, Footer, Privacy Policy route, SEO/Schema helpers).
-3. **Page-by-Page Redesign & Content Fix:** Systematically redesign and clean up every page in both **FR** and **EN**, ensuring 100% adherence to `skill.md`, zero spelling errors, and zero language mixing.
-4. **SEO & Build Verification:** Update `robots`, `sitemap`, per-page metadata, and JSON-LD schemas. Run the project build/typecheck to confirm zero errors, and provide a complete summary of every file created or modified.
+## 5. UI/UX & Technical Implementation Rules
+* **Design System:** Use the exact fonts, colors, spacing, and Tailwind classes already established in the project so the article feels native to `casalallatakerkoust.com`.
+* **Performance:** Use existing local `.webp` images from the `public/` folder with proper `alt` tags containing both `"Casa Lalla Takerkoust"` and `"Agafay / Lalla Takerkoust"`. Do not add heavy external dependencies.
+* **Internal Linking:** Ensure the new blog post is linked from the blog index page (or footer/guides section if no blog index exists yet) in both `/` and `/fr/` so Googlebot can crawl and discover it immediately from the homepage.
+* **Language Switcher:** Ensure clicking the language toggle while on the English article switches directly to the French article (and vice versa), rather than redirecting back to the homepage.
+
+## 6. Execution Steps
+1. Inspect the codebase to understand the routing, i18n setup (`/` and `/fr/`), and blog/content structure.
+2. Create or update the necessary data files, components, and route pages for both English and French.
+3. Inject the SEO metadata, `hreflang` tags, and JSON-LD (`Article` + `FAQPage`) schemas.
+4. Update the sitemap and internal navigation links.
+5. Run the build/typecheck command to verify there are zero errors.

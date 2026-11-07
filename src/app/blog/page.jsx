@@ -8,6 +8,11 @@ export const metadata = {
     "Discover travel guides, lakeside dining tips, desert excursions, and local secrets for exploring Lake Lalla Takerkoust and the Agafay Desert from Casa Lalla.",
   alternates: {
     canonical: "https://casalallatakerkoust.com/blog/",
+    languages: {
+      en: "https://casalallatakerkoust.com/blog/",
+      fr: "https://casalallatakerkoust.com/fr/blog/",
+      "x-default": "https://casalallatakerkoust.com/blog/",
+    },
   },
   robots: {
     index: true,

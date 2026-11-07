@@ -81,6 +81,32 @@ const lora = localFont({
   variable: "--font-lora", // This creates a CSS variable for Tailwind
   display: "swap",
 });
+const cormorantGaramond = localFont({
+  src: [
+    {
+      path: "./fonts/CormorantGaramond-Light.ttf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "./fonts/CormorantGaramond-LightItalic.ttf",
+      weight: "300",
+      style: "italic",
+    },
+    {
+      path: "./fonts/CormorantGaramond-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/CormorantGaramond-Italic.ttf",
+      weight: "400",
+      style: "italic",
+    },
+  ],
+  variable: "--font-cormorant",
+  display: "swap",
+});
 
 export const metadata = {
   title: {
@@ -127,7 +153,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${aktivGrotesk.variable} ${canela.variable} ${lora.variable}`}
+      className={`${aktivGrotesk.variable} ${canela.variable} ${lora.variable} ${cormorantGaramond.variable}`}
       data-scroll-behavior="smooth"
     >
       <body>{children}</body>
