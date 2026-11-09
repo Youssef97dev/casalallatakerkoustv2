@@ -6,21 +6,21 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="relative w-full h-[70vh] min-h-[500px] flex items-center justify-center font-cormorant"
+      className="relative w-full h-[70vh] min-h-125 flex items-center justify-center font-cormorant"
     >
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">
         <Image
-          src="/images/restaurant-lake-view-casa-lalla-takerkoust.webp"
-          alt="Vue panoramique de Casa Lalla Takerkoust au bord du lac près de la Kasbah d'If dans le désert d'Agafay"
-          title="Terrasse avec vue sur le lac à Casa Lalla Takerkoust"
+          src="https://casalallatakerkoust.com/images/casa-lalla-takerkoust-day-club-entrance.webp"
+          alt="Entrée blanchie à la chaux du restaurant Casa Lalla Takerkoust avec parasols verts, bougainvillées et tables dressées"
+          title="Casa Lalla Takerkoust, restaurant et day club au bord du lac près de Marrakech"
           fill
           priority
           sizes="100vw"
           className="object-cover object-center"
         />
         {/* Overlay gradient using casa-black */}
-        <div className="absolute inset-0 bg-gradient-to-b from-casa-black/80 via-casa-black/50 to-casa-black/85" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/50 via-black/30 to-black/50" />
       </div>
 
       {/* Hero Content with Cormorant Garamond Light - 400 Typography */}

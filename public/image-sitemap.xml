@@ -640,4 +640,27 @@
       <image:geo_location>Marrakech, Morocco</image:geo_location>
     </image:image>
   </url>
+  <url>
+    <loc>https://casalallatakerkoust.com/blog/kasbah-dif-agafay-guide-casa-lalla-takerkoust/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/casa-lalla-takerkoust-day-club-entrance.webp</image:loc>
+      <image:caption>Whitewashed entrance of Casa Lalla Takerkoust restaurant with green umbrellas, bougainvillea and set tables | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Casa Lalla Takerkoust, lakeside restaurant and day club near Marrakech</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/casa-lalla-takerkoust-grilled-fish-restaurant.webp</image:loc>
+      <image:caption>Lakeside gastronomy and open-air restaurant at Casa Lalla Takerkoust near Kasbah Dif in Agafay | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Luxury Dining at Casa Lalla Lake Takerkoust</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/casa-lalla-takerkoust-lake-view-bohemian-lounging.webp</image:loc>
+      <image:caption>Elegant bohemian table with white flowers under a green umbrella overlooking Lake Takerkoust near Marrakech | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Lakeside bohemian dining with a view at Casa Lalla Takerkoust</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+  </url>
 </urlset>

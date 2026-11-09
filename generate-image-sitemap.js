@@ -590,6 +590,29 @@ const sitePages = [
       },
     ],
   },
+  {
+    pageUrl: "/blog/kasbah-dif-agafay-guide-casa-lalla-takerkoust/",
+    lastmod: "2026-11-09",
+    priority: "0.9",
+    images: [
+      {
+        image: "/images/casa-lalla-takerkoust-day-club-entrance.webp",
+        alt: "Whitewashed entrance of Casa Lalla Takerkoust restaurant with green umbrellas, bougainvillea and set tables",
+        title:
+          "Casa Lalla Takerkoust, lakeside restaurant and day club near Marrakech",
+      },
+      {
+        image: "/images/casa-lalla-takerkoust-grilled-fish-restaurant.webp",
+        alt: "Lakeside gastronomy and open-air restaurant at Casa Lalla Takerkoust near Kasbah Dif in Agafay",
+        title: "Luxury Dining at Casa Lalla Lake Takerkoust",
+      },
+      {
+        image: "/images/casa-lalla-takerkoust-lake-view-bohemian-lounging.webp",
+        alt: "Elegant bohemian table with white flowers under a green umbrella overlooking Lake Takerkoust near Marrakech",
+        title: "Lakeside bohemian dining with a view at Casa Lalla Takerkoust",
+      },
+    ],
+  },
 ];
 
 // Build the XML structure

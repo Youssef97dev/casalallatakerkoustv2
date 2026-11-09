@@ -54,9 +54,9 @@ const Content = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-12">
         <div className="relative h-72 sm:h-96 rounded-2xl overflow-hidden border border-casa-scarlet/15 shadow-xs">
           <Image
-            src="/images/chic-desert-oasis-design-mykonos-inspiration.webp"
-            alt="Terrasse bohème chic à Casa Lalla Takerkoust avec vue sur le lac près d'Agafay / Lalla Takerkoust"
-            title="Oasis bohème chic au bord du lac Lalla Takerkoust"
+            src="https://casalallatakerkoust.com/images/casa-lalla-takerkoust-lake-view-bohemian-lounging.webp"
+            alt="Table élégante aux fleurs blanches sous un parasol vert avec vue sur le lac Takerkoust près de Marrakech"
+            title="Déjeuner face au lac à Casa Lalla Takerkoust"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover"
@@ -68,12 +68,12 @@ const Content = () => {
         </div>
         <div className="relative h-72 sm:h-96 rounded-2xl overflow-hidden border border-casa-scarlet/15 shadow-xs">
           <Image
-            src="/images/luxury-dining-takerkoust-mykonos-style.webp"
+            src="https://casalallatakerkoust.com/images/casa-lalla-takerkoust-grilled-fish-restaurant.webp"
             alt="Déjeuner gastronomique en plein air à Casa Lalla Takerkoust proche de la Kasbah Dif à Agafay"
             title="Gastronomie raffinée au lac Lalla Takerkoust"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
-            className="object-cover"
+            className="object-cover object-bottom"
           />
           <div className="absolute bottom-0 inset-x-0 bg-casa-black/40 backdrop-blur-[1.5px] p-4 text-casa-white text-base font-light italic tracking-wide">
             Déjeuner méditerranéen aux saveurs fraîches sur notre terrasse
