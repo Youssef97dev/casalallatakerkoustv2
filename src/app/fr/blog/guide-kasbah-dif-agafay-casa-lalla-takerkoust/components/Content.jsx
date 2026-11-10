@@ -61,7 +61,7 @@ const Content = () => {
             sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover"
           />
-          <div className="absolute bottom-0 inset-x-0 bg-casa-black/40 backdrop-blur-[1.5px] p-4 text-casa-white text-base font-light italic tracking-wide">
+          <div className="absolute bottom-0 inset-x-0 bg-casa-black/40 backdrop-blur-md p-4 text-casa-white text-base font-light italic tracking-wide">
             L&apos;élégance bohème chic de Casa Lalla face aux eaux calmes du
             lac
           </div>
@@ -75,12 +75,34 @@ const Content = () => {
             sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover object-bottom"
           />
-          <div className="absolute bottom-0 inset-x-0 bg-casa-black/40 backdrop-blur-[1.5px] p-4 text-casa-white text-base font-light italic tracking-wide">
+          <div className="absolute bottom-0 inset-x-0 bg-casa-black/40 backdrop-blur-md p-4 text-casa-white text-base font-light italic tracking-wide">
             Déjeuner méditerranéen aux saveurs fraîches sur notre terrasse
             panoramique
           </div>
         </div>
       </div>
+
+      {/* Guide Connexe Callout Box (Internal Linking Silo) */}
+      <aside className="my-10 bg-casa-white/90 border-l-4 border-casa-scarlet p-6 rounded-r-2xl shadow-2xs font-cormorant">
+        <span className="text-xs uppercase tracking-[0.25em] text-casa-scarlet font-normal block mb-1">
+          Guide Recommandé
+        </span>
+        <h3 className="font-cormorant italic font-normal text-xl sm:text-2xl text-casa-black">
+          <Link
+            href="/fr/blog/camp-de-luxe-agafay-kasbah-dif-lac-takerkoust"
+            className="hover:text-casa-scarlet transition-colors underline decoration-casa-scarlet/30 underline-offset-4"
+          >
+            Camp de Luxe à Agafay ou Kasbah d&apos;If : L&apos;Itinéraire Parfait
+            Entre Désert et Lac Lalla Takerkoust &rarr;
+          </Link>
+        </h3>
+        <p className="text-base text-casa-black/80 font-normal mt-2 leading-relaxed">
+          Vous hésitez entre bivouac de luxe glamping et retraite minérale à la
+          Kasbah d&apos;If ? Découvrez notre itinéraire complet en 24h associant
+          quad, déjeuner au bord de l&apos;eau et sensations nautiques à Casa
+          Lalla.
+        </p>
+      </aside>
 
       {/* Section 1: Kasbah d'If Overview with Outbound Link */}
       <section className="my-14">
@@ -304,7 +326,7 @@ const Content = () => {
             sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover"
           />
-          <div className="absolute bottom-0 inset-x-0 bg-casa-black/40 backdrop-blur-[1.5px] p-4 text-casa-white text-base font-light italic tracking-wide">
+          <div className="absolute bottom-0 inset-x-0 bg-casa-black/40 backdrop-blur-md p-4 text-casa-white text-base font-light italic tracking-wide">
             Excursions en quad reliant directement les pistes de la Kasbah Dif
             aux rives du lac
           </div>
@@ -318,7 +340,7 @@ const Content = () => {
             sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover"
           />
-          <div className="absolute bottom-0 inset-x-0 bg-casa-black/40 backdrop-blur-[1.5px] p-4 text-casa-white text-base font-light italic tracking-wide">
+          <div className="absolute bottom-0 inset-x-0 bg-casa-black/40 backdrop-blur-md p-4 text-casa-white text-base font-light italic tracking-wide">
             L&apos;heure dorée à Casa Lalla, face aux sommets enneigés de
             l&apos;Atlas
           </div>

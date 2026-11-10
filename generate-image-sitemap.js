@@ -613,6 +613,39 @@ const sitePages = [
       },
     ],
   },
+  {
+    pageUrl: "/blog/agafay-luxury-camp-kasbah-dif-lake-takerkoust-itinerary/",
+    lastmod: "2026-11-10",
+    priority: "0.9",
+    images: [
+      {
+        image: "/images/casalallatakerkoust-restaurant-lake-view-terrace.webp",
+        alt: "Covered wooden terrace with comfortable seating at Casa Lalla Takerkoust restaurant, offering panoramic views of Lake Lalla Takerkoust.",
+        title: "Lakeside Dining at Casa Lalla Takerkoust Restaurant",
+      },
+      {
+        image: "/images/agafay-luxury-camp-poolside-lalla-takerkoust.webp",
+        alt: "Sun loungers and green vintage parasols by the swimming pool at a luxury camp near the Agafay Desert, overlooking the lake.",
+        title: "Luxury Poolside Relaxing Near Agafay",
+      },
+      {
+        image: "/images/kasbah-dif-rooftop-terrace-lake-views.webp",
+        alt: "Golden hour cocktails and bohemian waterfront lounge at Casa Lalla Takerkoust overlooking the Atlas Mountains",
+        title: "Golden Hour Sunset at Casa Lalla Takerkoust",
+      },
+      {
+        image:
+          "/images/casalallatakerkoust-restaurant-arched-patio-dining.webp",
+        alt: "Elegant arched outdoor dining patio framed by pink bougainvillea flowers at Casa Lalla Takerkoust restaurant.",
+        title: "Beautiful Patio Dining at Casa Lalla Takerkoust",
+      },
+      {
+        image: "/images/lalla-takerkoust-lake-sunset-agafay-desert.webp",
+        alt: "Warm sunset glow over Agafay luxury camp dunes and lanterns in the desert near Marrakech",
+        title: "Agafay Luxury Camp Desert Sunset Ambiance",
+      },
+    ],
+  },
 ];
 
 // Build the XML structure

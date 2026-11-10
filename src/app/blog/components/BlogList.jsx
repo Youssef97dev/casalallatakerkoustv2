@@ -4,6 +4,17 @@ import React from "react";
 
 const blogPosts = [
   {
+    slug: "agafay-luxury-camp-kasbah-dif-lake-takerkoust-itinerary",
+    title:
+      "Agafay Luxury Camp & Kasbah d'If Guide: Why Add Lake Lalla Takerkoust to Your Trip",
+    excerpt:
+      "Booking an Agafay luxury camp or staying at Kasbah d'If (Kasbah Dif)? Discover how to pair your desert glamping stay with lakeside dining, day passes, and water sports at Casa Lalla Takerkoust.",
+    image: "/images/agafay-desert-accommodation-hotel-rural-oasis.webp",
+    alt: "Agafay luxury camp and glamping tents nestled in the Moroccan stone desert near Lake Lalla Takerkoust",
+    badge: "Itinerary",
+    readTime: "9 min read",
+  },
+  {
     slug: "kasbah-dif-agafay-guide-casa-lalla-takerkoust",
     title:
       "Staying at Kasbah d'If (Kasbah Dif)? Complete Your Trip with a Lakeside Escape at Casa Lalla",

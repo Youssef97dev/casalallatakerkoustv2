@@ -62,7 +62,7 @@ const Content = () => {
             sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover"
           />
-          <div className="absolute bottom-0 inset-x-0 bg-casa-black/40 backdrop-blur-[1.5px] p-4 text-casa-white text-base font-light italic tracking-wide">
+          <div className="absolute bottom-0 inset-x-0 bg-casa-black/40 backdrop-blur-md p-4 text-casa-white text-base font-light italic tracking-wide">
             Refined bohemian lounging at Casa Lalla Takerkoust overlooking the
             water
           </div>
@@ -76,11 +76,33 @@ const Content = () => {
             sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover object-bottom"
           />
-          <div className="absolute bottom-0 inset-x-0 bg-casa-black/40 backdrop-blur-[1.5px] p-4 text-casa-white text-base font-light italic tracking-wide">
+          <div className="absolute bottom-0 inset-x-0 bg-casa-black/40 backdrop-blur-md p-4 text-casa-white text-base font-light italic tracking-wide">
             Fresh Mediterranean dining on the breezy lakefront terrace
           </div>
         </div>
       </div>
+
+      {/* Related Guide Callout Box (Internal Linking Silo) */}
+      <aside className="my-10 bg-casa-white/90 border-l-4 border-casa-scarlet p-6 rounded-r-2xl shadow-2xs font-cormorant">
+        <span className="text-xs uppercase tracking-[0.25em] text-casa-scarlet font-normal block mb-1">
+          Related Guide
+        </span>
+        <h3 className="font-cormorant italic font-normal text-xl sm:text-2xl text-casa-black">
+          <Link
+            href="/blog/agafay-luxury-camp-kasbah-dif-lake-takerkoust-itinerary"
+            className="hover:text-casa-scarlet transition-colors underline decoration-casa-scarlet/30 underline-offset-4"
+          >
+            Booking an Agafay Luxury Camp or Kasbah d&apos;If? Here Is How to
+            Build the Ultimate Desert &amp; Lake Itinerary &rarr;
+          </Link>
+        </h3>
+        <p className="text-base text-casa-black/80 font-normal mt-2 leading-relaxed">
+          Planning an overnight glamping experience or choosing between an
+          Agafay luxury camp and Kasbah Dif? Read our complete 24-hour itinerary
+          combining desert trails, quad biking, and lakeside dining at Casa
+          Lalla.
+        </p>
+      </aside>
 
       {/* Section 1: Kasbah d'If Overview with Outbound Link */}
       <section className="my-14">
@@ -297,7 +319,7 @@ const Content = () => {
             sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover"
           />
-          <div className="absolute bottom-0 inset-x-0 bg-casa-black/40 backdrop-blur-[1.5px] p-4 text-casa-white text-base font-light italic tracking-wide">
+          <div className="absolute bottom-0 inset-x-0 bg-casa-black/40 backdrop-blur-md p-4 text-casa-white text-base font-light italic tracking-wide">
             Quad and buggy tours connecting Kasbah Dif desert trails to Casa
             Lalla lakefront
           </div>
@@ -311,7 +333,7 @@ const Content = () => {
             sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover"
           />
-          <div className="absolute bottom-0 inset-x-0 bg-casa-black/40 backdrop-blur-[1.5px] p-4 text-casa-white text-base font-light italic tracking-wide">
+          <div className="absolute bottom-0 inset-x-0 bg-casa-black/40 backdrop-blur-md p-4 text-casa-white text-base font-light italic tracking-wide">
             The golden hour sunset ritual facing the snow-capped High Atlas
             Mountains
           </div>
@@ -450,7 +472,7 @@ const Content = () => {
           </a>
         </div>
         <p className="text-xs text-casa-white/70 mt-6 font-light tracking-wider">
-          Open daily from 1:00 PM to 5:00 PM • Barrage Lalla Takerkoust,
+          Open daily from 12:30 PM to 7:30 PM • Barrage Lalla Takerkoust,
           Marrakech
         </p>
       </section>

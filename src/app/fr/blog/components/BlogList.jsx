@@ -4,6 +4,17 @@ import React from "react";
 
 const blogPostsFr = [
   {
+    slug: "camp-de-luxe-agafay-kasbah-dif-lac-takerkoust",
+    title:
+      "Camp de Luxe Agafay & Kasbah d'If : L'Escapade Idéale au Lac Lalla Takerkoust",
+    excerpt:
+      "Vous réservez un camp de luxe à Agafay ou un séjour à la Kasbah d'If (Kasbah Dif) ? Complétez votre expérience désert par un déjeuner au bord de l'eau, day-pass et loisirs nautiques à Casa Lalla Takerkoust.",
+    image: "/images/agafay-desert-accommodation-hotel-rural-oasis.webp",
+    alt: "Camp de luxe dans le désert d'Agafay et tentes nomades près du lac Lalla Takerkoust",
+    badge: "Itinéraire",
+    readTime: "9 min de lecture",
+  },
+  {
     slug: "guide-kasbah-dif-agafay-casa-lalla-takerkoust",
     title:
       "Séjour à la Kasbah d'If (Kasbah Dif) : Escapade & Déjeuner au Bord du Lac à Casa Lalla",

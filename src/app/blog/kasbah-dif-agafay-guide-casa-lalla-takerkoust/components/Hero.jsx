@@ -25,7 +25,7 @@ const Hero = () => {
 
       {/* Hero Content with Kasbah d'If Cormorant Garamond Light - 400 Typography */}
       <div className="relative z-20 max-w-4xl mx-auto px-6 text-center text-casa-white flex flex-col items-center gap-5 mt-16 font-cormorant">
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-casa-scarlet/60 backdrop-blur-xs text-xs uppercase tracking-[0.25em] font-light text-casa-white border border-casa-white/20">
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-casa-scarlet/60 backdrop-blur-md text-xs uppercase tracking-[0.25em] font-light text-casa-white border border-casa-white/20 shadow-xs">
           Agafay Desert & Lake Takerkoust Guide
         </div>
         <h1 className="font-cormorant italic font-normal text-3xl sm:text-4xl md:text-5xl lg:text-5.5xl leading-tight text-casa-white tracking-tight max-w-3xl">
