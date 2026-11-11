@@ -646,6 +646,40 @@ const sitePages = [
       },
     ],
   },
+  {
+    pageUrl: "/blog/agafay-luxury-camp-vs-casa-lalla-takerkoust-rural-hotel/",
+    lastmod: "2026-11-11",
+    priority: "0.9",
+    images: [
+      {
+        image:
+          "/images/casalalla-hotel-rural-lalla-takerkoust-living-room-lounge.webp",
+        alt: "Cozy indoor lounge and living room featuring a large sofa and artistic decor at Casalalla Hotel Rural in Lalla Takerkoust",
+        title: "Spacious Lounge Area at Casalalla Hotel Rural Lalla Takerkoust",
+      },
+      {
+        image:
+          "/images/casalalla-hotel-rural-lalla-takerkoust-poolside-loungers.webp",
+        alt: "Black sun loungers next to the swimming pool with traditional Moroccan floor tiles at Casalalla Hotel Rural",
+        title:
+          "Poolside Loungers and Traditional Tiles at Casalalla Hotel Rural",
+      },
+      {
+        image:
+          "/images/casalalla-hotel-rural-lalla-takerkoust-dining-courtyard-art.webp",
+        alt: "View from the dining area into the sunny courtyard featuring striking wall art at Casalalla Hotel Rural Lalla Takerkoust",
+        title:
+          "Courtyard View with Wall Art at Casalalla Hotel Rural Lalla Takerkoust",
+      },
+      {
+        image:
+          "/images/casalalla-hotel-rural-lalla-takerkoust-swimming-pool.webp",
+        alt: "Relaxing swimming pool and courtyard area with lounge chairs at Casalalla Hotel Rural in Lalla Takerkoust",
+        title:
+          "Swimming Pool and Courtyard at Casalalla Hotel Rural Lalla Takerkoust",
+      },
+    ],
+  },
 ];
 
 // Build the XML structure

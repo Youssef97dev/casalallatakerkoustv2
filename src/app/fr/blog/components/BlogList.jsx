@@ -4,6 +4,17 @@ import React from "react";
 
 const blogPostsFr = [
   {
+    slug: "camp-de-luxe-agafay-vs-hotel-rural-casa-lalla-takerkoust",
+    title:
+      "Camp de Luxe Agafay ou Hôtel Rural Casa Lalla Takerkoust : Où Dormir ?",
+    excerpt:
+      "Vous hésitez entre un camp de luxe à Agafay et l'Hôtel Rural Casa Lalla Takerkoust ? Découvrez le confort d'un hôtel de charme et restaurant au bord du lac aux portes d'Agafay.",
+    image: "/images/boutique-hotel-lalla-takerkoust-lake-view.webp",
+    alt: "Hôtel Rural Casa Lalla Takerkoust au bord du lac face à l'Atlas près du désert d'Agafay",
+    badge: "Hôtel de Charme",
+    readTime: "10 min de lecture",
+  },
+  {
     slug: "camp-de-luxe-agafay-kasbah-dif-lac-takerkoust",
     title:
       "Camp de Luxe Agafay & Kasbah d'If : L'Escapade Idéale au Lac Lalla Takerkoust",

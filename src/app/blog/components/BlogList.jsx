@@ -4,6 +4,17 @@ import React from "react";
 
 const blogPosts = [
   {
+    slug: "agafay-luxury-camp-vs-casa-lalla-takerkoust-rural-hotel",
+    title:
+      "Agafay Luxury Camp vs. Casa Lalla Takerkoust Rural Hotel: Where to Stay?",
+    excerpt:
+      "Comparing an Agafay luxury camp with the Casa Lalla Takerkoust Rural Hotel? Discover why staying overnight at our lakeside rural hotel & restaurant gives you the best of Agafay.",
+    image: "/images/boutique-hotel-lalla-takerkoust-lake-view.webp",
+    alt: "Casa Lalla Takerkoust Rural Hotel and restaurant overlooking Lake Takerkoust near Agafay Desert",
+    badge: "Boutique Hotel",
+    readTime: "10 min read",
+  },
+  {
     slug: "agafay-luxury-camp-kasbah-dif-lake-takerkoust-itinerary",
     title:
       "Agafay Luxury Camp & Kasbah d'If Guide: Why Add Lake Lalla Takerkoust to Your Trip",

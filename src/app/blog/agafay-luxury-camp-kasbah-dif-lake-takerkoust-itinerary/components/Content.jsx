@@ -85,24 +85,40 @@ const Content = () => {
       </div>
 
       {/* Related Guide Callout Box (Internal Linking Silo) */}
-      <aside className="my-10 bg-casa-white/90 border-l-4 border-casa-scarlet p-6 rounded-r-2xl shadow-2xs font-cormorant">
-        <span className="text-xs uppercase tracking-[0.25em] text-casa-scarlet font-normal block mb-1">
-          Related In-Depth Guide
+      <aside className="my-10 bg-casa-white/90 border-l-4 border-casa-scarlet p-6 rounded-r-2xl shadow-2xs font-cormorant space-y-4">
+        <span className="text-xs uppercase tracking-[0.25em] text-casa-scarlet font-normal block">
+          Related Guides &amp; Stays in Agafay &amp; Lake Takerkoust
         </span>
-        <h3 className="font-cormorant italic font-normal text-xl sm:text-2xl text-casa-black">
-          <Link
-            href="/blog/kasbah-dif-agafay-guide-casa-lalla-takerkoust"
-            className="hover:text-casa-scarlet transition-colors underline decoration-casa-scarlet/30 underline-offset-4"
-          >
-            Staying at Kasbah d&apos;If (Kasbah Dif)? Why You Must Visit Casa
-            Lalla Takerkoust Nearby &rarr;
-          </Link>
-        </h3>
-        <p className="text-base text-casa-black/80 font-normal mt-2 leading-relaxed">
-          Read our dedicated architectural profile on Kasbah d&apos;If, driving
-          routes through the Agafay plateau, and how to organize seamless
-          day-trip transfers to our lakefront restaurant.
-        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-1">
+          <div>
+            <h4 className="font-cormorant italic font-normal text-lg sm:text-xl text-casa-black">
+              <Link
+                href="/blog/kasbah-dif-agafay-guide-casa-lalla-takerkoust"
+                className="hover:text-casa-scarlet transition-colors underline decoration-casa-scarlet/30 underline-offset-4"
+              >
+                Staying at Kasbah d&apos;If? Why Visit Casa Lalla Nearby &rarr;
+              </Link>
+            </h4>
+            <p className="text-sm text-casa-black/75 mt-1 font-light leading-relaxed">
+              Read our dedicated architectural profile on Kasbah d&apos;If, driving
+              routes through the Agafay plateau, and lakefront dining.
+            </p>
+          </div>
+          <div>
+            <h4 className="font-cormorant italic font-normal text-lg sm:text-xl text-casa-black">
+              <Link
+                href="/blog/agafay-luxury-camp-vs-casa-lalla-takerkoust-rural-hotel"
+                className="hover:text-casa-scarlet transition-colors underline decoration-casa-scarlet/30 underline-offset-4"
+              >
+                Agafay Camp vs. Casa Lalla Rural Hotel &rarr;
+              </Link>
+            </h4>
+            <p className="text-sm text-casa-black/75 mt-1 font-light leading-relaxed">
+              Comparing a desert camp with staying at our boutique Rural Hotel?
+              Discover the smarter lakeside accommodation choice.
+            </p>
+          </div>
+        </div>
       </aside>
 
       {/* Section 1: Camp vs Kasbah d'If */}
@@ -525,6 +541,29 @@ const Content = () => {
             WhatsApp Concierge
           </a>
         </div>
+
+        {/* Silo Navigation Links */}
+        <div className="mt-8 pt-6 border-t border-casa-white/20 flex flex-wrap justify-center gap-6 text-xs uppercase tracking-widest font-light text-casa-white/80">
+          <Link
+            href="/blog/kasbah-dif-agafay-guide-casa-lalla-takerkoust"
+            className="hover:text-casa-white transition-colors underline decoration-casa-white/30 underline-offset-4"
+          >
+            Kasbah d&apos;If Guide &rarr;
+          </Link>
+          <Link
+            href="/blog/agafay-luxury-camp-vs-casa-lalla-takerkoust-rural-hotel"
+            className="hover:text-casa-white transition-colors underline decoration-casa-white/30 underline-offset-4"
+          >
+            Agafay Camp vs. Rural Hotel &rarr;
+          </Link>
+          <Link
+            href="/rural-hotel"
+            className="hover:text-casa-white transition-colors underline decoration-casa-white/30 underline-offset-4"
+          >
+            Explore the Rural Hotel &rarr;
+          </Link>
+        </div>
+
         <p className="text-xs text-casa-white/70 mt-6 font-light tracking-wider">
           Open daily from 12:30 PM to 7:30 PM • Barrage Lalla Takerkoust,
           Marrakech

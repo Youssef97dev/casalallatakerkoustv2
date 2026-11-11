@@ -698,4 +698,39 @@
       <image:geo_location>Marrakech, Morocco</image:geo_location>
     </image:image>
   </url>
+  <url>
+    <loc>https://casalallatakerkoust.com/blog/agafay-luxury-camp-vs-casa-lalla-takerkoust-rural-hotel/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/boutique-hotel-lalla-takerkoust-lake-view.webp</image:loc>
+      <image:caption>Casa Lalla Takerkoust Rural Hotel and restaurant terrace overlooking Lake Lalla Takerkoust and High Atlas Mountains | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Casa Lalla Takerkoust Rural Hotel &amp; Lakeside Dining</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/retro-bohemian-room-boutique-hotel-agafay.webp</image:loc>
+      <image:caption>Thoughtfully designed retro-bohemian bedroom inside Casa Lalla Takerkoust Rural Hotel | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Retro-Bohemian Suite at Casa Lalla Takerkoust</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/piscine-oasis-hotel-rural-lalla-takerkoust.webp</image:loc>
+      <image:caption>Serene swimming pool oasis and plush sunbeds at Casa Lalla Takerkoust Rural Hotel | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Swimming Pool Oasis at Casa Lalla Takerkoust Rural Hotel</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/casalallatakerkoust-restaurant-lake-view-terrace.webp</image:loc>
+      <image:caption>Waterfront dining terrace overlooking Lake Lalla Takerkoust at Casa Lalla Takerkoust | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Lakeside Dining Terrace at Casa Lalla Takerkoust</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://casalallatakerkoust.com/images/sunset-golden-hour-hotel-rural-lalla-takerkoust.webp</image:loc>
+      <image:caption>Golden hour sunlight warming the courtyards of Casa Lalla Takerkoust Rural Hotel | Restaurant Casa Lalla Takerkoust agafay vibes</image:caption>
+      <image:title>Golden Hour Tranquility at Casa Lalla Hotel</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+    </image:image>
+  </url>
 </urlset>

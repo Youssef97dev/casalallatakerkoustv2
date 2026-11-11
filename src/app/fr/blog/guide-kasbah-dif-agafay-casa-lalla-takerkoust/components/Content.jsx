@@ -83,25 +83,40 @@ const Content = () => {
       </div>
 
       {/* Guide Connexe Callout Box (Internal Linking Silo) */}
-      <aside className="my-10 bg-casa-white/90 border-l-4 border-casa-scarlet p-6 rounded-r-2xl shadow-2xs font-cormorant">
-        <span className="text-xs uppercase tracking-[0.25em] text-casa-scarlet font-normal block mb-1">
-          Guide Recommandé
+      <aside className="my-10 bg-casa-white/90 border-l-4 border-casa-scarlet p-6 rounded-r-2xl shadow-2xs font-cormorant space-y-4">
+        <span className="text-xs uppercase tracking-[0.25em] text-casa-scarlet font-normal block">
+          Guides &amp; Séjours Recommandés à Agafay et au Lac Takerkoust
         </span>
-        <h3 className="font-cormorant italic font-normal text-xl sm:text-2xl text-casa-black">
-          <Link
-            href="/fr/blog/camp-de-luxe-agafay-kasbah-dif-lac-takerkoust"
-            className="hover:text-casa-scarlet transition-colors underline decoration-casa-scarlet/30 underline-offset-4"
-          >
-            Camp de Luxe à Agafay ou Kasbah d&apos;If : L&apos;Itinéraire Parfait
-            Entre Désert et Lac Lalla Takerkoust &rarr;
-          </Link>
-        </h3>
-        <p className="text-base text-casa-black/80 font-normal mt-2 leading-relaxed">
-          Vous hésitez entre bivouac de luxe glamping et retraite minérale à la
-          Kasbah d&apos;If ? Découvrez notre itinéraire complet en 24h associant
-          quad, déjeuner au bord de l&apos;eau et sensations nautiques à Casa
-          Lalla.
-        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-1">
+          <div>
+            <h4 className="font-cormorant italic font-normal text-lg sm:text-xl text-casa-black">
+              <Link
+                href="/fr/blog/camp-de-luxe-agafay-kasbah-dif-lac-takerkoust"
+                className="hover:text-casa-scarlet transition-colors underline decoration-casa-scarlet/30 underline-offset-4"
+              >
+                Itinéraire Camp de Luxe Agafay &amp; Lac &rarr;
+              </Link>
+            </h4>
+            <p className="text-sm text-casa-black/75 mt-1 font-light leading-relaxed">
+              Découvrez notre itinéraire complet en 24h associant quad, déjeuner
+              au bord de l&apos;eau et sensations nautiques à Casa Lalla.
+            </p>
+          </div>
+          <div>
+            <h4 className="font-cormorant italic font-normal text-lg sm:text-xl text-casa-black">
+              <Link
+                href="/fr/blog/camp-de-luxe-agafay-vs-hotel-rural-casa-lalla-takerkoust"
+                className="hover:text-casa-scarlet transition-colors underline decoration-casa-scarlet/30 underline-offset-4"
+              >
+                Camp de Luxe Agafay vs Hôtel Rural Casa Lalla &rarr;
+              </Link>
+            </h4>
+            <p className="text-sm text-casa-black/75 mt-1 font-light leading-relaxed">
+              Comparez l&apos;expérience sous tente dans le désert avec le confort
+              d&apos;un hôtel rural intimiste avec restaurant au bord du lac.
+            </p>
+          </div>
+        </div>
       </aside>
 
       {/* Section 1: Kasbah d'If Overview with Outbound Link */}
@@ -478,6 +493,29 @@ const Content = () => {
             Conciergerie WhatsApp
           </a>
         </div>
+
+        {/* Silo Navigation Links */}
+        <div className="mt-8 pt-6 border-t border-casa-white/20 flex flex-wrap justify-center gap-6 text-xs uppercase tracking-widest font-light text-casa-white/80">
+          <Link
+            href="/fr/blog/camp-de-luxe-agafay-kasbah-dif-lac-takerkoust"
+            className="hover:text-casa-white transition-colors underline decoration-casa-white/30 underline-offset-4"
+          >
+            Itinéraire Camp Agafay &amp; Lac &rarr;
+          </Link>
+          <Link
+            href="/fr/blog/camp-de-luxe-agafay-vs-hotel-rural-casa-lalla-takerkoust"
+            className="hover:text-casa-white transition-colors underline decoration-casa-white/30 underline-offset-4"
+          >
+            Camp Agafay vs Hôtel Rural &rarr;
+          </Link>
+          <Link
+            href="/fr/rural-hotel"
+            className="hover:text-casa-white transition-colors underline decoration-casa-white/30 underline-offset-4"
+          >
+            Découvrir l&apos;Hôtel Rural &rarr;
+          </Link>
+        </div>
+
         <p className="text-xs text-casa-white/70 mt-6 font-light tracking-wider">
           Ouvert tous les jours de 13h00 à 17h00 • Barrage Lalla Takerkoust,
           Marrakech
